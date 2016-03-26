@@ -1,0 +1,1160 @@
+﻿[2016.03.25-09.21.36:089][  0]Log file open, 03/25/16 09:21:36
+[2016.03.25-09.21.36:089][  0]LogInit:Display: Running engine without a game
+[2016.03.25-09.21.36:089][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.25-09.21.36:089][  0]LogInit:Display: Loading recent project file: E:/Computing/Unreal/Unreal Projects/GameProject/FpsProject.uproject
+[2016.03.25-09.21.36:089][  0]LogInit:Display: RandInit(-1176848369) SRandInit(-1176848368).
+[2016.03.25-09.21.36:089][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.25-09.21.36:089][  0]LogStats: Stats thread started at 0.076154
+[2016.03.25-09.21.36:089][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.25-09.21.36:089][  0]LogInit: API Version: 2758231
+[2016.03.25-09.21.36:089][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.25-09.21.36:089][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.25-09.21.36:089][  0]LogInit: Build Configuration: Development
+[2016.03.25-09.21.36:089][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.25-09.21.36:089][  0]LogInit: Command line: -EpicPortal 
+[2016.03.25-09.21.36:089][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.25-09.21.36:089][  0]LogInit: Rocket: 1
+[2016.03.25-09.21.36:094][  0]LogInit: Using libcurl 7.41.0
+[2016.03.25-09.21.36:094][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.25-09.21.36:094][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.25-09.21.36:094][  0]LogInit:  - other features:
+[2016.03.25-09.21.36:094][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.25-09.21.36:094][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.25-09.21.36:094][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.25-09.21.36:094][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.25-09.21.36:094][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.25-09.21.36:094][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.25-09.21.36:094][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.25-09.21.36:094][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.25-09.21.36:094][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.25-09.21.36:094][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.25-09.21.36:100][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.25-09.21.36:108][  0]LogInit: Object subsystem initialized
+[2016.03.25-09.21.36:109][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.25-09.21.36:109][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.25-09.21.36:119][  0]LogInit: Computer: CHRIS-PC
+[2016.03.25-09.21.36:119][  0]LogInit: User: Chris
+[2016.03.25-09.21.36:119][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.25-09.21.36:119][  0]LogInit: High frequency timer resolution =3.123193 MHz
+[2016.03.25-09.21.36:119][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.03.25-09.21.36:119][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.25-09.21.36:119][  0]LogMemory: Process Physical Memory: 55.98 MB used, 55.98 MB peak
+[2016.03.25-09.21.36:119][  0]LogMemory: Process Virtual Memory: 58.59 MB used, 58.59 MB peak
+[2016.03.25-09.21.36:119][  0]LogMemory: Physical Memory: 3133.43 MB used, 8130.79 MB total
+[2016.03.25-09.21.36:119][  0]LogMemory: Virtual Memory: 370.00 MB used, 134217728.00 MB total
+[2016.03.25-09.21.36:159][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.03.25-09.21.36:613][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7700 Series (Feature Level 11_0)
+[2016.03.25-09.21.36:613][  0]LogD3D11RHI: Adapter has 1002MB of dedicated video memory, 0MB of dedicated system memory, and 4065MB of shared system memory, 2 output[s]
+[2016.03.25-09.21.36:615][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.25-09.21.36:615][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4065MB of shared system memory, 0 output[s]
+[2016.03.25-09.21.36:615][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.25-09.21.36:621][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.25-09.21.36:621][  0]LogRHI: Texture pool is 701 MB (70% of 1002 MB)
+[2016.03.25-09.21.36:631][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.03.25-09.21.36:642][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (E:/Computing/Unreal/Unreal Projects/GameProject/Intermediate/Shaders/WorkingDirectory/2020/).
+[2016.03.25-09.21.36:642][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/4763F6334C3AB0C7718C599EF0119D39/'.
+[2016.03.25-09.21.36:642][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.25-09.21.37:534][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.25-09.21.37:543][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.25-09.21.37:548][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.25-09.21.37:552][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.25-09.21.37:556][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.25-09.21.37:562][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.25-09.21.37:568][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.25-09.21.37:573][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.25-09.21.37:575][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.25-09.21.37:578][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.25-09.21.37:581][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.25-09.21.37:587][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.25-09.21.37:587][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.25-09.21.37:588][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.25-09.21.37:604][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.25-09.21.37:607][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.25-09.21.37:610][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.25-09.21.37:616][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.25-09.21.37:616][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.25-09.21.37:706][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.25-09.21.37:769][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/Chris/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.25-09.21.37:769][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.25-09.21.37:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Computing/Unreal/Unreal Projects/GameProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.25-09.21.37:769][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.25-09.21.37:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Computing/Unreal/Unreal Projects/GameProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.25-09.21.37:769][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.25-09.21.37:836][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.25-09.21.37:848][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.25-09.21.38:072][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.25-09.21.38:075][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.25-09.21.38:190][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.25-09.21.38:190][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.25-09.21.38:475][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.25-09.21.39:543][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.25-09.21.39:646][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.03.25-09.21.39:826][  0]SourceControl: Info Source control is disabled
+[2016.03.25-09.21.39:827][  0]SourceControl: Info Source control is disabled
+[2016.03.25-09.21.39:837][  0]SourceControl: Info Source control is disabled
+[2016.03.25-09.21.39:848][  0]SourceControl: Info Source control is disabled
+[2016.03.25-09.21.40:130][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.25-09.21.40:130][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.03.25-09.21.40:184][  0]LogEngine: Initializing Engine...
+[2016.03.25-09.21.40:187][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.25-09.21.40:188][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.25-09.21.40:331][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.25-09.21.40:342][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.25-09.21.40:351][  0]LogInit: FAudioDevice initialized.
+[2016.03.25-09.21.40:390][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Chris/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.25-09.21.40:402][  0]LogInit: Texture streaming: Enabled
+[2016.03.25-09.21.40:409][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.25-09.21.40:409][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.25-09.21.40:410][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId dda77f1544752f940c33e380f02beeee|581a2f5c95e34dd8b3eca337ee713eb1|baa8d59f-5337-46fd-ab7b-5719df139748
+[2016.03.25-09.21.40:410][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.25-09.21.40:417][  0]LogInit: Transaction tracking system initialized
+[2016.03.25-09.21.40:437][  0]BlueprintLog: New page: Editor Load
+[2016.03.25-09.21.40:518][  0]LocalizationService: Info Localization service is disabled
+[2016.03.25-09.21.40:600][  0]LogConsoleResponse:Display: 
+[2016.03.25-09.21.40:720][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.25-09.21.40:773][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/' took 0.01s
+[2016.03.25-09.21.40:773][  0]SourceControl: Info Source control is disabled
+[2016.03.25-09.21.40:773][  0]Cmd: MAP LOAD FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.25-09.21.40:774][  0]LightingResults: New page: Lighting Build
+[2016.03.25-09.21.40:779][  0]MapCheck: New page: Map Check
+[2016.03.25-09.21.40:779][  0]LightingResults: New page: Lighting Build
+[2016.03.25-09.21.40:796][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002C0B3207B00
+[2016.03.25-09.21.40:885][  0]LogBlueprint:Warning: [FirstPersonCharacter] CreatePinForVariable: 'Mech' variable not found. Base class was probably changed.
+[2016.03.25-09.21.40:885][  0]LogBlueprint:Warning: [FirstPersonCharacter] CreatePinForVariable: 'Mech' variable not found. Base class was probably changed.
+[2016.03.25-09.21.40:897][  0]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.25-09.21.40:901][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Could not find a variable named "Mech" in 'FirstPersonCharacter'.
+Make sure 'FirstPersonCharacter' has been compiled for  Set Mech 
+[2016.03.25-09.21.40:916][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0005.21] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 29 ms]
+[2016.03.25-09.21.40:916][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0005.21] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.25-09.21.40:916][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0005.21] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.03.25-09.21.41:263][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.25-09.21.41:268][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.25-09.21.41:269][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.25-09.21.41:373][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.913ms to complete.
+[2016.03.25-09.21.41:373][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.600
+[2016.03.25-09.21.41:502][  0]LogCollectionManager: Loaded 0 collections in 0.001325 seconds
+[2016.03.25-09.21.41:546][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Collections/' took 0.01s
+[2016.03.25-09.21.41:546][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Developers/Chris/Collections/' took 0.01s
+[2016.03.25-09.21.41:546][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Collections/' took 0.01s
+[2016.03.25-09.21.41:546][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.25-09.21.41:553][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 1893 classes and 338 folders.
+[2016.03.25-09.21.41:557][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.25-09.21.41:623][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.03.25-09.21.41:628][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.03.25-09.21.41:677][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.25-09.21.41:681][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.25-09.21.41:707][  0]LogLoad: Full Startup: 6.00 seconds (BP compile: 0.11 seconds)
+[2016.03.25-09.21.42:051][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.25-09.21.42:119][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.25-09.21.42:257][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.03.25-09.21.42:517][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/' took 0.45s
+[2016.03.25-09.21.43:851][  5]LogAssetRegistry: Asset discovery search completed in 4.2163 seconds
+[2016.03.25-09.21.43:851][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.25-09.21.43:851][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2016.03.25-09.21.45:079][ 87]AssetReimport: New page: Outstanding source content changes 09:21:45
+[2016.03.25-09.21.45:079][ 87]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_arms.fbx)
+[2016.03.25-09.21.45:118][ 87]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.03.25-09.21.45:118][ 87]LogFbx: ItemName: NodeAttribute, ItemCount : 162
+[2016.03.25-09.21.45:118][ 87]LogFbx: ItemName: Geometry, ItemCount : 5
+[2016.03.25-09.21.45:118][ 87]LogFbx: ItemName: Model, ItemCount : 167
+[2016.03.25-09.21.45:118][ 87]LogFbx: ItemName: Material, ItemCount : 8
+[2016.03.25-09.21.45:191][ 87]LogFbx: Loading FBX Scene from E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_arms.fbx
+[2016.03.25-09.21.45:899][ 87]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.25-09.22.02:191][ 87]LogFbx: Loading FBX Scene from E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_arms.fbx
+[2016.03.25-09.22.02:925][ 87]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.25-09.22.02:981][ 87]LogMaterial: Missing cached shader map for material 4_-_Default_012, compiling. 
+[2016.03.25-09.22.02:999][ 87]LogMaterial: Missing cached shader map for material 7_-_Default_011, compiling. 
+[2016.03.25-09.22.03:009][ 87]LogMaterial: Missing cached shader map for material 1_-_Default_007, compiling. 
+[2016.03.25-09.22.03:022][ 87]LogMaterial: Missing cached shader map for material 3_-_Default_008, compiling. 
+[2016.03.25-09.22.03:040][ 87]LogMaterial: Missing cached shader map for material 4_-_Default_011, compiling. 
+[2016.03.25-09.22.03:056][ 87]LogMaterial: Missing cached shader map for material 2_-_Default_007, compiling. 
+[2016.03.25-09.22.03:065][ 87]LogMaterial: Missing cached shader map for material 7_-_Default_012, compiling. 
+[2016.03.25-09.22.03:074][ 87]LogMaterial: Missing cached shader map for material 9_-_Default_005, compiling. 
+[2016.03.25-09.22.03:086][ 87]LogStaticMesh: Building static mesh Mech_blue_arms...
+[2016.03.25-09.22.03:110][ 87]LogStaticMesh: Built static mesh [0.024125.2s] /Game/Mech_blue_arms.Mech_blue_arms
+[2016.03.25-09.22.03:174][ 88]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_body.fbx)
+[2016.03.25-09.22.03:186][ 88]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.03.25-09.22.03:186][ 88]LogFbx: ItemName: NodeAttribute, ItemCount : 162
+[2016.03.25-09.22.03:186][ 88]LogFbx: ItemName: Geometry, ItemCount : 16
+[2016.03.25-09.22.03:186][ 88]LogFbx: ItemName: Model, ItemCount : 178
+[2016.03.25-09.22.03:186][ 88]LogFbx: ItemName: Material, ItemCount : 14
+[2016.03.25-09.22.03:253][ 88]LogFbx: Loading FBX Scene from E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_body.fbx
+[2016.03.25-09.22.04:075][ 88]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.25-09.22.07:893][ 88]LogFbx: Loading FBX Scene from E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_body.fbx
+[2016.03.25-09.22.08:703][ 88]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.25-09.22.08:755][ 88]LogMaterial: Missing cached shader map for material 1_-_Default_006, compiling. 
+[2016.03.25-09.22.08:765][ 88]LogMaterial: Missing cached shader map for material 7_-_Default_009, compiling. 
+[2016.03.25-09.22.08:781][ 88]LogMaterial: Missing cached shader map for material 5_-_Default_004, compiling. 
+[2016.03.25-09.22.08:791][ 88]LogMaterial: Missing cached shader map for material 2_-_Default_005, compiling. 
+[2016.03.25-09.22.08:801][ 88]LogMaterial: Missing cached shader map for material 3_-_Default_006, compiling. 
+[2016.03.25-09.22.08:819][ 88]LogMaterial: Missing cached shader map for material 10_-_Default_001, compiling. 
+[2016.03.25-09.22.08:831][ 88]LogMaterial: Missing cached shader map for material 6_-_Default_001, compiling. 
+[2016.03.25-09.22.08:846][ 88]LogMaterial: Missing cached shader map for material 4_-_Default_009, compiling. 
+[2016.03.25-09.22.08:863][ 88]LogMaterial: Missing cached shader map for material 3_-_Default_007, compiling. 
+[2016.03.25-09.22.08:874][ 88]LogMaterial: Missing cached shader map for material 2_-_Default_006, compiling. 
+[2016.03.25-09.22.08:885][ 88]LogMaterial: Missing cached shader map for material 7_-_Default_010, compiling. 
+[2016.03.25-09.22.08:900][ 88]LogMaterial: Missing cached shader map for material 9_-_Default_004, compiling. 
+[2016.03.25-09.22.08:923][ 88]LogMaterial: Missing cached shader map for material 1_-_Default_005, compiling. 
+[2016.03.25-09.22.08:939][ 88]LogMaterial: Missing cached shader map for material 4_-_Default_010, compiling. 
+[2016.03.25-09.22.08:958][ 88]LogStaticMesh: Building static mesh Mech_blue_body...
+[2016.03.25-09.22.09:164][ 88]LogStaticMesh: Built static mesh [0.205738.2s] /Game/Mech_blue_body.Mech_blue_body
+[2016.03.25-09.22.09:287][ 89]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_minigun.fbx)
+[2016.03.25-09.22.09:296][ 89]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.03.25-09.22.09:296][ 89]LogFbx: ItemName: NodeAttribute, ItemCount : 160
+[2016.03.25-09.22.09:296][ 89]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.03.25-09.22.09:296][ 89]LogFbx: ItemName: Model, ItemCount : 161
+[2016.03.25-09.22.09:296][ 89]LogFbx: ItemName: Material, ItemCount : 6
+[2016.03.25-09.22.09:369][ 89]LogFbx: Loading FBX Scene from E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_minigun.fbx
+[2016.03.25-09.22.10:119][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.25-09.22.13:986][ 89]LogFbx: Loading FBX Scene from E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_minigun.fbx
+[2016.03.25-09.22.14:748][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2016.03.25-09.22.14:798][ 89]LogMaterial: Missing cached shader map for material 1_-_Default_008, compiling. 
+[2016.03.25-09.22.14:807][ 89]LogMaterial: Missing cached shader map for material 3_-_Default_009, compiling. 
+[2016.03.25-09.22.14:818][ 89]LogMaterial: Missing cached shader map for material 4_-_Default_013, compiling. 
+[2016.03.25-09.22.14:832][ 89]LogMaterial: Missing cached shader map for material 7_-_Default_013, compiling. 
+[2016.03.25-09.22.14:842][ 89]LogMaterial: Missing cached shader map for material 9_-_Default_006, compiling. 
+[2016.03.25-09.22.14:852][ 89]LogMaterial: Missing cached shader map for material 5_-_Default_005, compiling. 
+[2016.03.25-09.22.14:866][ 89]LogStaticMesh: Building static mesh Mech_blue_minigun...
+[2016.03.25-09.22.14:887][ 89]LogStaticMesh: Built static mesh [0.021024.2s] /Game/Mech_blue_minigun.Mech_blue_minigun
+[2016.03.25-09.22.14:974][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mech_blue_arms" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_arms.uasset" SILENT=true
+[2016.03.25-09.22.14:990][ 90]LogSavePackage: Save=10.642314ms
+[2016.03.25-09.22.14:990][ 90]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_armsD77AECF54ECE776C7A0D41AB5E0674B0.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_arms.uasset'
+[2016.03.25-09.22.14:992][ 90]LogSavePackage: Total save time: 16.372666ms
+[2016.03.25-09.22.14:992][ 90]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_arms.uasset
+[2016.03.25-09.22.15:016][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.22.15:028][ 90]LogSavePackage: Save=11.264434ms
+[2016.03.25-09.22.15:028][ 90]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body8F38FC8C42A676ED820701A734C56EE1.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_body.uasset'
+[2016.03.25-09.22.15:030][ 90]LogSavePackage: Total save time: 13.429202ms
+[2016.03.25-09.22.15:030][ 90]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_body.uasset
+[2016.03.25-09.22.15:055][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mech_blue_minigun" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_minigun.uasset" SILENT=true
+[2016.03.25-09.22.15:066][ 90]LogSavePackage: Save=9.389429ms
+[2016.03.25-09.22.15:066][ 90]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_minigunC6DE17234F6E90DB5F2F0889C3264A6D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_minigun.uasset'
+[2016.03.25-09.22.15:067][ 90]LogSavePackage: Total save time: 11.315342ms
+[2016.03.25-09.22.15:067][ 90]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Mech_blue_minigun.uasset
+[2016.03.25-09.22.18:083][270]AssetReimport: Info Importing new asset /Game/Mech_blue_arms.
+[2016.03.25-09.22.18:083][270]AssetReimport: Info Importing new asset /Game/Mech_blue_body.
+[2016.03.25-09.22.18:083][270]AssetReimport: Info Importing new asset /Game/Mech_blue_minigun.
+[2016.03.25-09.23.26:459][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.25-09.23.31:836][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.25-09.23.52:584][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mech_blue_minigun" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mech_blue_minigun.uasset" SILENT=true
+[2016.03.25-09.23.52:594][974]LogSavePackage: Save=8.696229ms
+[2016.03.25-09.23.52:594][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_minigun4AE65B5C4CCA0CDC2D35CB82DC1C2C90.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mech_blue_minigun.uasset'
+[2016.03.25-09.23.52:595][974]LogSavePackage: Total save time: 10.009628ms
+[2016.03.25-09.23.52:595][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mech_blue_minigun.uasset
+[2016.03.25-09.23.52:615][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/10_-_Default_001" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/10_-_Default_001.uasset" SILENT=true
+[2016.03.25-09.23.52:628][974]LogSavePackage: Save=11.770006ms
+[2016.03.25-09.23.52:628][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/10_-_Default_001EBC1CB7B4B3DB3DF56AFCCB5AF05EAEE.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/10_-_Default_001.uasset'
+[2016.03.25-09.23.52:629][974]LogSavePackage: Total save time: 13.140395ms
+[2016.03.25-09.23.52:629][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/10_-_Default_001.uasset
+[2016.03.25-09.23.52:652][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/1_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.23.52:665][974]LogSavePackage: Save=11.142123ms
+[2016.03.25-09.23.52:665][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_0050C935B164E17D57AC84E1698129322DC.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_005.uasset'
+[2016.03.25-09.23.52:666][974]LogSavePackage: Total save time: 12.719676ms
+[2016.03.25-09.23.52:666][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_005.uasset
+[2016.03.25-09.23.52:686][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/1_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.23.52:698][974]LogSavePackage: Save=10.902945ms
+[2016.03.25-09.23.52:698][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_006D3521E81427A3B6708E4AFB533031651.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_006.uasset'
+[2016.03.25-09.23.52:699][974]LogSavePackage: Total save time: 12.342818ms
+[2016.03.25-09.23.52:699][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_006.uasset
+[2016.03.25-09.23.52:726][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/1_-_Default_007" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_007.uasset" SILENT=true
+[2016.03.25-09.23.52:740][974]LogSavePackage: Save=13.136556ms
+[2016.03.25-09.23.52:740][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_0070847C44845CBF85A1003909F13742462.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_007.uasset'
+[2016.03.25-09.23.52:743][974]LogSavePackage: Total save time: 15.811063ms
+[2016.03.25-09.23.52:743][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_007.uasset
+[2016.03.25-09.23.52:764][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/1_-_Default_008" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_008.uasset" SILENT=true
+[2016.03.25-09.23.52:775][974]LogSavePackage: Save=9.964162ms
+[2016.03.25-09.23.52:775][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_0087E16FE1248CAE34E8046A09DDDA6D007.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_008.uasset'
+[2016.03.25-09.23.52:778][974]LogSavePackage: Total save time: 13.443295ms
+[2016.03.25-09.23.52:778][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/1_-_Default_008.uasset
+[2016.03.25-09.23.52:800][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/2_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/2_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.23.52:811][974]LogSavePackage: Save=10.317646ms
+[2016.03.25-09.23.52:811][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_005E387DD13471ECC4D0AE05D954903AFA2.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/2_-_Default_005.uasset'
+[2016.03.25-09.23.52:812][974]LogSavePackage: Total save time: 11.790495ms
+[2016.03.25-09.23.52:812][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/2_-_Default_005.uasset
+[2016.03.25-09.23.52:837][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/2_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/2_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.23.52:848][974]LogSavePackage: Save=10.301316ms
+[2016.03.25-09.23.52:848][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_0061528A0914BE7AF0258C95FA9BD765103.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/2_-_Default_006.uasset'
+[2016.03.25-09.23.52:850][974]LogSavePackage: Total save time: 11.755276ms
+[2016.03.25-09.23.52:850][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/2_-_Default_006.uasset
+[2016.03.25-09.23.52:871][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/2_-_Default_007" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/2_-_Default_007.uasset" SILENT=true
+[2016.03.25-09.23.52:883][974]LogSavePackage: Save=10.446361ms
+[2016.03.25-09.23.52:883][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_007865DD0A1439A5009654E92A0BDD93048.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/2_-_Default_007.uasset'
+[2016.03.25-09.23.52:884][974]LogSavePackage: Total save time: 11.843007ms
+[2016.03.25-09.23.52:884][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/2_-_Default_007.uasset
+[2016.03.25-09.23.52:905][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/3_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.23.52:917][974]LogSavePackage: Save=10.911269ms
+[2016.03.25-09.23.52:917][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_00651606A664CDB803CA414F78C77D88DDF.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_006.uasset'
+[2016.03.25-09.23.52:919][974]LogSavePackage: Total save time: 12.517959ms
+[2016.03.25-09.23.52:919][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_006.uasset
+[2016.03.25-09.23.52:939][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/3_-_Default_007" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_007.uasset" SILENT=true
+[2016.03.25-09.23.52:949][974]LogSavePackage: Save=9.978570ms
+[2016.03.25-09.23.52:949][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_007DB61C87C4C4622D8807EE58E62826DE9.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_007.uasset'
+[2016.03.25-09.23.52:951][974]LogSavePackage: Total save time: 12.012705ms
+[2016.03.25-09.23.52:951][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_007.uasset
+[2016.03.25-09.23.52:979][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/3_-_Default_008" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_008.uasset" SILENT=true
+[2016.03.25-09.23.52:993][974]LogSavePackage: Save=12.165114ms
+[2016.03.25-09.23.52:993][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_008B685E71048E81AE149853091C0A1D275.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_008.uasset'
+[2016.03.25-09.23.52:994][974]LogSavePackage: Total save time: 13.906922ms
+[2016.03.25-09.23.52:994][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_008.uasset
+[2016.03.25-09.23.53:015][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/3_-_Default_009" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_009.uasset" SILENT=true
+[2016.03.25-09.23.53:025][974]LogSavePackage: Save=9.284088ms
+[2016.03.25-09.23.53:025][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_009BA0B96F943822ECF6E497F985AC21DEE.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_009.uasset'
+[2016.03.25-09.23.53:027][974]LogSavePackage: Total save time: 10.877647ms
+[2016.03.25-09.23.53:027][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/3_-_Default_009.uasset
+[2016.03.25-09.23.53:049][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/4_-_Default_009" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_009.uasset" SILENT=true
+[2016.03.25-09.23.53:063][974]LogSavePackage: Save=12.989271ms
+[2016.03.25-09.23.53:063][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_00957A2412246A9550D234E5DB6556D5B05.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_009.uasset'
+[2016.03.25-09.23.53:065][974]LogSavePackage: Total save time: 15.117221ms
+[2016.03.25-09.23.53:065][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_009.uasset
+[2016.03.25-09.23.53:091][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/4_-_Default_010" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_010.uasset" SILENT=true
+[2016.03.25-09.23.53:102][974]LogSavePackage: Save=9.655183ms
+[2016.03.25-09.23.53:102][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_01017CC56E04F58BAB39C8A1494B5A395DA.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_010.uasset'
+[2016.03.25-09.23.53:103][974]LogSavePackage: Total save time: 11.038702ms
+[2016.03.25-09.23.53:103][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_010.uasset
+[2016.03.25-09.23.53:123][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/4_-_Default_011" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_011.uasset" SILENT=true
+[2016.03.25-09.23.53:136][974]LogSavePackage: Save=10.433873ms
+[2016.03.25-09.23.53:136][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_011650A87FD45C020CD755676A80A6F54A0.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_011.uasset'
+[2016.03.25-09.23.53:137][974]LogSavePackage: Total save time: 12.073543ms
+[2016.03.25-09.23.53:137][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_011.uasset
+[2016.03.25-09.23.53:159][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/4_-_Default_012" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_012.uasset" SILENT=true
+[2016.03.25-09.23.53:170][974]LogSavePackage: Save=9.806311ms
+[2016.03.25-09.23.53:170][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_0129AE6CA554F3EA33A27AAAFA50CDF872B.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_012.uasset'
+[2016.03.25-09.23.53:171][974]LogSavePackage: Total save time: 11.128355ms
+[2016.03.25-09.23.53:171][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_012.uasset
+[2016.03.25-09.23.53:191][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/4_-_Default_013" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_013.uasset" SILENT=true
+[2016.03.25-09.23.53:205][974]LogSavePackage: Save=12.177921ms
+[2016.03.25-09.23.53:205][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_01331D560254E3B66ABEC5D58A5E3017916.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_013.uasset'
+[2016.03.25-09.23.53:207][974]LogSavePackage: Total save time: 14.655516ms
+[2016.03.25-09.23.53:207][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/4_-_Default_013.uasset
+[2016.03.25-09.23.53:231][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/5_-_Default_004" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/5_-_Default_004.uasset" SILENT=true
+[2016.03.25-09.23.53:244][974]LogSavePackage: Save=11.562846ms
+[2016.03.25-09.23.53:244][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/5_-_Default_00484A5C4FF4FF2CBE4DF6BE3B7E512F024.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/5_-_Default_004.uasset'
+[2016.03.25-09.23.53:245][974]LogSavePackage: Total save time: 13.211157ms
+[2016.03.25-09.23.53:245][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/5_-_Default_004.uasset
+[2016.03.25-09.23.53:265][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/5_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/5_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.23.53:278][974]LogSavePackage: Save=11.886873ms
+[2016.03.25-09.23.53:278][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/5_-_Default_0051992B970455E8C3CBC670E95331DA456.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/5_-_Default_005.uasset'
+[2016.03.25-09.23.53:280][974]LogSavePackage: Total save time: 13.440732ms
+[2016.03.25-09.23.53:280][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/5_-_Default_005.uasset
+[2016.03.25-09.23.53:301][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/6_-_Default_001" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/6_-_Default_001.uasset" SILENT=true
+[2016.03.25-09.23.53:312][974]LogSavePackage: Save=10.231196ms
+[2016.03.25-09.23.53:312][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/6_-_Default_0012E579A0A45CDC6A5D4C2C09441C9B214.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/6_-_Default_001.uasset'
+[2016.03.25-09.23.53:314][974]LogSavePackage: Total save time: 11.956997ms
+[2016.03.25-09.23.53:314][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/6_-_Default_001.uasset
+[2016.03.25-09.23.53:336][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/7_-_Default_009" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_009.uasset" SILENT=true
+[2016.03.25-09.23.53:348][974]LogSavePackage: Save=9.936946ms
+[2016.03.25-09.23.53:348][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_0094AF795024AAF000BC2516C8CE145F725.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_009.uasset'
+[2016.03.25-09.23.53:349][974]LogSavePackage: Total save time: 11.178944ms
+[2016.03.25-09.23.53:349][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_009.uasset
+[2016.03.25-09.23.53:370][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/7_-_Default_010" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_010.uasset" SILENT=true
+[2016.03.25-09.23.53:383][974]LogSavePackage: Save=11.050230ms
+[2016.03.25-09.23.53:383][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_010D2A583594D455A943DCB37B8B62A93B1.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_010.uasset'
+[2016.03.25-09.23.53:384][974]LogSavePackage: Total save time: 12.743048ms
+[2016.03.25-09.23.53:384][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_010.uasset
+[2016.03.25-09.23.53:405][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/7_-_Default_011" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_011.uasset" SILENT=true
+[2016.03.25-09.23.53:420][974]LogSavePackage: Save=13.350440ms
+[2016.03.25-09.23.53:420][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_01120C423C94398ABE603F24DA4FA3B4CD7.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_011.uasset'
+[2016.03.25-09.23.53:422][974]LogSavePackage: Total save time: 14.807604ms
+[2016.03.25-09.23.53:422][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_011.uasset
+[2016.03.25-09.23.53:442][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/7_-_Default_012" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_012.uasset" SILENT=true
+[2016.03.25-09.23.53:455][974]LogSavePackage: Save=11.351524ms
+[2016.03.25-09.23.53:455][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_0121234D66848946BA9F62F2A837142DE52.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_012.uasset'
+[2016.03.25-09.23.53:457][974]LogSavePackage: Total save time: 13.934780ms
+[2016.03.25-09.23.53:457][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_012.uasset
+[2016.03.25-09.23.53:480][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/7_-_Default_013" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_013.uasset" SILENT=true
+[2016.03.25-09.23.53:493][974]LogSavePackage: Save=11.646734ms
+[2016.03.25-09.23.53:493][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_013D1AF1C494888CF49D5BC68878B0814ED.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_013.uasset'
+[2016.03.25-09.23.53:495][974]LogSavePackage: Total save time: 13.299853ms
+[2016.03.25-09.23.53:495][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/7_-_Default_013.uasset
+[2016.03.25-09.23.53:515][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/9_-_Default_004" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/9_-_Default_004.uasset" SILENT=true
+[2016.03.25-09.23.53:526][974]LogSavePackage: Save=10.339099ms
+[2016.03.25-09.23.53:526][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_004FBE5E1B34CC4816297FC30B86E4ECDD5.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/9_-_Default_004.uasset'
+[2016.03.25-09.23.53:528][974]LogSavePackage: Total save time: 12.012705ms
+[2016.03.25-09.23.53:528][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/9_-_Default_004.uasset
+[2016.03.25-09.23.53:550][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/9_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/9_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.23.53:560][974]LogSavePackage: Save=9.730427ms
+[2016.03.25-09.23.53:560][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_005D53BD41A4733CF31185CFABD842396E3.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/9_-_Default_005.uasset'
+[2016.03.25-09.23.53:562][974]LogSavePackage: Total save time: 11.448219ms
+[2016.03.25-09.23.53:562][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/9_-_Default_005.uasset
+[2016.03.25-09.23.53:586][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/9_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/9_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.23.53:596][974]LogSavePackage: Save=9.499573ms
+[2016.03.25-09.23.53:596][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_006EC7E9C924B4BA21D7C622BAD125BD355.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/9_-_Default_006.uasset'
+[2016.03.25-09.23.53:597][974]LogSavePackage: Total save time: 10.860998ms
+[2016.03.25-09.23.53:597][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/9_-_Default_006.uasset
+[2016.03.25-09.23.53:618][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mech_blue_arms" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mech_blue_arms.uasset" SILENT=true
+[2016.03.25-09.23.53:630][974]LogSavePackage: Save=9.770450ms
+[2016.03.25-09.23.53:630][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_arms5CD80FAD4BC9C537FC742286957FE997.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mech_blue_arms.uasset'
+[2016.03.25-09.23.53:631][974]LogSavePackage: Total save time: 11.371695ms
+[2016.03.25-09.23.53:631][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mech_blue_arms.uasset
+[2016.03.25-09.23.53:653][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.23.53:666][974]LogSavePackage: Save=10.805928ms
+[2016.03.25-09.23.53:666][974]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body03B1D9EA48E04E446D80E0A02C1B6DA2.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mech_blue_body.uasset'
+[2016.03.25-09.23.53:667][974]LogSavePackage: Total save time: 12.543254ms
+[2016.03.25-09.23.53:667][974]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mech_blue_body.uasset
+[2016.03.25-09.24.07:074][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/Mech_blue_minigun" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Mech_blue_minigun.uasset" SILENT=true
+[2016.03.25-09.24.07:084][496]LogSavePackage: Save=8.950135ms
+[2016.03.25-09.24.07:084][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_minigun7F7FAE2740A0024934D27F9A89661270.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Mech_blue_minigun.uasset'
+[2016.03.25-09.24.07:085][496]LogSavePackage: Total save time: 10.500792ms
+[2016.03.25-09.24.07:085][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Mech_blue_minigun.uasset
+[2016.03.25-09.24.07:109][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/10_-_Default_001" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/10_-_Default_001.uasset" SILENT=true
+[2016.03.25-09.24.07:122][496]LogSavePackage: Save=12.413578ms
+[2016.03.25-09.24.07:122][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/10_-_Default_001FA1D2F0F444AFEC159C9BC8D5EE3BAEA.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/10_-_Default_001.uasset'
+[2016.03.25-09.24.07:125][496]LogSavePackage: Total save time: 14.855631ms
+[2016.03.25-09.24.07:125][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/10_-_Default_001.uasset
+[2016.03.25-09.24.07:146][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/1_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.24.07:157][496]LogSavePackage: Save=10.078467ms
+[2016.03.25-09.24.07:157][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_005F9B2F0CA4249C0AECBE11FB6835F9DA0.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_005.uasset'
+[2016.03.25-09.24.07:159][496]LogSavePackage: Total save time: 11.501692ms
+[2016.03.25-09.24.07:159][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_005.uasset
+[2016.03.25-09.24.07:180][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/1_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.24.07:192][496]LogSavePackage: Save=11.195594ms
+[2016.03.25-09.24.07:192][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_0063EF1DC034DCB8644FC2704B20210503E.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_006.uasset'
+[2016.03.25-09.24.07:193][496]LogSavePackage: Total save time: 12.838464ms
+[2016.03.25-09.24.07:193][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_006.uasset
+[2016.03.25-09.24.07:216][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/1_-_Default_007" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_007.uasset" SILENT=true
+[2016.03.25-09.24.07:227][496]LogSavePackage: Save=10.114328ms
+[2016.03.25-09.24.07:227][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_007FB25BDDC4941BB8E14591B941D1EEADB.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_007.uasset'
+[2016.03.25-09.24.07:228][496]LogSavePackage: Total save time: 11.438612ms
+[2016.03.25-09.24.07:228][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_007.uasset
+[2016.03.25-09.24.07:249][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/1_-_Default_008" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_008.uasset" SILENT=true
+[2016.03.25-09.24.07:260][496]LogSavePackage: Save=10.558425ms
+[2016.03.25-09.24.07:260][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_008A7AF7F15488AF68FDD8F1BA44985ED04.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_008.uasset'
+[2016.03.25-09.24.07:262][496]LogSavePackage: Total save time: 12.413256ms
+[2016.03.25-09.24.07:262][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/1_-_Default_008.uasset
+[2016.03.25-09.24.07:284][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/2_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/2_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.24.07:297][496]LogSavePackage: Save=11.644173ms
+[2016.03.25-09.24.07:297][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_0059241C781448349D2D0E7D5BD1C822700.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/2_-_Default_005.uasset'
+[2016.03.25-09.24.07:299][496]LogSavePackage: Total save time: 13.208278ms
+[2016.03.25-09.24.07:299][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/2_-_Default_005.uasset
+[2016.03.25-09.24.07:319][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/2_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/2_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.24.07:330][496]LogSavePackage: Save=10.077187ms
+[2016.03.25-09.24.07:330][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_006B164736F4DB82541371ECF98AC970F7E.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/2_-_Default_006.uasset'
+[2016.03.25-09.24.07:331][496]LogSavePackage: Total save time: 11.315662ms
+[2016.03.25-09.24.07:331][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/2_-_Default_006.uasset
+[2016.03.25-09.24.07:352][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/2_-_Default_007" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/2_-_Default_007.uasset" SILENT=true
+[2016.03.25-09.24.07:364][496]LogSavePackage: Save=11.267956ms
+[2016.03.25-09.24.07:364][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_0075E4B33124DC8EE65BB667DADFCFD79E5.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/2_-_Default_007.uasset'
+[2016.03.25-09.24.07:366][496]LogSavePackage: Total save time: 13.337635ms
+[2016.03.25-09.24.07:366][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/2_-_Default_007.uasset
+[2016.03.25-09.24.07:393][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/3_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.24.07:404][496]LogSavePackage: Save=9.223574ms
+[2016.03.25-09.24.07:404][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_006EE2943FE4D8AD39CD9DD3B8BC344948D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_006.uasset'
+[2016.03.25-09.24.07:405][496]LogSavePackage: Total save time: 10.483503ms
+[2016.03.25-09.24.07:405][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_006.uasset
+[2016.03.25-09.24.07:425][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/3_-_Default_007" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_007.uasset" SILENT=true
+[2016.03.25-09.24.07:438][496]LogSavePackage: Save=11.437333ms
+[2016.03.25-09.24.07:438][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_007F3EE307C4EDCD9D22DA995A1B8D91FB7.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_007.uasset'
+[2016.03.25-09.24.07:440][496]LogSavePackage: Total save time: 14.132652ms
+[2016.03.25-09.24.07:440][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_007.uasset
+[2016.03.25-09.24.07:469][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/3_-_Default_008" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_008.uasset" SILENT=true
+[2016.03.25-09.24.07:479][496]LogSavePackage: Save=9.517183ms
+[2016.03.25-09.24.07:479][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_008159C8865455536E965B3D3A12F68CA35.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_008.uasset'
+[2016.03.25-09.24.07:481][496]LogSavePackage: Total save time: 10.887574ms
+[2016.03.25-09.24.07:481][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_008.uasset
+[2016.03.25-09.24.07:501][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/3_-_Default_009" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_009.uasset" SILENT=true
+[2016.03.25-09.24.07:514][496]LogSavePackage: Save=11.819634ms
+[2016.03.25-09.24.07:515][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_009F9B028E94123773DFF62D39710DC8625.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_009.uasset'
+[2016.03.25-09.24.07:516][496]LogSavePackage: Total save time: 13.836801ms
+[2016.03.25-09.24.07:516][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/3_-_Default_009.uasset
+[2016.03.25-09.24.07:538][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/4_-_Default_009" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_009.uasset" SILENT=true
+[2016.03.25-09.24.07:551][496]LogSavePackage: Save=10.514880ms
+[2016.03.25-09.24.07:551][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_009535EC40B4620FC1F40CB969B9155A387.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_009.uasset'
+[2016.03.25-09.24.07:552][496]LogSavePackage: Total save time: 12.144942ms
+[2016.03.25-09.24.07:552][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_009.uasset
+[2016.03.25-09.24.07:572][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/4_-_Default_010" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_010.uasset" SILENT=true
+[2016.03.25-09.24.07:583][496]LogSavePackage: Save=9.709934ms
+[2016.03.25-09.24.07:583][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_010C2A0EC8F41263096CB18738C65F3B524.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_010.uasset'
+[2016.03.25-09.24.07:584][496]LogSavePackage: Total save time: 11.299975ms
+[2016.03.25-09.24.07:584][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_010.uasset
+[2016.03.25-09.24.07:604][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/4_-_Default_011" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_011.uasset" SILENT=true
+[2016.03.25-09.24.07:623][496]LogSavePackage: Save=16.567020ms
+[2016.03.25-09.24.07:623][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_011FC21188444DBC9D5E900D3A44250E140.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_011.uasset'
+[2016.03.25-09.24.07:625][496]LogSavePackage: Total save time: 19.636635ms
+[2016.03.25-09.24.07:625][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_011.uasset
+[2016.03.25-09.24.07:647][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/4_-_Default_012" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_012.uasset" SILENT=true
+[2016.03.25-09.24.07:657][496]LogSavePackage: Save=9.579299ms
+[2016.03.25-09.24.07:657][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_012B5E8A862433DBD0F5613C98FF6426308.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_012.uasset'
+[2016.03.25-09.24.07:658][496]LogSavePackage: Total save time: 10.972105ms
+[2016.03.25-09.24.07:658][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_012.uasset
+[2016.03.25-09.24.07:680][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/4_-_Default_013" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_013.uasset" SILENT=true
+[2016.03.25-09.24.07:695][496]LogSavePackage: Save=12.469610ms
+[2016.03.25-09.24.07:695][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_01344375AA149941622E23DD48A02E35C88.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_013.uasset'
+[2016.03.25-09.24.07:696][496]LogSavePackage: Total save time: 14.662240ms
+[2016.03.25-09.24.07:696][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/4_-_Default_013.uasset
+[2016.03.25-09.24.07:718][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/5_-_Default_004" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/5_-_Default_004.uasset" SILENT=true
+[2016.03.25-09.24.07:728][496]LogSavePackage: Save=9.773972ms
+[2016.03.25-09.24.07:729][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/5_-_Default_00469C3F85C4D4AFFE9A9518A9F19D4F821.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/5_-_Default_004.uasset'
+[2016.03.25-09.24.07:730][496]LogSavePackage: Total save time: 11.099219ms
+[2016.03.25-09.24.07:730][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/5_-_Default_004.uasset
+[2016.03.25-09.24.07:750][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/5_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/5_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.24.07:761][496]LogSavePackage: Save=10.168760ms
+[2016.03.25-09.24.07:761][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/5_-_Default_005CEC9DF5444DFAAD0ECBDF68EDDCC83DA.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/5_-_Default_005.uasset'
+[2016.03.25-09.24.07:762][496]LogSavePackage: Total save time: 12.054008ms
+[2016.03.25-09.24.07:762][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/5_-_Default_005.uasset
+[2016.03.25-09.24.07:786][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/6_-_Default_001" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/6_-_Default_001.uasset" SILENT=true
+[2016.03.25-09.24.07:798][496]LogSavePackage: Save=11.263473ms
+[2016.03.25-09.24.07:798][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/6_-_Default_001A3B0F9E7494489B198B9C38BC6E02421.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/6_-_Default_001.uasset'
+[2016.03.25-09.24.07:799][496]LogSavePackage: Total save time: 12.859914ms
+[2016.03.25-09.24.07:799][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/6_-_Default_001.uasset
+[2016.03.25-09.24.07:819][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/7_-_Default_009" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_009.uasset" SILENT=true
+[2016.03.25-09.24.07:830][496]LogSavePackage: Save=9.918055ms
+[2016.03.25-09.24.07:830][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_009B2138EB749406061AC4D189A749EF21B.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_009.uasset'
+[2016.03.25-09.24.07:831][496]LogSavePackage: Total save time: 11.191431ms
+[2016.03.25-09.24.07:831][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_009.uasset
+[2016.03.25-09.24.07:854][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/7_-_Default_010" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_010.uasset" SILENT=true
+[2016.03.25-09.24.07:866][496]LogSavePackage: Save=10.354147ms
+[2016.03.25-09.24.07:866][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_010C264907040AC5AF59FB73EB32193E559.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_010.uasset'
+[2016.03.25-09.24.07:867][496]LogSavePackage: Total save time: 12.508996ms
+[2016.03.25-09.24.07:868][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_010.uasset
+[2016.03.25-09.24.07:894][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/7_-_Default_011" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_011.uasset" SILENT=true
+[2016.03.25-09.24.07:904][496]LogSavePackage: Save=8.673495ms
+[2016.03.25-09.24.07:904][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_011D9B8115946E07F4721B02AABEAA8CD49.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_011.uasset'
+[2016.03.25-09.24.07:905][496]LogSavePackage: Total save time: 9.992979ms
+[2016.03.25-09.24.07:905][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_011.uasset
+[2016.03.25-09.24.07:924][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/7_-_Default_012" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_012.uasset" SILENT=true
+[2016.03.25-09.24.07:937][496]LogSavePackage: Save=11.666586ms
+[2016.03.25-09.24.07:937][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_012240E9C3440D1E622C2F3B4AC2FB9BBB7.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_012.uasset'
+[2016.03.25-09.24.07:939][496]LogSavePackage: Total save time: 14.069896ms
+[2016.03.25-09.24.07:939][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_012.uasset
+[2016.03.25-09.24.07:968][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/7_-_Default_013" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_013.uasset" SILENT=true
+[2016.03.25-09.24.07:979][496]LogSavePackage: Save=10.113048ms
+[2016.03.25-09.24.07:980][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_01364F4C61F46491227EF2F9E8BE055CFDF.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_013.uasset'
+[2016.03.25-09.24.07:981][496]LogSavePackage: Total save time: 11.678755ms
+[2016.03.25-09.24.07:981][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/7_-_Default_013.uasset
+[2016.03.25-09.24.08:001][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/9_-_Default_004" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/9_-_Default_004.uasset" SILENT=true
+[2016.03.25-09.24.08:016][496]LogSavePackage: Save=13.734021ms
+[2016.03.25-09.24.08:016][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_0046FFA76374673BB6B9205208EDA9A5685.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/9_-_Default_004.uasset'
+[2016.03.25-09.24.08:019][496]LogSavePackage: Total save time: 17.411347ms
+[2016.03.25-09.24.08:019][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/9_-_Default_004.uasset
+[2016.03.25-09.24.08:043][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/9_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/9_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.24.08:054][496]LogSavePackage: Save=9.807591ms
+[2016.03.25-09.24.08:054][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_005A94E4DAF4C52DD89FD5792AA7A98CA4A.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/9_-_Default_005.uasset'
+[2016.03.25-09.24.08:056][496]LogSavePackage: Total save time: 11.149805ms
+[2016.03.25-09.24.08:056][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/9_-_Default_005.uasset
+[2016.03.25-09.24.08:076][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/9_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/9_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.24.08:087][496]LogSavePackage: Save=9.940468ms
+[2016.03.25-09.24.08:087][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_006A4F3BB8344D328DDC68180B30D9D5F8E.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/9_-_Default_006.uasset'
+[2016.03.25-09.24.08:088][496]LogSavePackage: Total save time: 11.353444ms
+[2016.03.25-09.24.08:088][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/9_-_Default_006.uasset
+[2016.03.25-09.24.08:114][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/Mech_blue_arms" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Mech_blue_arms.uasset" SILENT=true
+[2016.03.25-09.24.08:127][496]LogSavePackage: Save=11.360809ms
+[2016.03.25-09.24.08:127][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_arms83E31553484E9C64D979F7B36E2E498B.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Mech_blue_arms.uasset'
+[2016.03.25-09.24.08:127][496]LogSavePackage: Total save time: 12.870803ms
+[2016.03.25-09.24.08:127][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Mech_blue_arms.uasset
+[2016.03.25-09.24.08:149][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.08:163][496]LogSavePackage: Save=12.697903ms
+[2016.03.25-09.24.08:163][496]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body19ED09B84F3A86E0E3CFAD9D8F12378D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Mech_blue_body.uasset'
+[2016.03.25-09.24.08:164][496]LogSavePackage: Total save time: 14.048763ms
+[2016.03.25-09.24.08:164][496]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Mech_blue_body.uasset
+[2016.03.25-09.24.18:037][ 79]LogSavePackage: Save=9.208525ms
+[2016.03.25-09.24.18:038][ 79]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_minigun03BCE1C742E03B5598497BB72D42F243.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset'
+[2016.03.25-09.24.18:039][ 79]LogSavePackage: Total save time: 10.639112ms
+[2016.03.25-09.24.18:039][ 79]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset
+[2016.03.25-09.24.18:059][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_arms" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset" SILENT=true
+[2016.03.25-09.24.18:072][ 79]LogSavePackage: Save=11.406596ms
+[2016.03.25-09.24.18:072][ 79]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_arms671954E549EFD600C8A6E4B2303041C0.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset'
+[2016.03.25-09.24.18:073][ 79]LogSavePackage: Total save time: 13.300493ms
+[2016.03.25-09.24.18:073][ 79]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset
+[2016.03.25-09.24.18:095][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.18:108][ 79]LogSavePackage: Save=12.143661ms
+[2016.03.25-09.24.18:108][ 79]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body23E9BBC945DE9C788BAD25A054E71BB0.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.18:112][ 79]LogSavePackage: Total save time: 16.421657ms
+[2016.03.25-09.24.18:112][ 79]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.21:476][238]LogSavePackage: Save=10.097999ms
+[2016.03.25-09.24.21:476][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_0060E1F6E294381C9C4538D72AFC3AEF632.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/9_-_Default_006.uasset'
+[2016.03.25-09.24.21:477][238]LogSavePackage: Total save time: 11.557724ms
+[2016.03.25-09.24.21:477][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/9_-_Default_006.uasset
+[2016.03.25-09.24.21:510][238]LogSavePackage: Save=9.805990ms
+[2016.03.25-09.24.21:511][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/10_-_Default_001E0E84E684CC48DC502CFFEB001785CE7.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/10_-_Default_001.uasset'
+[2016.03.25-09.24.21:512][238]LogSavePackage: Total save time: 11.066239ms
+[2016.03.25-09.24.21:512][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/10_-_Default_001.uasset
+[2016.03.25-09.24.21:545][238]LogSavePackage: Save=12.335133ms
+[2016.03.25-09.24.21:545][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_005822A55174C0EF0F2CDA522A8E4E4E17F.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/1_-_Default_005.uasset'
+[2016.03.25-09.24.21:546][238]LogSavePackage: Total save time: 14.092948ms
+[2016.03.25-09.24.21:546][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/1_-_Default_005.uasset
+[2016.03.25-09.24.21:583][238]LogSavePackage: Save=13.493242ms
+[2016.03.25-09.24.21:583][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_0066520EB53452AF630C652F192532BF1FA.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/1_-_Default_006.uasset'
+[2016.03.25-09.24.21:584][238]LogSavePackage: Total save time: 15.133549ms
+[2016.03.25-09.24.21:584][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/1_-_Default_006.uasset
+[2016.03.25-09.24.21:616][238]LogSavePackage: Save=10.859079ms
+[2016.03.25-09.24.21:616][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_007CB0961F0459C6178337EB0B2E074822B.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/1_-_Default_007.uasset'
+[2016.03.25-09.24.21:617][238]LogSavePackage: Total save time: 12.373235ms
+[2016.03.25-09.24.21:617][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/1_-_Default_007.uasset
+[2016.03.25-09.24.21:659][238]LogSavePackage: Save=12.856714ms
+[2016.03.25-09.24.21:659][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_0088E25A4904E367AC1962591B214B68746.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/1_-_Default_008.uasset'
+[2016.03.25-09.24.21:661][238]LogSavePackage: Total save time: 14.676649ms
+[2016.03.25-09.24.21:661][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/1_-_Default_008.uasset
+[2016.03.25-09.24.21:698][238]LogSavePackage: Save=15.395782ms
+[2016.03.25-09.24.21:698][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_0059BFCA3FD4308A8ADD51A5ABB47CA16C7.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/2_-_Default_005.uasset'
+[2016.03.25-09.24.21:702][238]LogSavePackage: Total save time: 19.221354ms
+[2016.03.25-09.24.21:702][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/2_-_Default_005.uasset
+[2016.03.25-09.24.21:742][238]LogSavePackage: Save=14.332448ms
+[2016.03.25-09.24.21:742][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_00665A256EF4AB44317F2B006B007CD5053.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/2_-_Default_006.uasset'
+[2016.03.25-09.24.21:744][238]LogSavePackage: Total save time: 17.307930ms
+[2016.03.25-09.24.21:744][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/2_-_Default_006.uasset
+[2016.03.25-09.24.21:778][238]LogSavePackage: Save=11.064638ms
+[2016.03.25-09.24.21:778][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_007884F919B423BF4C6B2B1BB9D418B474A.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/2_-_Default_007.uasset'
+[2016.03.25-09.24.21:780][238]LogSavePackage: Total save time: 12.608569ms
+[2016.03.25-09.24.21:780][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/2_-_Default_007.uasset
+[2016.03.25-09.24.21:814][238]LogSavePackage: Save=12.893215ms
+[2016.03.25-09.24.21:814][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_0067EE51D1D451113DE1F45FEACDEAD638E.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/3_-_Default_006.uasset'
+[2016.03.25-09.24.21:817][238]LogSavePackage: Total save time: 15.426200ms
+[2016.03.25-09.24.21:817][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/3_-_Default_006.uasset
+[2016.03.25-09.24.21:854][238]LogSavePackage: Save=9.400636ms
+[2016.03.25-09.24.21:854][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_00769B31041458D162BD1A2FE829BF6B14B.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/3_-_Default_007.uasset'
+[2016.03.25-09.24.21:855][238]LogSavePackage: Total save time: 10.729726ms
+[2016.03.25-09.24.21:855][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/3_-_Default_007.uasset
+[2016.03.25-09.24.21:889][238]LogSavePackage: Save=9.629248ms
+[2016.03.25-09.24.21:889][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_0084A6A7BED4DED4156F49D2A832D89CC51.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/3_-_Default_008.uasset'
+[2016.03.25-09.24.21:890][238]LogSavePackage: Total save time: 10.973066ms
+[2016.03.25-09.24.21:890][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/3_-_Default_008.uasset
+[2016.03.25-09.24.21:925][238]LogSavePackage: Save=9.414724ms
+[2016.03.25-09.24.21:925][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_0094C5178EF4593F5E19D3ED5BDF1EEF3C2.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/3_-_Default_009.uasset'
+[2016.03.25-09.24.21:926][238]LogSavePackage: Total save time: 10.797281ms
+[2016.03.25-09.24.21:926][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/3_-_Default_009.uasset
+[2016.03.25-09.24.21:959][238]LogSavePackage: Save=11.256749ms
+[2016.03.25-09.24.21:959][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_009FE8AD0DB467122DE83DBA7979183EC5D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/4_-_Default_009.uasset'
+[2016.03.25-09.24.21:961][238]LogSavePackage: Total save time: 13.279676ms
+[2016.03.25-09.24.21:961][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/4_-_Default_009.uasset
+[2016.03.25-09.24.22:000][238]LogSavePackage: Save=12.487541ms
+[2016.03.25-09.24.22:000][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_010ECBCA983413A99CA901A3791A66D2014.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/4_-_Default_010.uasset'
+[2016.03.25-09.24.22:001][238]LogSavePackage: Total save time: 14.554337ms
+[2016.03.25-09.24.22:001][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/4_-_Default_010.uasset
+[2016.03.25-09.24.22:035][238]LogSavePackage: Save=12.189128ms
+[2016.03.25-09.24.22:035][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_011A5BD193C47701D9C87FE17BC17664E8D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/4_-_Default_011.uasset'
+[2016.03.25-09.24.22:037][238]LogSavePackage: Total save time: 13.964552ms
+[2016.03.25-09.24.22:037][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/4_-_Default_011.uasset
+[2016.03.25-09.24.22:070][238]LogSavePackage: Save=11.179905ms
+[2016.03.25-09.24.22:070][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_012CB408CAB4F4C16279386B792EED1A0B7.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/4_-_Default_012.uasset'
+[2016.03.25-09.24.22:073][238]LogSavePackage: Total save time: 14.094550ms
+[2016.03.25-09.24.22:073][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/4_-_Default_012.uasset
+[2016.03.25-09.24.22:109][238]LogSavePackage: Save=10.223512ms
+[2016.03.25-09.24.22:109][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_0130CF3DE254552F8CD5A2B99BC43965D0C.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/4_-_Default_013.uasset'
+[2016.03.25-09.24.22:110][238]LogSavePackage: Total save time: 12.326170ms
+[2016.03.25-09.24.22:111][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/4_-_Default_013.uasset
+[2016.03.25-09.24.22:149][238]LogSavePackage: Save=10.939766ms
+[2016.03.25-09.24.22:149][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/5_-_Default_0048A63B57548FEE0D04C91ED92450B70E9.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/5_-_Default_004.uasset'
+[2016.03.25-09.24.22:151][238]LogSavePackage: Total save time: 12.405574ms
+[2016.03.25-09.24.22:151][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/5_-_Default_004.uasset
+[2016.03.25-09.24.22:187][238]LogSavePackage: Save=9.885076ms
+[2016.03.25-09.24.22:187][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/5_-_Default_005318AA7A94D5A7D2830C71191EE9FC658.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/5_-_Default_005.uasset'
+[2016.03.25-09.24.22:189][238]LogSavePackage: Total save time: 11.271156ms
+[2016.03.25-09.24.22:189][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/5_-_Default_005.uasset
+[2016.03.25-09.24.22:223][238]LogSavePackage: Save=10.783516ms
+[2016.03.25-09.24.22:223][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/6_-_Default_0013A29838548FDD2E114206E8F38AF4E0B.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/6_-_Default_001.uasset'
+[2016.03.25-09.24.22:224][238]LogSavePackage: Total save time: 12.211222ms
+[2016.03.25-09.24.22:224][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/6_-_Default_001.uasset
+[2016.03.25-09.24.22:260][238]LogSavePackage: Save=9.860422ms
+[2016.03.25-09.24.22:260][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_0098A21DE4C42A835D9069BD5A1BE00E630.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/7_-_Default_009.uasset'
+[2016.03.25-09.24.22:262][238]LogSavePackage: Total save time: 11.190150ms
+[2016.03.25-09.24.22:262][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/7_-_Default_009.uasset
+[2016.03.25-09.24.22:295][238]LogSavePackage: Save=9.398395ms
+[2016.03.25-09.24.22:295][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_01014122B3141FF49B328F012A2A175C273.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/7_-_Default_010.uasset'
+[2016.03.25-09.24.22:296][238]LogSavePackage: Total save time: 10.784157ms
+[2016.03.25-09.24.22:296][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/7_-_Default_010.uasset
+[2016.03.25-09.24.22:330][238]LogSavePackage: Save=10.672731ms
+[2016.03.25-09.24.22:330][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_011D5C894A543A21EE4F498ABAFDC47CBD5.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/7_-_Default_011.uasset'
+[2016.03.25-09.24.22:331][238]LogSavePackage: Total save time: 12.226913ms
+[2016.03.25-09.24.22:331][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/7_-_Default_011.uasset
+[2016.03.25-09.24.22:365][238]LogSavePackage: Save=11.474154ms
+[2016.03.25-09.24.22:365][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_0128E714E7E4C6CEF7BF38A63A1DA78707A.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/7_-_Default_012.uasset'
+[2016.03.25-09.24.22:368][238]LogSavePackage: Total save time: 14.487099ms
+[2016.03.25-09.24.22:368][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/7_-_Default_012.uasset
+[2016.03.25-09.24.22:403][238]LogSavePackage: Save=11.429969ms
+[2016.03.25-09.24.22:403][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_013225C38D646294E3A8682BD8A9C5F990E.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/7_-_Default_013.uasset'
+[2016.03.25-09.24.22:405][238]LogSavePackage: Total save time: 13.371252ms
+[2016.03.25-09.24.22:405][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/7_-_Default_013.uasset
+[2016.03.25-09.24.22:440][238]LogSavePackage: Save=10.115930ms
+[2016.03.25-09.24.22:440][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_004A5699A484A25A950E22521A911F07B4C.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/9_-_Default_004.uasset'
+[2016.03.25-09.24.22:444][238]LogSavePackage: Total save time: 14.450919ms
+[2016.03.25-09.24.22:444][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/9_-_Default_004.uasset
+[2016.03.25-09.24.22:483][238]LogSavePackage: Save=10.248806ms
+[2016.03.25-09.24.22:483][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_005A50D41CC4697AEAA5A94A28BB9818C63.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/9_-_Default_005.uasset'
+[2016.03.25-09.24.22:485][238]LogSavePackage: Total save time: 11.939704ms
+[2016.03.25-09.24.22:485][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/Materials/9_-_Default_005.uasset
+[2016.03.25-09.24.23:647][238]LogSavePackage: Save=2.563082ms
+[2016.03.25-09.24.23:647][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_minigunC248B434453D76ABC88615834EC995DE.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset'
+[2016.03.25-09.24.23:647][238]LogSavePackage: Total save time: 11.827316ms
+[2016.03.25-09.24.23:647][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset
+[2016.03.25-09.24.23:650][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:663][238]LogSavePackage: Save=2.827235ms
+[2016.03.25-09.24.23:663][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body5B94986C4EE62D17188D21AA1D3B6742.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:664][238]LogSavePackage: Total save time: 13.245419ms
+[2016.03.25-09.24.23:664][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:666][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:674][238]LogSavePackage: Save=2.138517ms
+[2016.03.25-09.24.23:674][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body684D3BA94F60626B90DC9D8D17CF9703.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:675][238]LogSavePackage: Total save time: 8.156717ms
+[2016.03.25-09.24.23:675][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:677][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:685][238]LogSavePackage: Save=2.089528ms
+[2016.03.25-09.24.23:685][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_bodyED3740CE4929B2C04C57EF9CBE82B09A.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:685][238]LogSavePackage: Total save time: 8.021601ms
+[2016.03.25-09.24.23:685][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:687][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_arms" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset" SILENT=true
+[2016.03.25-09.24.23:698][238]LogSavePackage: Save=3.855349ms
+[2016.03.25-09.24.23:698][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_arms2B7CB13C4C5B82F85AA4B196005B97DB.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset'
+[2016.03.25-09.24.23:700][238]LogSavePackage: Total save time: 11.953153ms
+[2016.03.25-09.24.23:700][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset
+[2016.03.25-09.24.23:713][238]LogSavePackage: Save=1.784712ms
+[2016.03.25-09.24.23:713][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_minigunB66C1B3049D7301F43FFCCA6B15E09A0.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset'
+[2016.03.25-09.24.23:714][238]LogSavePackage: Total save time: 8.178171ms
+[2016.03.25-09.24.23:714][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset
+[2016.03.25-09.24.23:716][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:724][238]LogSavePackage: Save=2.224006ms
+[2016.03.25-09.24.23:724][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body28E3E2DE499D0367157BE682CC68C195.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:725][238]LogSavePackage: Total save time: 8.765388ms
+[2016.03.25-09.24.23:725][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:729][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:741][238]LogSavePackage: Save=5.328521ms
+[2016.03.25-09.24.23:741][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_bodyAB90D00C4DB661BAFD7B48AA8BF69A74.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:743][238]LogSavePackage: Total save time: 13.621956ms
+[2016.03.25-09.24.23:743][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:746][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_arms" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset" SILENT=true
+[2016.03.25-09.24.23:754][238]LogSavePackage: Save=2.031255ms
+[2016.03.25-09.24.23:754][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_armsF3B6B237420919559B5C229F1E59DE94.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset'
+[2016.03.25-09.24.23:754][238]LogSavePackage: Total save time: 7.898968ms
+[2016.03.25-09.24.23:754][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset
+[2016.03.25-09.24.23:756][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:764][238]LogSavePackage: Save=2.180461ms
+[2016.03.25-09.24.23:764][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body1F2B511F42245784F5738C881550831D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:765][238]LogSavePackage: Total save time: 8.306563ms
+[2016.03.25-09.24.23:765][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:767][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:776][238]LogSavePackage: Save=3.014863ms
+[2016.03.25-09.24.23:776][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body913B4C8F4610F6D8108F2FB221413187.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:778][238]LogSavePackage: Total save time: 9.998742ms
+[2016.03.25-09.24.23:778][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:784][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_arms" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset" SILENT=true
+[2016.03.25-09.24.23:794][238]LogSavePackage: Save=2.036057ms
+[2016.03.25-09.24.23:794][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_armsB15D6897456F92AB2C8BD88C078F88D6.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset'
+[2016.03.25-09.24.23:794][238]LogSavePackage: Total save time: 9.107988ms
+[2016.03.25-09.24.23:794][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset
+[2016.03.25-09.24.23:804][238]LogSavePackage: Save=1.981626ms
+[2016.03.25-09.24.23:804][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_minigun2C0E72734377D52539CD1793C2012B67.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset'
+[2016.03.25-09.24.23:805][238]LogSavePackage: Total save time: 8.016475ms
+[2016.03.25-09.24.23:805][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset
+[2016.03.25-09.24.23:807][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:820][238]LogSavePackage: Save=3.184561ms
+[2016.03.25-09.24.23:820][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body43CC334C45949A77E321BCBBB7A7AD05.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:821][238]LogSavePackage: Total save time: 13.595384ms
+[2016.03.25-09.24.23:821][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:827][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:848][238]LogSavePackage: Save=13.954949ms
+[2016.03.25-09.24.23:848][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body4BBFE20340F7B31A11DBE38B87DB97FF.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:849][238]LogSavePackage: Total save time: 20.417243ms
+[2016.03.25-09.24.23:849][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:851][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_arms" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset" SILENT=true
+[2016.03.25-09.24.23:859][238]LogSavePackage: Save=2.020689ms
+[2016.03.25-09.24.23:859][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_arms4531E7DE4FF38568E32AF5A3FA16CC7E.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset'
+[2016.03.25-09.24.23:860][238]LogSavePackage: Total save time: 8.438159ms
+[2016.03.25-09.24.23:860][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset
+[2016.03.25-09.24.23:863][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_arms" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset" SILENT=true
+[2016.03.25-09.24.23:874][238]LogSavePackage: Save=4.216838ms
+[2016.03.25-09.24.23:874][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_armsA1348ECE4A52E93699D3938A01B8FB78.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset'
+[2016.03.25-09.24.23:876][238]LogSavePackage: Total save time: 12.363307ms
+[2016.03.25-09.24.23:876][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset
+[2016.03.25-09.24.23:887][238]LogSavePackage: Save=1.811287ms
+[2016.03.25-09.24.23:887][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_minigunA4EC7DEB423227F6059A76B5557C8DD2.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset'
+[2016.03.25-09.24.23:888][238]LogSavePackage: Total save time: 7.699814ms
+[2016.03.25-09.24.23:888][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset
+[2016.03.25-09.24.23:890][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:907][238]LogSavePackage: Save=6.183736ms
+[2016.03.25-09.24.23:907][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_bodyCD65AD1F4BAEDF79039BBA94B906128A.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:908][238]LogSavePackage: Total save time: 17.582968ms
+[2016.03.25-09.24.23:908][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:919][238]LogSavePackage: Save=1.883009ms
+[2016.03.25-09.24.23:919][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_minigun73CB52B04B65DE181DBBB1A39F17876E.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset'
+[2016.03.25-09.24.23:919][238]LogSavePackage: Total save time: 7.907614ms
+[2016.03.25-09.24.23:919][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset
+[2016.03.25-09.24.23:922][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:930][238]LogSavePackage: Save=2.205435ms
+[2016.03.25-09.24.23:930][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_bodyB2795CDD43C5833B3E4255845A03723F.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:931][238]LogSavePackage: Total save time: 8.336339ms
+[2016.03.25-09.24.23:931][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:933][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:942][238]LogSavePackage: Save=3.593438ms
+[2016.03.25-09.24.23:942][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_bodyCD90BBCA4D47CA3DFB5D14B9E3AD5997.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:944][238]LogSavePackage: Total save time: 10.887899ms
+[2016.03.25-09.24.23:944][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:949][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.23:959][238]LogSavePackage: Save=2.370331ms
+[2016.03.25-09.24.23:959][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_body101AE3FF41E6963738F53997C7972D4D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.23:960][238]LogSavePackage: Total save time: 8.898266ms
+[2016.03.25-09.24.23:960][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.23:962][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_arms" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset" SILENT=true
+[2016.03.25-09.24.23:970][238]LogSavePackage: Save=1.941603ms
+[2016.03.25-09.24.23:970][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_armsCF77BF6A4FE0E65E4974BF84D03A08FD.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset'
+[2016.03.25-09.24.23:971][238]LogSavePackage: Total save time: 8.109648ms
+[2016.03.25-09.24.23:971][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset
+[2016.03.25-09.24.23:973][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_arms" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset" SILENT=true
+[2016.03.25-09.24.23:982][238]LogSavePackage: Save=2.494562ms
+[2016.03.25-09.24.23:982][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_arms383F3556499D823485BD4BA95E6EB60D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset'
+[2016.03.25-09.24.23:983][238]LogSavePackage: Total save time: 9.329557ms
+[2016.03.25-09.24.23:983][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_arms.uasset
+[2016.03.25-09.24.23:997][238]LogSavePackage: Save=2.427964ms
+[2016.03.25-09.24.23:997][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_minigun5BB0E438486C8034ADA51887E7D201F6.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset'
+[2016.03.25-09.24.23:998][238]LogSavePackage: Total save time: 10.969222ms
+[2016.03.25-09.24.23:998][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_minigun.uasset
+[2016.03.25-09.24.24:000][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Mechs/BlueMech/Mech_blue_body" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset" SILENT=true
+[2016.03.25-09.24.24:008][238]LogSavePackage: Save=2.214080ms
+[2016.03.25-09.24.24:008][238]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Mech_blue_bodyE62CAFD446C90CAECCE35FB984D22D24.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset'
+[2016.03.25-09.24.24:009][238]LogSavePackage: Total save time: 8.517247ms
+[2016.03.25-09.24.24:009][238]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Mechs/BlueMech/Mech_blue_body.uasset
+[2016.03.25-09.24.26:640][412]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.25-09.24.27:040][412]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 107 classes and 0 folders.
+[2016.03.25-09.24.30:958][640]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:7532).
+[2016.03.25-09.24.38:174][297]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.25-09.24.38:651][297]LogSavePackage: Save=296.484070ms
+[2016.03.25-09.24.38:651][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/FirstPersonExampleMapF9460D9A4D51134445613B8C068B8A10.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/FirstPersonExampleMap.umap'
+[2016.03.25-09.24.38:655][297]LogSavePackage: Total save time: 306.976866ms
+[2016.03.25-09.24.38:655][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/FirstPersonExampleMap.umap
+[2016.03.25-09.24.38:675][297]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.465
+[2016.03.25-09.24.38:820][297]LogSavePackage: Save=114.178986ms
+[2016.03.25-09.24.38:820][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/FirstPersonCharacter28C62DE5451D3D5E693D0292CCD135A5.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/FirstPersonCharacter.uasset'
+[2016.03.25-09.24.38:823][297]LogSavePackage: Total save time: 124.366954ms
+[2016.03.25-09.24.38:823][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/FirstPersonCharacter.uasset
+[2016.03.25-09.24.38:828][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/4_-_Default_012" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_012.uasset" SILENT=true
+[2016.03.25-09.24.38:830][297]LogSavePackage: Save=0.643252ms
+[2016.03.25-09.24.38:830][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_0126B6769444D155B79870D81A69D0FD35C.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_012.uasset'
+[2016.03.25-09.24.38:831][297]LogSavePackage: Total save time: 1.802962ms
+[2016.03.25-09.24.38:831][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_012.uasset
+[2016.03.25-09.24.38:834][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/7_-_Default_011" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_011.uasset" SILENT=true
+[2016.03.25-09.24.38:835][297]LogSavePackage: Save=0.723939ms
+[2016.03.25-09.24.38:835][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_011BFF9F8BD4B9F90DDD491FFAD365559A2.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_011.uasset'
+[2016.03.25-09.24.38:836][297]LogSavePackage: Total save time: 1.843303ms
+[2016.03.25-09.24.38:836][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_011.uasset
+[2016.03.25-09.24.38:839][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_-_Default_007" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_007.uasset" SILENT=true
+[2016.03.25-09.24.38:841][297]LogSavePackage: Save=0.631085ms
+[2016.03.25-09.24.38:841][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_00715ABDD3448681465F788FC92C2DF31E9.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_007.uasset'
+[2016.03.25-09.24.38:842][297]LogSavePackage: Total save time: 1.936801ms
+[2016.03.25-09.24.38:842][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_007.uasset
+[2016.03.25-09.24.38:845][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3_-_Default_008" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_008.uasset" SILENT=true
+[2016.03.25-09.24.38:846][297]LogSavePackage: Save=0.638129ms
+[2016.03.25-09.24.38:846][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_008B051DD1149BBBD9511D16594C74F917F.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_008.uasset'
+[2016.03.25-09.24.38:847][297]LogSavePackage: Total save time: 1.847148ms
+[2016.03.25-09.24.38:847][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_008.uasset
+[2016.03.25-09.24.38:850][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/4_-_Default_011" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_011.uasset" SILENT=true
+[2016.03.25-09.24.38:851][297]LogSavePackage: Save=0.655419ms
+[2016.03.25-09.24.38:851][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_011E9346B65497CC5DE0AE5E2A00C766688.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_011.uasset'
+[2016.03.25-09.24.38:852][297]LogSavePackage: Total save time: 1.766462ms
+[2016.03.25-09.24.38:852][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_011.uasset
+[2016.03.25-09.24.38:855][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_-_Default_007" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/2_-_Default_007.uasset" SILENT=true
+[2016.03.25-09.24.38:857][297]LogSavePackage: Save=0.582737ms
+[2016.03.25-09.24.38:857][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_007619424324E43E80B896605AB16F01801.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/2_-_Default_007.uasset'
+[2016.03.25-09.24.38:857][297]LogSavePackage: Total save time: 1.804885ms
+[2016.03.25-09.24.38:857][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/2_-_Default_007.uasset
+[2016.03.25-09.24.38:863][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/7_-_Default_012" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_012.uasset" SILENT=true
+[2016.03.25-09.24.38:864][297]LogSavePackage: Save=0.644533ms
+[2016.03.25-09.24.38:864][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_012D320D1D643ABA951E162BFB7715F0FC3.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_012.uasset'
+[2016.03.25-09.24.38:865][297]LogSavePackage: Total save time: 1.830816ms
+[2016.03.25-09.24.38:865][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_012.uasset
+[2016.03.25-09.24.38:869][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/9_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/9_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.24.38:873][297]LogSavePackage: Save=1.377437ms
+[2016.03.25-09.24.38:873][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_005E5EE4D8D403E3B0A1B9B768F3E160399.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/9_-_Default_005.uasset'
+[2016.03.25-09.24.38:875][297]LogSavePackage: Total save time: 3.907859ms
+[2016.03.25-09.24.38:875][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/9_-_Default_005.uasset
+[2016.03.25-09.24.38:881][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.24.38:882][297]LogSavePackage: Save=0.697043ms
+[2016.03.25-09.24.38:882][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_0065E3018D944B7029832B675AC3951701D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_006.uasset'
+[2016.03.25-09.24.38:883][297]LogSavePackage: Total save time: 1.901899ms
+[2016.03.25-09.24.38:883][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_006.uasset
+[2016.03.25-09.24.38:886][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/7_-_Default_009" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_009.uasset" SILENT=true
+[2016.03.25-09.24.38:888][297]LogSavePackage: Save=0.678152ms
+[2016.03.25-09.24.38:888][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_009246DF0AB4182B4AE4A9544A2B56C6A65.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_009.uasset'
+[2016.03.25-09.24.38:889][297]LogSavePackage: Total save time: 1.912147ms
+[2016.03.25-09.24.38:889][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_009.uasset
+[2016.03.25-09.24.38:893][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/5_-_Default_004" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/5_-_Default_004.uasset" SILENT=true
+[2016.03.25-09.24.38:895][297]LogSavePackage: Save=0.794700ms
+[2016.03.25-09.24.38:895][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/5_-_Default_0041F847EE54DB299504F153D8E2CCBE109.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/5_-_Default_004.uasset'
+[2016.03.25-09.24.38:896][297]LogSavePackage: Total save time: 2.127629ms
+[2016.03.25-09.24.38:896][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/5_-_Default_004.uasset
+[2016.03.25-09.24.38:900][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/2_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.24.38:903][297]LogSavePackage: Save=1.420341ms
+[2016.03.25-09.24.38:903][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_0059F6C63A648FE67FFDE83EDA1B9B90CA6.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/2_-_Default_005.uasset'
+[2016.03.25-09.24.38:905][297]LogSavePackage: Total save time: 3.979579ms
+[2016.03.25-09.24.38:905][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/2_-_Default_005.uasset
+[2016.03.25-09.24.38:913][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.24.38:914][297]LogSavePackage: Save=0.687437ms
+[2016.03.25-09.24.38:914][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_0062C4D054546BA5993B3CA268F00B7E97A.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_006.uasset'
+[2016.03.25-09.24.38:915][297]LogSavePackage: Total save time: 1.920149ms
+[2016.03.25-09.24.38:915][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_006.uasset
+[2016.03.25-09.24.38:919][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/4_-_Default_009" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_009.uasset" SILENT=true
+[2016.03.25-09.24.38:920][297]LogSavePackage: Save=0.620839ms
+[2016.03.25-09.24.38:920][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_0093D986B91413A02032B6C2B9EADB59670.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_009.uasset'
+[2016.03.25-09.24.38:921][297]LogSavePackage: Total save time: 1.751412ms
+[2016.03.25-09.24.38:921][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_009.uasset
+[2016.03.25-09.24.38:924][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3_-_Default_007" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_007.uasset" SILENT=true
+[2016.03.25-09.24.38:925][297]LogSavePackage: Save=0.784774ms
+[2016.03.25-09.24.38:925][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_00717A35074446FD6E3FADA268FC3363AFA.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_007.uasset'
+[2016.03.25-09.24.38:926][297]LogSavePackage: Total save time: 1.954090ms
+[2016.03.25-09.24.38:926][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_007.uasset
+[2016.03.25-09.24.38:929][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/2_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.24.38:930][297]LogSavePackage: Save=0.633967ms
+[2016.03.25-09.24.38:930][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/2_-_Default_006FD666A6B4C4CC83EE9F62DAAEBE62052.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/2_-_Default_006.uasset'
+[2016.03.25-09.24.38:931][297]LogSavePackage: Total save time: 1.861874ms
+[2016.03.25-09.24.38:931][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/2_-_Default_006.uasset
+[2016.03.25-09.24.38:934][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/7_-_Default_010" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_010.uasset" SILENT=true
+[2016.03.25-09.24.38:935][297]LogSavePackage: Save=0.580496ms
+[2016.03.25-09.24.38:935][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_010D6B719FC4F10B325CFB832A776F2A4A8.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_010.uasset'
+[2016.03.25-09.24.38:936][297]LogSavePackage: Total save time: 1.678731ms
+[2016.03.25-09.24.38:936][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_010.uasset
+[2016.03.25-09.24.38:939][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/9_-_Default_004" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/9_-_Default_004.uasset" SILENT=true
+[2016.03.25-09.24.38:941][297]LogSavePackage: Save=0.671748ms
+[2016.03.25-09.24.38:941][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_0042ADAB3A2410ED8A23F9227918E436793.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/9_-_Default_004.uasset'
+[2016.03.25-09.24.38:942][297]LogSavePackage: Total save time: 2.148442ms
+[2016.03.25-09.24.38:942][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/9_-_Default_004.uasset
+[2016.03.25-09.24.38:947][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.24.38:948][297]LogSavePackage: Save=0.640690ms
+[2016.03.25-09.24.38:948][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_005FF7F3B94452EE1460D8FC1B380FB7140.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_005.uasset'
+[2016.03.25-09.24.38:949][297]LogSavePackage: Total save time: 1.898378ms
+[2016.03.25-09.24.38:949][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_005.uasset
+[2016.03.25-09.24.38:955][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/4_-_Default_010" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_010.uasset" SILENT=true
+[2016.03.25-09.24.38:958][297]LogSavePackage: Save=1.557060ms
+[2016.03.25-09.24.38:958][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_010F08F3A134138F6BF2BE8A2BC9E3B9A7F.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_010.uasset'
+[2016.03.25-09.24.38:960][297]LogSavePackage: Total save time: 3.876161ms
+[2016.03.25-09.24.38:960][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_010.uasset
+[2016.03.25-09.24.38:964][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_-_Default_008" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_008.uasset" SILENT=true
+[2016.03.25-09.24.38:966][297]LogSavePackage: Save=0.638449ms
+[2016.03.25-09.24.38:966][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/1_-_Default_008DB16943C4782ED9A3268F880F3D12B91.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_008.uasset'
+[2016.03.25-09.24.38:967][297]LogSavePackage: Total save time: 1.768064ms
+[2016.03.25-09.24.38:967][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/1_-_Default_008.uasset
+[2016.03.25-09.24.38:969][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3_-_Default_009" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_009.uasset" SILENT=true
+[2016.03.25-09.24.38:972][297]LogSavePackage: Save=0.696403ms
+[2016.03.25-09.24.38:972][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/3_-_Default_009F42315EF48483BD0391F1880EC800529.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_009.uasset'
+[2016.03.25-09.24.38:973][297]LogSavePackage: Total save time: 1.939360ms
+[2016.03.25-09.24.38:973][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/3_-_Default_009.uasset
+[2016.03.25-09.24.38:976][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/4_-_Default_013" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_013.uasset" SILENT=true
+[2016.03.25-09.24.38:978][297]LogSavePackage: Save=0.783813ms
+[2016.03.25-09.24.38:978][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/4_-_Default_0135E0DDB154F8D947381DAA59D38D41AD3.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_013.uasset'
+[2016.03.25-09.24.38:979][297]LogSavePackage: Total save time: 2.124108ms
+[2016.03.25-09.24.38:979][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/4_-_Default_013.uasset
+[2016.03.25-09.24.38:984][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/7_-_Default_013" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_013.uasset" SILENT=true
+[2016.03.25-09.24.38:988][297]LogSavePackage: Save=1.373914ms
+[2016.03.25-09.24.38:988][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/7_-_Default_013D23F304F483A945DD8FDAEAD52BD7B9B.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_013.uasset'
+[2016.03.25-09.24.38:990][297]LogSavePackage: Total save time: 4.601702ms
+[2016.03.25-09.24.38:990][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/7_-_Default_013.uasset
+[2016.03.25-09.24.38:996][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/9_-_Default_006" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/9_-_Default_006.uasset" SILENT=true
+[2016.03.25-09.24.38:998][297]LogSavePackage: Save=0.784133ms
+[2016.03.25-09.24.38:998][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/9_-_Default_006AAC9BD764BAA9C362C8D7FBFB4E80E1D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/9_-_Default_006.uasset'
+[2016.03.25-09.24.38:999][297]LogSavePackage: Total save time: 2.053667ms
+[2016.03.25-09.24.38:999][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/9_-_Default_006.uasset
+[2016.03.25-09.24.39:002][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/5_-_Default_005" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/5_-_Default_005.uasset" SILENT=true
+[2016.03.25-09.24.39:004][297]LogSavePackage: Save=0.611874ms
+[2016.03.25-09.24.39:004][297]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/5_-_Default_005CC04157141B11240DC5FD39EBEEE2931.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/5_-_Default_005.uasset'
+[2016.03.25-09.24.39:004][297]LogSavePackage: Total save time: 1.761340ms
+[2016.03.25-09.24.39:004][297]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/5_-_Default_005.uasset
+[2016.03.25-09.24.39:778][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.25-09.24.41:936][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.24.41:936][508]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.25-09.24.41:949][508]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.03.25-09.24.41:980][508]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.25-09.24.41:981][508]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Could not find a variable named "Mech" in 'FirstPersonCharacter'.
+Make sure 'FirstPersonCharacter' has been compiled for  Set Mech 
+[2016.03.25-09.24.42:102][508]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0186.39] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 138 ms]
+[2016.03.25-09.24.42:102][508]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0186.39] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.25-09.24.42:102][508]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0186.39] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.03.25-09.24.42:103][508]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0186.39] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.03.25-09.24.42:106][508]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0186.40] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 5 Warning(s) [in 3 ms]
+[2016.03.25-09.24.42:106][508]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0186.40] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2016.03.25-09.24.42:106][508]LogPlayLevel: PlayLevel: Blueprint regeneration took 170 ms (3 blueprints)
+[2016.03.25-09.24.42:107][508]LogPlayLevel: [PlayLevel] Compiling FirstPersonGameMode before play...
+[2016.03.25-09.24.42:168][508]LogPlayLevel: PlayLevel: Blueprint regeneration took 231 ms (3 blueprints)
+[2016.03.25-09.24.42:168][508]LogPlayLevel: [PlayLevel] Compiling UI before play...
+[2016.03.25-09.24.42:216][508]LogPlayLevel: PlayLevel: Blueprint regeneration took 280 ms (3 blueprints)
+[2016.03.25-09.24.42:256][508]BlueprintLog: Info Blueprint FirstPersonCharacter failed to compile
+[2016.03.25-09.24.44:670][576]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.25-09.24.45:263][613]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.25-09.24.45:729][642]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.03.25-09.24.46:882][717]Cmd: DELETE
+[2016.03.25-09.24.46:882][717]Cmd: ACTOR DELETE
+[2016.03.25-09.24.46:883][717]LogEditorActor: Deleted Actor: FirstPersonCharacter_C
+[2016.03.25-09.24.46:883][717]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.25-09.24.46:909][717]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2016.03.25-09.24.48:383][785]LogSavePackage: Save=298.994019ms
+[2016.03.25-09.24.48:383][785]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/FirstPersonExampleMap63CE18FF43EDD7E02914A7A4537E90C5.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/FirstPersonExampleMap.umap'
+[2016.03.25-09.24.48:387][785]LogSavePackage: Total save time: 308.483019ms
+[2016.03.25-09.24.48:387][785]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/FirstPersonExampleMap.umap
+[2016.03.25-09.24.48:407][785]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.472
+[2016.03.25-09.24.49:085][836]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.24.49:085][836]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.25-09.24.52:821][962]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.03.25-09.24.52:857][962]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.25-09.24.52:858][962]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning Could not find a variable named "Mech" in 'FirstPersonCharacter'.
+Make sure 'FirstPersonCharacter' has been compiled for  Set Mech 
+[2016.03.25-09.24.52:963][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.25-09.24.53:002][962]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0197.29] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 180 ms]
+[2016.03.25-09.24.53:002][962]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.25-09.24.53:002][962]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Mech" in 'FirstPersonCharacter'.
+Make sure 'FirstPersonCharacter' has been compiled for  Set Mech 
+[2016.03.25-09.24.53:002][962]BlueprintEditorCompileResults:Warning: Warning [0197.29] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 180 ms]
+[2016.03.25-09.25.06:765][208]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.25-09.25.06:929][208]LogSavePackage: Save=99.630730ms
+[2016.03.25-09.25.06:929][208]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/FirstPersonCharacter7EFC0D6A413C9CE89FE5A6BEE0EE9C36.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/FirstPersonCharacter.uasset'
+[2016.03.25-09.25.06:930][208]LogSavePackage: Total save time: 106.627416ms
+[2016.03.25-09.25.06:930][208]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/FirstPersonCharacter.uasset
+[2016.03.25-09.25.08:551][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.25.08:551][359]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.25-09.25.08:553][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.25-09.25.08:563][359]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.03.25-09.25.08:662][359]LogPlayLevel: PlayLevel: Blueprint regeneration took 111 ms (3 blueprints)
+[2016.03.25-09.25.08:663][359]LogPlayLevel: [PlayLevel] Compiling FirstPersonGameMode before play...
+[2016.03.25-09.25.08:713][359]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (3 blueprints)
+[2016.03.25-09.25.08:714][359]LogPlayLevel: [PlayLevel] Compiling UI before play...
+[2016.03.25-09.25.08:762][359]LogPlayLevel: PlayLevel: Blueprint regeneration took 211 ms (3 blueprints)
+[2016.03.25-09.25.08:798][359]PIE: New page: PIE session: FirstPersonExampleMap (25 Mar 2016 09:25:08)
+[2016.03.25-09.25.08:798][359]LogPlayLevel: Creating play world package: /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.25-09.25.08:836][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037387s)
+[2016.03.25-09.25.08:837][359]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.25-09.25.08:837][359]LogPlayLevel: PIE: World Init took: (0.001603s)
+[2016.03.25-09.25.08:838][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039314s)
+[2016.03.25-09.25.08:872][359]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.25-09.25.08:882][359]LogInit: FAudioDevice initialized.
+[2016.03.25-09.25.08:933][359]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.25-09.25.08:936][359]LogWorld: Bringing World /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.25-09.25.08
+[2016.03.25-09.25.08:936][359]LogActor:Warning: GameSession /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.25-09.25.08:936][359]LogActor:Warning: GameNetworkManager /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.25-09.25.08:936][359]LogWorld: Bringing up level for play took: 0.001883
+[2016.03.25-09.25.08:938][359]PIE: Info Play in editor start time for /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap 0.756
+[2016.03.25-09.25.08:938][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.25.18:405][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.25.18:441][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.25.18:441][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.25-09.25.18:507][137]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002C0E9F2E200
+[2016.03.25-09.25.35:461][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.25-09.25.37:551][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.25-09.25.39:845][ 13]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.25-09.25.42:779][272]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.03.25-09.25.42:965][272]LogSavePackage: Save=116.198387ms
+[2016.03.25-09.25.42:965][272]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/FirstPersonCharacterDC8E1A084BC6B98EBF20159861C0206A.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/FirstPersonCharacter.uasset'
+[2016.03.25-09.25.42:966][272]LogSavePackage: Total save time: 123.306502ms
+[2016.03.25-09.25.42:966][272]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/FirstPersonCharacter.uasset
+[2016.03.25-09.25.45:010][416]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.25.45:010][416]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.25-09.25.45:013][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.03.25-09.25.45:021][416]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.03.25-09.25.45:131][416]LogPlayLevel: PlayLevel: Blueprint regeneration took 120 ms (3 blueprints)
+[2016.03.25-09.25.45:131][416]LogPlayLevel: [PlayLevel] Compiling FirstPersonGameMode before play...
+[2016.03.25-09.25.45:182][416]LogPlayLevel: PlayLevel: Blueprint regeneration took 171 ms (3 blueprints)
+[2016.03.25-09.25.45:182][416]LogPlayLevel: [PlayLevel] Compiling UI before play...
+[2016.03.25-09.25.45:232][416]LogPlayLevel: PlayLevel: Blueprint regeneration took 221 ms (3 blueprints)
+[2016.03.25-09.25.45:266][416]PIE: New page: PIE session: FirstPersonExampleMap (25 Mar 2016 09:25:45)
+[2016.03.25-09.25.45:266][416]LogPlayLevel: Creating play world package: /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.25-09.25.45:300][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033699s)
+[2016.03.25-09.25.45:301][416]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.25-09.25.45:302][416]LogPlayLevel: PIE: World Init took: (0.001441s)
+[2016.03.25-09.25.45:302][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035662s)
+[2016.03.25-09.25.45:342][416]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.25-09.25.45:349][416]LogInit: FAudioDevice initialized.
+[2016.03.25-09.25.45:381][416]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.25-09.25.45:383][416]LogWorld: Bringing World /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.25-09.25.45
+[2016.03.25-09.25.45:383][416]LogActor:Warning: GameSession /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.25-09.25.45:384][416]LogActor:Warning: GameNetworkManager /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.25-09.25.45:384][416]LogWorld: Bringing up level for play took: 0.002146
+[2016.03.25-09.25.45:387][416]PIE: Info Play in editor start time for /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap 1.204
+[2016.03.25-09.25.45:387][416]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.25.52:768][ 20]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.25.52:808][ 20]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.25.52:808][ 20]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.03.25-09.25.52:866][ 21]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002C0FCE21F80
+[2016.03.25-09.25.57:884][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.03.25-09.25.58:052][422]LogSavePackage: Save=104.240433ms
+[2016.03.25-09.25.58:052][422]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/FirstPersonCharacter485EDE5E47F2C402415EADAC05330F69.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/FirstPersonCharacter.uasset'
+[2016.03.25-09.25.58:053][422]LogSavePackage: Total save time: 112.372499ms
+[2016.03.25-09.25.58:053][422]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/FirstPersonCharacter.uasset
+[2016.03.25-09.25.59:376][517]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.25.59:376][517]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.25-09.25.59:378][517]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.03.25-09.25.59:380][517]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.03.25-09.25.59:485][517]LogPlayLevel: PlayLevel: Blueprint regeneration took 109 ms (3 blueprints)
+[2016.03.25-09.25.59:486][517]LogPlayLevel: [PlayLevel] Compiling FirstPersonGameMode before play...
+[2016.03.25-09.25.59:544][517]LogPlayLevel: PlayLevel: Blueprint regeneration took 168 ms (3 blueprints)
+[2016.03.25-09.25.59:545][517]LogPlayLevel: [PlayLevel] Compiling UI before play...
+[2016.03.25-09.25.59:594][517]LogPlayLevel: PlayLevel: Blueprint regeneration took 218 ms (3 blueprints)
+[2016.03.25-09.25.59:630][517]PIE: New page: PIE session: FirstPersonExampleMap (25 Mar 2016 09:25:59)
+[2016.03.25-09.25.59:630][517]LogPlayLevel: Creating play world package: /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.25-09.25.59:669][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038704s)
+[2016.03.25-09.25.59:670][517]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.25-09.25.59:670][517]LogPlayLevel: PIE: World Init took: (0.001696s)
+[2016.03.25-09.25.59:671][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.040775s)
+[2016.03.25-09.25.59:704][517]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.25-09.25.59:713][517]LogInit: FAudioDevice initialized.
+[2016.03.25-09.25.59:750][517]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.25-09.25.59:753][517]LogWorld: Bringing World /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.25-09.25.59
+[2016.03.25-09.25.59:753][517]LogActor:Warning: GameSession /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.25-09.25.59:753][517]LogActor:Warning: GameNetworkManager /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.25-09.25.59:753][517]LogWorld: Bringing up level for play took: 0.002281
+[2016.03.25-09.25.59:755][517]PIE: Info Play in editor start time for /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap -0.427
+[2016.03.25-09.25.59:755][517]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.26.04:275][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.26.04:316][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.26.04:316][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.03.25-09.26.04:380][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002C1036C5BC0
+[2016.03.25-09.27.04:468][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.03.25-09.27.39:348][767]LogEditorTransaction: Undo Modify Component(s)
+[2016.03.25-09.27.40:470][822]LogEditorTransaction: Undo Edit Sphere Radius
+[2016.03.25-09.27.51:656][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/Bullet" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Bullet.uasset" SILENT=true
+[2016.03.25-09.27.51:674][805]LogSavePackage: Save=16.568941ms
+[2016.03.25-09.27.51:674][805]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Bullet23D91AE040B5113AF9891DB87067CBB4.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Bullet.uasset'
+[2016.03.25-09.27.51:675][805]LogSavePackage: Total save time: 17.988324ms
+[2016.03.25-09.27.51:675][805]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Bullet.uasset
+[2016.03.25-09.28.17:746][137]LogEditorTransaction: Undo Set actor scale
+[2016.03.25-09.28.18:211][167]LogEditorTransaction: Undo Set actor scale
+[2016.03.25-09.28.18:520][191]LogEditorTransaction: Undo Rename Component Variable
+[2016.03.25-09.28.19:145][244]LogEditorTransaction: Undo Attach Component
+[2016.03.25-09.28.19:467][270]LogEditorTransaction: Undo Set actor scale
+[2016.03.25-09.28.28:089][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/Bullet" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Bullet.uasset" SILENT=true
+[2016.03.25-09.28.28:117][  8]LogSavePackage: Save=18.615564ms
+[2016.03.25-09.28.28:117][  8]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Bullet2C5115044465844D282329BBBC7DA8FA.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Bullet.uasset'
+[2016.03.25-09.28.28:119][  8]LogSavePackage: Total save time: 28.929047ms
+[2016.03.25-09.28.28:119][  8]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Bullet.uasset
+[2016.03.25-09.28.29:565][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.28.29:565][106]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.25-09.28.29:571][106]LogPlayLevel: [PlayLevel] Compiling Bullet before play...
+[2016.03.25-09.28.29:625][106]LogPlayLevel: PlayLevel: Blueprint regeneration took 60 ms (1 blueprints)
+[2016.03.25-09.28.29:655][106]PIE: New page: PIE session: FirstPersonExampleMap (25 Mar 2016 09:28:29)
+[2016.03.25-09.28.29:655][106]LogPlayLevel: Creating play world package: /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.25-09.28.29:683][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027851s)
+[2016.03.25-09.28.29:688][106]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.25-09.28.29:688][106]LogPlayLevel: PIE: World Init took: (0.004544s)
+[2016.03.25-09.28.29:688][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.032851s)
+[2016.03.25-09.28.29:726][106]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.25-09.28.29:742][106]LogInit: FAudioDevice initialized.
+[2016.03.25-09.28.29:780][106]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.25-09.28.29:788][106]LogWorld: Bringing World /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.25-09.28.29
+[2016.03.25-09.28.29:788][106]LogActor:Warning: GameSession /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.25-09.28.29:788][106]LogActor:Warning: GameNetworkManager /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.25-09.28.29:789][106]LogWorld: Bringing up level for play took: 0.006958
+[2016.03.25-09.28.29:793][106]PIE: Info Play in editor start time for /Game/GameProject/Maps/UEDPIE_0_FirstPersonExampleMap -0.39
+[2016.03.25-09.28.29:793][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.28.31:402][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.28.31:438][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/GameProject/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.25-09.28.31:510][231]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002C0FF5872E0
+[2016.03.25-09.29.13:156][704]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.03.25-09.29.35:055][713]LogEditorTransaction: Undo Edit Static Mesh
+[2016.03.25-09.29.35:798][754]LogEditorTransaction: Undo Add Component
+[2016.03.25-09.29.44:721][347]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2016.03.25-09.29.45:284][347]LogCrashTracker: 
+
+
+[2016.03.25-09.29.45:285][347]LogCrashTracker: 
+
+
+[2016.03.25-09.29.45:285][347]LogWindows:Error: === Critical error: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 1907] 
+Objects have the same fully qualified name but different paths.
+	New Object: SphereComponent /Game/GameProject/Blueprints/Bullet.Bullet_C.Sphere_GEN_VARIABLE
+	Existing Object: StaticMeshComponent /Game/GameProject/Blueprints/Bullet.Bullet_C:Sphere_GEN_VARIABLE
+
+
+
+
+[2016.03.25-09.29.45:338][347]LogExit: Executing StaticShutdownAfterError
+[2016.03.25-09.29.45:342][347]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.25-09.29.45:343][347]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.25-09.29.45:343][347]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.25-09.29.45:343][347]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.25-09.29.45:343][347]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.25-09.29.45:343][347]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.03.25-09.29.45:343][347]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.03.25-09.29.45:343][347]Log file closed, 03/25/16 09:29:45
