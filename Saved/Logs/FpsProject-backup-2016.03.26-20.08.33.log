@@ -1,0 +1,786 @@
+﻿[2016.03.26-19.47.45:035][  0]Log file open, 03/26/16 19:47:45
+[2016.03.26-19.47.45:035][  0]LogInit:Display: Running engine without a game
+[2016.03.26-19.47.45:035][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.26-19.47.45:035][  0]LogInit:Display: Loading recent project file: E:/Computing/Unreal/Unreal Projects/GameProject/FpsProject.uproject
+[2016.03.26-19.47.45:035][  0]LogInit:Display: RandInit(-1358795166) SRandInit(-1358795165).
+[2016.03.26-19.47.45:035][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.26-19.47.45:035][  0]LogStats: Stats thread started at 0.080286
+[2016.03.26-19.47.45:035][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.26-19.47.45:035][  0]LogInit: API Version: 2758231
+[2016.03.26-19.47.45:035][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.26-19.47.45:035][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.26-19.47.45:035][  0]LogInit: Build Configuration: Development
+[2016.03.26-19.47.45:035][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.26-19.47.45:035][  0]LogInit: Command line: -EpicPortal 
+[2016.03.26-19.47.45:035][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.26-19.47.45:035][  0]LogInit: Rocket: 1
+[2016.03.26-19.47.45:042][  0]LogInit: Using libcurl 7.41.0
+[2016.03.26-19.47.45:042][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.26-19.47.45:042][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.26-19.47.45:042][  0]LogInit:  - other features:
+[2016.03.26-19.47.45:042][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.26-19.47.45:042][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.26-19.47.45:042][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.26-19.47.45:042][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.26-19.47.45:042][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.26-19.47.45:042][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.26-19.47.45:042][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.26-19.47.45:042][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.26-19.47.45:042][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.26-19.47.45:042][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.26-19.47.45:052][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.26-19.47.45:057][  0]LogInit: Object subsystem initialized
+[2016.03.26-19.47.45:058][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.26-19.47.45:058][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.26-19.47.45:064][  0]LogInit: Computer: CHRIS-PC
+[2016.03.26-19.47.45:064][  0]LogInit: User: Chris
+[2016.03.26-19.47.45:064][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.26-19.47.45:064][  0]LogInit: High frequency timer resolution =3.123193 MHz
+[2016.03.26-19.47.45:064][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.03.26-19.47.45:064][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.26-19.47.45:064][  0]LogMemory: Process Physical Memory: 56.11 MB used, 56.11 MB peak
+[2016.03.26-19.47.45:064][  0]LogMemory: Process Virtual Memory: 56.76 MB used, 56.76 MB peak
+[2016.03.26-19.47.45:064][  0]LogMemory: Physical Memory: 2524.20 MB used, 8130.79 MB total
+[2016.03.26-19.47.45:064][  0]LogMemory: Virtual Memory: 382.49 MB used, 134217728.00 MB total
+[2016.03.26-19.47.45:104][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.03.26-19.47.45:615][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7700 Series (Feature Level 11_0)
+[2016.03.26-19.47.45:615][  0]LogD3D11RHI: Adapter has 1002MB of dedicated video memory, 0MB of dedicated system memory, and 4065MB of shared system memory, 2 output[s]
+[2016.03.26-19.47.45:617][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.26-19.47.45:617][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4065MB of shared system memory, 0 output[s]
+[2016.03.26-19.47.45:617][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.26-19.47.45:620][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.26-19.47.45:620][  0]LogRHI: Texture pool is 701 MB (70% of 1002 MB)
+[2016.03.26-19.47.45:628][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.03.26-19.47.45:638][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (E:/Computing/Unreal/Unreal Projects/GameProject/Intermediate/Shaders/WorkingDirectory/4800/).
+[2016.03.26-19.47.45:638][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/81258D4D4B257D9B4FFCE0B2D586371D/'.
+[2016.03.26-19.47.45:638][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.26-19.47.46:674][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.26-19.47.46:678][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.26-19.47.46:682][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.26-19.47.46:686][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.26-19.47.46:689][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.26-19.47.46:692][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.26-19.47.46:695][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.26-19.47.46:697][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.26-19.47.46:700][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.26-19.47.46:702][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.26-19.47.46:705][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.26-19.47.46:709][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.26-19.47.46:709][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.26-19.47.46:711][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.26-19.47.46:727][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.26-19.47.46:730][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.26-19.47.46:733][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.26-19.47.46:736][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.26-19.47.46:736][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.26-19.47.46:810][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.26-19.47.46:867][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/Chris/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.26-19.47.46:867][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.26-19.47.46:867][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Computing/Unreal/Unreal Projects/GameProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.26-19.47.46:867][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.26-19.47.46:867][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Computing/Unreal/Unreal Projects/GameProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.26-19.47.46:867][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.26-19.47.46:926][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.26-19.47.46:938][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.26-19.47.47:129][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.26-19.47.47:133][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.26-19.47.47:234][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.26-19.47.47:234][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.26-19.47.47:467][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.26-19.47.48:398][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.26-19.47.48:497][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.03.26-19.47.48:651][  0]SourceControl: Info Source control is disabled
+[2016.03.26-19.47.48:653][  0]SourceControl: Info Source control is disabled
+[2016.03.26-19.47.48:664][  0]SourceControl: Info Source control is disabled
+[2016.03.26-19.47.48:676][  0]SourceControl: Info Source control is disabled
+[2016.03.26-19.47.48:935][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.26-19.47.48:935][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.03.26-19.47.48:985][  0]LogEngine: Initializing Engine...
+[2016.03.26-19.47.48:989][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.26-19.47.48:990][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.26-19.47.49:105][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.26-19.47.49:122][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.26-19.47.49:138][  0]LogInit: FAudioDevice initialized.
+[2016.03.26-19.47.49:165][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Chris/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.26-19.47.49:172][  0]LogInit: Texture streaming: Enabled
+[2016.03.26-19.47.49:177][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.26-19.47.49:177][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.26-19.47.49:177][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId dda77f1544752f940c33e380f02beeee|581a2f5c95e34dd8b3eca337ee713eb1|baa8d59f-5337-46fd-ab7b-5719df139748
+[2016.03.26-19.47.49:177][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.26-19.47.49:185][  0]LogInit: Transaction tracking system initialized
+[2016.03.26-19.47.49:209][  0]BlueprintLog: New page: Editor Load
+[2016.03.26-19.47.49:272][  0]LocalizationService: Info Localization service is disabled
+[2016.03.26-19.47.49:329][  0]LogLinker:Warning: Can't find file '/Game/GameProject/FirstPersonOverview'
+[2016.03.26-19.47.49:329][  0]LogLinker:Warning: Can't find file '/Game/GameProject/FirstPersonOverview'
+[2016.03.26-19.47.49:329][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/GameProject/FirstPersonOverview.FirstPersonOverview_C'
+[2016.03.26-19.47.49:339][  0]LogConsoleResponse:Display: 
+[2016.03.26-19.47.49:449][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.26-19.47.49:499][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/' took 0.01s
+[2016.03.26-19.47.49:500][  0]SourceControl: Info Source control is disabled
+[2016.03.26-19.47.49:500][  0]Cmd: MAP LOAD FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.26-19.47.49:500][  0]LightingResults: New page: Lighting Build
+[2016.03.26-19.47.49:503][  0]MapCheck: New page: Map Check
+[2016.03.26-19.47.49:503][  0]LightingResults: New page: Lighting Build
+[2016.03.26-19.47.49:512][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001635775F6A0
+[2016.03.26-19.47.49:974][  0]LogAIModule: Creating AISystem for world Arena
+[2016.03.26-19.47.49:978][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.26-19.47.49:979][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.26-19.47.50:060][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.021ms to complete.
+[2016.03.26-19.47.50:060][  0]LogFileHelpers: Loading map 'Arena' took 0.560
+[2016.03.26-19.47.50:168][  0]LogCollectionManager: Loaded 0 collections in 0.001514 seconds
+[2016.03.26-19.47.50:210][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Collections/' took 0.01s
+[2016.03.26-19.47.50:210][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Developers/Chris/Collections/' took 0.01s
+[2016.03.26-19.47.50:210][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Collections/' took 0.01s
+[2016.03.26-19.47.50:210][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.26-19.47.50:217][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1893 classes and 338 folders.
+[2016.03.26-19.47.50:224][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.26-19.47.50:282][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.26-19.47.50:286][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.03.26-19.47.50:333][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.26-19.47.50:336][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.26-19.47.50:360][  0]LogLoad: Full Startup: 5.74 seconds (BP compile: 0.10 seconds)
+[2016.03.26-19.47.50:702][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.26-19.47.50:749][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.26-19.47.50:879][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.03.26-19.47.52:151][  4]LogAssetRegistry: Asset discovery search completed in 3.6642 seconds
+[2016.03.26-19.47.52:151][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.26-19.47.52:151][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2016.03.26-19.51.15:167][590]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.26-19.51.15:511][590]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.03.26-19.51.22:932][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-19.51.22:932][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-19.51.38:116][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.26-19.51.38:555][ 85]LogSavePackage: Save=358.516418ms
+[2016.03.26-19.51.38:555][ 85]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/ArenaB8948980408DBC27A611C89D6A671AAB.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap'
+[2016.03.26-19.51.38:557][ 85]LogSavePackage: Total save time: 418.401293ms
+[2016.03.26-19.51.38:557][ 85]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap
+[2016.03.26-19.51.38:576][ 85]LogFileHelpers: Saving map 'Arena' took 0.557
+[2016.03.26-19.51.38:601][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/LeftArm" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset" SILENT=true
+[2016.03.26-19.51.38:635][ 85]LogSavePackage: Save=25.766579ms
+[2016.03.26-19.51.38:635][ 85]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/LeftArmD1700BFB441B0563FD41BCB3EB9CE262.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset'
+[2016.03.26-19.51.38:637][ 85]LogSavePackage: Total save time: 35.115343ms
+[2016.03.26-19.51.38:637][ 85]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset
+[2016.03.26-19.51.42:867][428]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-19.51.42:867][428]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.26-19.51.42:872][428]LogPlayLevel: [PlayLevel] Compiling LeftArm before play...
+[2016.03.26-19.51.42:912][428]LogPlayLevel: PlayLevel: Blueprint regeneration took 45 ms (1 blueprints)
+[2016.03.26-19.51.42:935][428]PIE: New page: PIE session: Arena (26 Mar 2016 19:51:42)
+[2016.03.26-19.51.42:935][428]LogPlayLevel: Creating play world package: /Game/GameProject/Maps/UEDPIE_0_Arena
+[2016.03.26-19.51.42:959][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023510s)
+[2016.03.26-19.51.42:960][428]LogAIModule: Creating AISystem for world Arena
+[2016.03.26-19.51.42:960][428]LogPlayLevel: PIE: World Init took: (0.001851s)
+[2016.03.26-19.51.42:961][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameProject/Maps/Arena.Arena to /Game/GameProject/Maps/UEDPIE_0_Arena.Arena (0.026003s)
+[2016.03.26-19.51.42:991][428]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.26-19.51.42:999][428]LogInit: FAudioDevice initialized.
+[2016.03.26-19.51.43:047][428]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.26-19.51.43:049][428]LogWorld: Bringing World /Game/GameProject/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 0) at 2016.03.26-19.51.43
+[2016.03.26-19.51.43:050][428]LogActor:Warning: GameSession /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-19.51.43:050][428]LogActor:Warning: GameNetworkManager /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-19.51.43:050][428]LogWorld: Bringing up level for play took: 0.002527
+[2016.03.26-19.51.43:052][428]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2016.03.26-19.51.43:054][428]PIE: Info Play in editor start time for /Game/GameProject/Maps/UEDPIE_0_Arena 0.872
+[2016.03.26-19.51.43:054][428]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-19.51.48:379][806]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-19.51.48:427][806]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-19.51.48:499][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000016311EBCD60
+[2016.03.26-19.52.18:560][684]LogEditorViewport: Clicking on Actor (LMB): LeftArm_C (LeftArm)
+[2016.03.26-19.52.18:976][707]Cmd: DELETE
+[2016.03.26-19.52.18:976][707]Cmd: ACTOR DELETE
+[2016.03.26-19.52.18:977][707]LogEditorActor: Deleted Actor: LeftArm_C
+[2016.03.26-19.52.18:978][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-19.52.18:978][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-19.52.19:001][707]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2016.03.26-19.52.24:412][ 34]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:14484).
+[2016.03.26-20.00.04:734][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.00.04:734][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.00.04:874][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.26-20.00.05:206][479]LogSavePackage: Save=257.128204ms
+[2016.03.26-20.00.05:206][479]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/ArenaFA5F1FE14EA4A75B6F04BA9F4B14AFDC.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap'
+[2016.03.26-20.00.05:209][479]LogSavePackage: Total save time: 310.343932ms
+[2016.03.26-20.00.05:209][479]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap
+[2016.03.26-20.00.05:228][479]LogFileHelpers: Saving map 'Arena' took 0.449
+[2016.03.26-20.00.05:232][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/Test" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Test.uasset" SILENT=true
+[2016.03.26-20.00.05:244][479]LogSavePackage: Save=10.975627ms
+[2016.03.26-20.00.05:244][479]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Test99A78BD94FFA889A5B17EFAC594E164E.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Test.uasset'
+[2016.03.26-20.00.05:245][479]LogSavePackage: Total save time: 12.350179ms
+[2016.03.26-20.00.05:245][479]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Test.uasset
+[2016.03.26-20.00.07:654][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.00.07:654][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.00.07:786][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.26-20.00.08:073][601]LogSavePackage: Save=255.141129ms
+[2016.03.26-20.00.08:073][601]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/ArenaCD589CED437C11E56ED9D88AF992C2EA.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap'
+[2016.03.26-20.00.08:076][601]LogSavePackage: Total save time: 265.410751ms
+[2016.03.26-20.00.08:076][601]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap
+[2016.03.26-20.00.08:095][601]LogFileHelpers: Saving map 'Arena' took 0.399
+[2016.03.26-20.00.08:479][627]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.00.08:479][627]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.26-20.00.08:481][627]LogPlayLevel: [PlayLevel] Compiling Test before play...
+[2016.03.26-20.00.08:525][627]LogPlayLevel: PlayLevel: Blueprint regeneration took 45 ms (1 blueprints)
+[2016.03.26-20.00.08:549][627]PIE: New page: PIE session: Arena (26 Mar 2016 20:00:08)
+[2016.03.26-20.00.08:549][627]LogPlayLevel: Creating play world package: /Game/GameProject/Maps/UEDPIE_0_Arena
+[2016.03.26-20.00.08:571][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022719s)
+[2016.03.26-20.00.08:573][627]LogAIModule: Creating AISystem for world Arena
+[2016.03.26-20.00.08:573][627]LogPlayLevel: PIE: World Init took: (0.001241s)
+[2016.03.26-20.00.08:573][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameProject/Maps/Arena.Arena to /Game/GameProject/Maps/UEDPIE_0_Arena.Arena (0.024211s)
+[2016.03.26-20.00.08:609][627]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.26-20.00.08:616][627]LogInit: FAudioDevice initialized.
+[2016.03.26-20.00.08:649][627]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.26-20.00.08:652][627]LogWorld: Bringing World /Game/GameProject/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 0) at 2016.03.26-20.00.08
+[2016.03.26-20.00.08:652][627]LogActor:Warning: GameSession /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.00.08:652][627]LogActor:Warning: GameNetworkManager /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.00.08:653][627]LogWorld: Bringing up level for play took: 0.002086
+[2016.03.26-20.00.08:655][627]PIE: Info Play in editor start time for /Game/GameProject/Maps/UEDPIE_0_Arena 0.473
+[2016.03.26-20.00.08:655][627]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.00.09:378][681]LogBlueprintUserMessages: [Test_C_2] Hello
+[2016.03.26-20.00.09:751][711]LogBlueprintUserMessages: [Test_C_2] Hello
+[2016.03.26-20.00.09:916][724]LogBlueprintUserMessages: [Test_C_2] Hello
+[2016.03.26-20.00.10:251][751]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.00.10:294][751]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.00.10:355][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000016337BF04A0
+[2016.03.26-20.00.13:266][949]LogEditorActor: Deleted Actor: Test_C
+[2016.03.26-20.00.13:291][949]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2016.03.26-20.00.18:054][167]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.00.18:054][167]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.00.18:082][167]LogMetaData: Removing '/Game/GameProject/Blueprints/Old.Old:UserConstructionScript.K2Node_FunctionEntry_64' ref from Metadata '/Game/GameProject/Blueprints/LeftArm.PackageMetaData'
+[2016.03.26-20.00.18:082][167]LogMetaData: Removing '/Game/GameProject/Blueprints/Old.Old_C' ref from Metadata '/Game/GameProject/Blueprints/LeftArm.PackageMetaData'
+[2016.03.26-20.00.18:082][167]LogMetaData: Removing '/Game/GameProject/Blueprints/Old.SKEL_Old_C' ref from Metadata '/Game/GameProject/Blueprints/LeftArm.PackageMetaData'
+[2016.03.26-20.00.18:135][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/Old" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Old.uasset" SILENT=true
+[2016.03.26-20.00.18:166][167]LogSavePackage: Save=29.989182ms
+[2016.03.26-20.00.18:166][167]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/OldC85BC6FD44EE0AA6057B96B68EDDD920.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Old.uasset'
+[2016.03.26-20.00.18:167][167]LogSavePackage: Total save time: 31.376220ms
+[2016.03.26-20.00.18:167][167]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Old.uasset
+[2016.03.26-20.00.22:965][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.00.22:965][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.00.22:992][434]LogMetaData: Removing '/Game/GameProject/Blueprints/LeftArm.LeftArm:UserConstructionScript.K2Node_FunctionEntry_77' ref from Metadata '/Game/GameProject/Blueprints/Test.PackageMetaData'
+[2016.03.26-20.00.22:992][434]LogMetaData: Removing '/Game/GameProject/Blueprints/LeftArm.SKEL_LeftArm_C' ref from Metadata '/Game/GameProject/Blueprints/Test.PackageMetaData'
+[2016.03.26-20.00.22:992][434]LogMetaData: Removing '/Game/GameProject/Blueprints/LeftArm.LeftArm_C' ref from Metadata '/Game/GameProject/Blueprints/Test.PackageMetaData'
+[2016.03.26-20.00.23:032][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/LeftArm" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset" SILENT=true
+[2016.03.26-20.00.23:042][434]LogSavePackage: Save=9.257193ms
+[2016.03.26-20.00.23:042][434]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/LeftArm0A208F934EB254CDF53533AAF988EA05.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset'
+[2016.03.26-20.00.23:043][434]LogSavePackage: Total save time: 10.855876ms
+[2016.03.26-20.00.23:043][434]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset
+[2016.03.26-20.00.23:050][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/Test" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Test.uasset" SILENT=true
+[2016.03.26-20.00.23:074][434]LogSavePackage: Save=1.587158ms
+[2016.03.26-20.00.23:074][434]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Test4C16228F44A9D9B10EDC7196D1B72AAD.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Test.uasset'
+[2016.03.26-20.00.23:075][434]LogSavePackage: Total save time: 24.665143ms
+[2016.03.26-20.00.23:075][434]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Test.uasset
+[2016.03.26-20.00.34:573][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36 or K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36
+[2016.03.26-20.00.34:574][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_36
+[2016.03.26-20.00.34:574][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36 or K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36
+[2016.03.26-20.00.34:574][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36.EdGraphPin_7069) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2558.EdGraphPin_7021).  Import failed...
+[2016.03.26-20.00.34:574][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_36.EdGraphPin_7069''
+[2016.03.26-20.00.34:574][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_2560 or K2Node_CallFunction /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2560
+[2016.03.26-20.00.34:574][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_2560 or K2Node_CallFunction /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2560
+[2016.03.26-20.00.34:574][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2560.EdGraphPin_7033) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2559.EdGraphPin_7027).  Import failed...
+[2016.03.26-20.00.34:574][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2560.EdGraphPin_7033''
+[2016.03.26-20.00.34:574][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_2561 or K2Node_CallFunction /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2561
+[2016.03.26-20.00.34:574][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_2561 or K2Node_CallFunction /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2561
+[2016.03.26-20.00.34:574][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2561.EdGraphPin_7043) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2559.EdGraphPin_7027).  Import failed...
+[2016.03.26-20.00.34:574][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2561.EdGraphPin_7043''
+[2016.03.26-20.00.34:574][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_2559 or K2Node_CallFunction /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2559
+[2016.03.26-20.00.34:574][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_2559 or K2Node_CallFunction /Engine/Transient.EdGraph_120:K2Node_CallFunction_2559
+[2016.03.26-20.00.34:574][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2559.EdGraphPin_7027) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2560.EdGraphPin_7033).  Import failed...
+[2016.03.26-20.00.34:574][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2559.EdGraphPin_7027''
+[2016.03.26-20.00.34:574][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_2562 or K2Node_CallFunction /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2562
+[2016.03.26-20.00.34:574][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_2562 or K2Node_CallFunction /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2562
+[2016.03.26-20.00.34:574][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2562.EdGraphPin_7057) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2560.EdGraphPin_7034).  Import failed...
+[2016.03.26-20.00.34:574][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2562.EdGraphPin_7057''
+[2016.03.26-20.00.34:575][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36 or K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36
+[2016.03.26-20.00.34:575][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_36
+[2016.03.26-20.00.34:575][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36 or K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36
+[2016.03.26-20.00.34:575][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36.EdGraphPin_7071) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2561.EdGraphPin_7042).  Import failed...
+[2016.03.26-20.00.34:575][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_36.EdGraphPin_7071''
+[2016.03.26-20.00.34:575][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_2559 or K2Node_CallFunction /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2559
+[2016.03.26-20.00.34:575][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CallFunction_2559 or K2Node_CallFunction /Engine/Transient.EdGraph_120:K2Node_CallFunction_2559
+[2016.03.26-20.00.34:575][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2559.EdGraphPin_7027) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2561.EdGraphPin_7043).  Import failed...
+[2016.03.26-20.00.34:575][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2559.EdGraphPin_7027''
+[2016.03.26-20.00.34:575][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_SpawnActorFromClass_4 or K2Node_SpawnActorFromClass /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_SpawnActorFromClass_4
+[2016.03.26-20.00.34:575][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_SpawnActorFromClass_4.EdGraphPin_6999) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2561.EdGraphPin_7045).  Import failed...
+[2016.03.26-20.00.34:575][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_4.EdGraphPin_6999''
+[2016.03.26-20.00.34:575][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36 or K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36
+[2016.03.26-20.00.34:575][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_36
+[2016.03.26-20.00.34:575][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36 or K2Node_CommutativeAssociativeBinaryOperator /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36
+[2016.03.26-20.00.34:575][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_36.EdGraphPin_7070) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2562.EdGraphPin_7059).  Import failed...
+[2016.03.26-20.00.34:575][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_36.EdGraphPin_7070''
+[2016.03.26-20.00.34:576][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2612 or K2Node_CallFunction /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2612
+[2016.03.26-20.00.34:576][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2612.EdGraphPin_7080) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_InputKey_218.EdGraphPin_6928).  Import failed...
+[2016.03.26-20.00.34:576][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2612.EdGraphPin_7080''
+[2016.03.26-20.00.34:576][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2493 or K2Node_CallFunction /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2493
+[2016.03.26-20.00.34:576][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2493.EdGraphPin_24867) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_Event_151.EdGraphPin_24366).  Import failed...
+[2016.03.26-20.00.34:576][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2493.EdGraphPin_24867''
+[2016.03.26-20.00.34:577][163]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2494 or K2Node_CallFunction /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2494
+[2016.03.26-20.00.34:577][163]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/GameProject/Blueprints/Old.Old:EventGraph.K2Node_CallFunction_2494.EdGraphPin_24874) from referencer (EdGraphPin /Game/GameProject/Blueprints/LeftArm.LeftArm:EventGraph.K2Node_CallFunction_2493.EdGraphPin_24870).  Import failed...
+[2016.03.26-20.00.34:577][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2494.EdGraphPin_24874''
+[2016.03.26-20.00.38:420][425]LogEditorTransaction: Undo Resize Node
+[2016.03.26-20.01.03:339][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.01.03:339][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.01.03:475][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.26-20.01.03:765][104]LogSavePackage: Save=257.686615ms
+[2016.03.26-20.01.03:765][104]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Arena03D45AF349916CD24A9BB5BFC7D1B6C1.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap'
+[2016.03.26-20.01.03:767][104]LogSavePackage: Total save time: 267.983120ms
+[2016.03.26-20.01.03:767][104]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap
+[2016.03.26-20.01.03:786][104]LogFileHelpers: Saving map 'Arena' took 0.406
+[2016.03.26-20.01.03:790][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/LeftArm" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset" SILENT=true
+[2016.03.26-20.01.03:815][104]LogSavePackage: Save=16.395401ms
+[2016.03.26-20.01.03:815][104]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/LeftArm40B6AACF4694B2E13831CAA5F45B2E87.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset'
+[2016.03.26-20.01.03:817][104]LogSavePackage: Total save time: 26.004478ms
+[2016.03.26-20.01.03:817][104]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset
+[2016.03.26-20.01.03:824][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/Old" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Old.uasset" SILENT=true
+[2016.03.26-20.01.03:853][104]LogSavePackage: Save=19.531935ms
+[2016.03.26-20.01.03:853][104]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/OldEF4EEE5E4377E01E01F9E79CFBA142D9.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Old.uasset'
+[2016.03.26-20.01.03:854][104]LogSavePackage: Total save time: 29.195122ms
+[2016.03.26-20.01.03:854][104]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Old.uasset
+[2016.03.26-20.01.26:490][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.01.26:490][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.01.26:534][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000016369169EE0
+[2016.03.26-20.01.26:659][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.26-20.01.26:954][466]LogSavePackage: Save=262.405823ms
+[2016.03.26-20.01.26:954][466]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Arena2791A65440115D866D2BD689529D889F.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap'
+[2016.03.26-20.01.26:956][466]LogSavePackage: Total save time: 273.237359ms
+[2016.03.26-20.01.26:956][466]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap
+[2016.03.26-20.01.26:976][466]LogFileHelpers: Saving map 'Arena' took 0.408
+[2016.03.26-20.01.26:998][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/LeftArm" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset" SILENT=true
+[2016.03.26-20.01.27:030][466]LogSavePackage: Save=23.996916ms
+[2016.03.26-20.01.27:030][466]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/LeftArm952814F04F22C70A71CC3296B56FAF3C.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset'
+[2016.03.26-20.01.27:031][466]LogSavePackage: Total save time: 32.729328ms
+[2016.03.26-20.01.27:031][466]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset
+[2016.03.26-20.01.28:174][510]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.01.28:174][510]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.26-20.01.28:177][510]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.01.28:177][510]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.01.28:179][510]LogPlayLevel: [PlayLevel] Compiling LeftArm before play...
+[2016.03.26-20.01.28:226][510]LogPlayLevel: PlayLevel: Blueprint regeneration took 51 ms (1 blueprints)
+[2016.03.26-20.01.28:250][510]PIE: New page: PIE session: Arena (26 Mar 2016 20:01:28)
+[2016.03.26-20.01.28:250][510]LogPlayLevel: Creating play world package: /Game/GameProject/Maps/UEDPIE_0_Arena
+[2016.03.26-20.01.28:275][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025565s)
+[2016.03.26-20.01.28:278][510]LogAIModule: Creating AISystem for world Arena
+[2016.03.26-20.01.28:278][510]LogPlayLevel: PIE: World Init took: (0.002443s)
+[2016.03.26-20.01.28:278][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameProject/Maps/Arena.Arena to /Game/GameProject/Maps/UEDPIE_0_Arena.Arena (0.028441s)
+[2016.03.26-20.01.28:308][510]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.26-20.01.28:315][510]LogInit: FAudioDevice initialized.
+[2016.03.26-20.01.28:347][510]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.26-20.01.28:349][510]LogWorld: Bringing World /Game/GameProject/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 0) at 2016.03.26-20.01.28
+[2016.03.26-20.01.28:349][510]LogActor:Warning: GameSession /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.01.28:350][510]LogActor:Warning: GameNetworkManager /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.01.28:350][510]LogWorld: Bringing up level for play took: 0.002058
+[2016.03.26-20.01.28:352][510]PIE: Info Play in editor start time for /Game/GameProject/Maps/UEDPIE_0_Arena 0.17
+[2016.03.26-20.01.28:352][510]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.01.28:841][543]LogBlueprintUserMessages: [LeftArm_C_2] Hello
+[2016.03.26-20.01.29:230][574]LogBlueprintUserMessages: [LeftArm_C_2] Hello
+[2016.03.26-20.01.29:486][594]LogBlueprintUserMessages: [LeftArm_C_2] Hello
+[2016.03.26-20.01.29:727][613]LogBlueprintUserMessages: [LeftArm_C_2] Hello
+[2016.03.26-20.01.29:934][629]LogBlueprintUserMessages: [LeftArm_C_2] Hello
+[2016.03.26-20.01.30:126][644]LogBlueprintUserMessages: [LeftArm_C_2] Hello
+[2016.03.26-20.01.30:344][661]LogBlueprintUserMessages: [LeftArm_C_2] Hello
+[2016.03.26-20.01.30:533][676]LogBlueprintUserMessages: [LeftArm_C_2] Hello
+[2016.03.26-20.01.31:143][724]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.01.31:186][724]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.01.31:240][725]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001638578A980
+[2016.03.26-20.01.41:531][201]Cmd: TRANSACTION UNDO
+[2016.03.26-20.01.41:531][201]LogEditorTransaction: Undo Delete current selection
+[2016.03.26-20.01.58:649][186]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.26-20.02.22:973][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.26-20.02.23:259][609]LogSavePackage: Save=253.775864ms
+[2016.03.26-20.02.23:259][609]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Arena0B8E0F0840FD806883EB658BD2221696.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap'
+[2016.03.26-20.02.23:262][609]LogSavePackage: Total save time: 264.323723ms
+[2016.03.26-20.02.23:262][609]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap
+[2016.03.26-20.02.23:281][609]LogFileHelpers: Saving map 'Arena' took 0.400
+[2016.03.26-20.02.23:303][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/LeftArm" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset" SILENT=true
+[2016.03.26-20.02.23:335][609]LogSavePackage: Save=24.505051ms
+[2016.03.26-20.02.23:335][609]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/LeftArm339803634D35D7F1D9F046BEDD0E3E11.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset'
+[2016.03.26-20.02.23:336][609]LogSavePackage: Total save time: 33.558924ms
+[2016.03.26-20.02.23:336][609]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset
+[2016.03.26-20.02.26:335][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/LeftArm" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset" SILENT=true
+[2016.03.26-20.02.26:360][786]LogSavePackage: Save=17.672939ms
+[2016.03.26-20.02.26:360][786]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/LeftArm43C653D14E5E23A3AF1EBA8FE0DC5B5B.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset'
+[2016.03.26-20.02.26:362][786]LogSavePackage: Total save time: 26.704405ms
+[2016.03.26-20.02.26:362][786]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset
+[2016.03.26-20.02.31:518][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/LeftArm" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset" SILENT=true
+[2016.03.26-20.02.31:544][ 93]LogSavePackage: Save=17.715843ms
+[2016.03.26-20.02.31:544][ 93]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/LeftArmC9AB59EF4AD480F112F0EE95DC8D1141.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset'
+[2016.03.26-20.02.31:545][ 93]LogSavePackage: Total save time: 26.685830ms
+[2016.03.26-20.02.31:545][ 93]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset
+[2016.03.26-20.02.33:892][234]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.02.33:892][234]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.26-20.02.33:896][234]LogPlayLevel: [PlayLevel] Compiling LeftArm before play...
+[2016.03.26-20.02.33:940][234]LogPlayLevel: PlayLevel: Blueprint regeneration took 48 ms (1 blueprints)
+[2016.03.26-20.02.33:965][234]PIE: New page: PIE session: Arena (26 Mar 2016 20:02:33)
+[2016.03.26-20.02.33:965][234]LogPlayLevel: Creating play world package: /Game/GameProject/Maps/UEDPIE_0_Arena
+[2016.03.26-20.02.33:990][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025517s)
+[2016.03.26-20.02.33:992][234]LogAIModule: Creating AISystem for world Arena
+[2016.03.26-20.02.33:993][234]LogPlayLevel: PIE: World Init took: (0.002454s)
+[2016.03.26-20.02.33:993][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameProject/Maps/Arena.Arena to /Game/GameProject/Maps/UEDPIE_0_Arena.Arena (0.028281s)
+[2016.03.26-20.02.34:024][234]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.26-20.02.34:030][234]LogInit: FAudioDevice initialized.
+[2016.03.26-20.02.34:059][234]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.26-20.02.34:063][234]LogWorld: Bringing World /Game/GameProject/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 0) at 2016.03.26-20.02.34
+[2016.03.26-20.02.34:063][234]LogActor:Warning: GameSession /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.02.34:063][234]LogActor:Warning: GameNetworkManager /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.02.34:063][234]LogWorld: Bringing up level for play took: 0.002463
+[2016.03.26-20.02.34:065][234]PIE: Info Play in editor start time for /Game/GameProject/Maps/UEDPIE_0_Arena -0.116
+[2016.03.26-20.02.34:066][234]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.02.38:839][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.02.38:886][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.02.38:954][561]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001630DFB2840
+[2016.03.26-20.03.49:126][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.26-20.03.49:415][955]LogSavePackage: Save=256.065186ms
+[2016.03.26-20.03.49:415][955]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Arena74CFEA324EF505C7C4D4E0866278CDEF.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap'
+[2016.03.26-20.03.49:418][955]LogSavePackage: Total save time: 266.926188ms
+[2016.03.26-20.03.49:418][955]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap
+[2016.03.26-20.03.49:437][955]LogFileHelpers: Saving map 'Arena' took 0.402
+[2016.03.26-20.03.49:458][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/LeftArm" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset" SILENT=true
+[2016.03.26-20.03.49:491][955]LogSavePackage: Save=24.382420ms
+[2016.03.26-20.03.49:491][955]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/LeftArm9C7311674A4E1F346E0A9182C1C5EC4F.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset'
+[2016.03.26-20.03.49:492][955]LogSavePackage: Total save time: 33.700768ms
+[2016.03.26-20.03.49:492][955]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset
+[2016.03.26-20.03.51:042][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.03.51:042][ 19]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.03.26-20.03.51:047][ 19]LogPlayLevel: [PlayLevel] Compiling LeftArm before play...
+[2016.03.26-20.03.51:087][ 19]LogPlayLevel: PlayLevel: Blueprint regeneration took 45 ms (1 blueprints)
+[2016.03.26-20.03.51:110][ 19]PIE: New page: PIE session: Arena (26 Mar 2016 20:03:51)
+[2016.03.26-20.03.51:110][ 19]LogPlayLevel: Creating play world package: /Game/GameProject/Maps/UEDPIE_0_Arena
+[2016.03.26-20.03.51:134][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024206s)
+[2016.03.26-20.03.51:136][ 19]LogAIModule: Creating AISystem for world Arena
+[2016.03.26-20.03.51:136][ 19]LogPlayLevel: PIE: World Init took: (0.002131s)
+[2016.03.26-20.03.51:137][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameProject/Maps/Arena.Arena to /Game/GameProject/Maps/UEDPIE_0_Arena.Arena (0.026755s)
+[2016.03.26-20.03.51:168][ 19]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.26-20.03.51:175][ 19]LogInit: FAudioDevice initialized.
+[2016.03.26-20.03.51:210][ 19]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.26-20.03.51:213][ 19]LogWorld: Bringing World /Game/GameProject/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 0) at 2016.03.26-20.03.51
+[2016.03.26-20.03.51:214][ 19]LogActor:Warning: GameSession /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.03.51:214][ 19]LogActor:Warning: GameNetworkManager /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.03.51:214][ 19]LogWorld: Bringing up level for play took: 0.002482
+[2016.03.26-20.03.51:216][ 19]PIE: Info Play in editor start time for /Game/GameProject/Maps/UEDPIE_0_Arena 1.035
+[2016.03.26-20.03.51:216][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.04.01:310][717]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.04.01:351][717]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.04.01:426][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001630D4B0220
+[2016.03.26-20.04.12:459][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.26-20.04.12:748][156]LogSavePackage: Save=257.782990ms
+[2016.03.26-20.04.12:748][156]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Arena6572497F449FF2BB12877D9F34E1A4A2.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap'
+[2016.03.26-20.04.12:751][156]LogSavePackage: Total save time: 268.303946ms
+[2016.03.26-20.04.12:751][156]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap
+[2016.03.26-20.04.12:770][156]LogFileHelpers: Saving map 'Arena' took 0.402
+[2016.03.26-20.04.12:792][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/LeftArm" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset" SILENT=true
+[2016.03.26-20.04.12:825][156]LogSavePackage: Save=24.960033ms
+[2016.03.26-20.04.12:825][156]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/LeftArmB5F7A1C6494FEB8EC0A9618DBAF2030D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset'
+[2016.03.26-20.04.12:826][156]LogSavePackage: Total save time: 34.081787ms
+[2016.03.26-20.04.12:826][156]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset
+[2016.03.26-20.04.13:732][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.04.13:733][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.26-20.04.13:733][194]PIE: New page: PIE session: Arena (26 Mar 2016 20:04:13)
+[2016.03.26-20.04.13:733][194]LogPlayLevel: Creating play world package: /Game/GameProject/Maps/UEDPIE_0_Arena
+[2016.03.26-20.04.13:757][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024013s)
+[2016.03.26-20.04.13:758][194]LogAIModule: Creating AISystem for world Arena
+[2016.03.26-20.04.13:759][194]LogPlayLevel: PIE: World Init took: (0.001518s)
+[2016.03.26-20.04.13:759][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameProject/Maps/Arena.Arena to /Game/GameProject/Maps/UEDPIE_0_Arena.Arena (0.026023s)
+[2016.03.26-20.04.13:793][194]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.26-20.04.13:800][194]LogInit: FAudioDevice initialized.
+[2016.03.26-20.04.13:831][194]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.26-20.04.13:833][194]LogWorld: Bringing World /Game/GameProject/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 0) at 2016.03.26-20.04.13
+[2016.03.26-20.04.13:833][194]LogActor:Warning: GameSession /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.04.13:834][194]LogActor:Warning: GameNetworkManager /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.04.13:834][194]LogWorld: Bringing up level for play took: 0.002163
+[2016.03.26-20.04.13:836][194]PIE: Info Play in editor start time for /Game/GameProject/Maps/UEDPIE_0_Arena -0.346
+[2016.03.26-20.04.13:836][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.04.17:561][455]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.04.17:605][455]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.04.17:628][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001630DF12980
+[2016.03.26-20.04.32:057][204]LogEditorViewport: Clicking on Actor (LMB): LeftArm_C (LeftArm)
+[2016.03.26-20.04.35:837][417]Cmd: TRANSACTION UNDO
+[2016.03.26-20.04.35:837][417]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.26-20.04.55:347][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.04.55:347][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.26-20.04.55:348][525]PIE: New page: PIE session: Arena (26 Mar 2016 20:04:55)
+[2016.03.26-20.04.55:348][525]LogPlayLevel: Creating play world package: /Game/GameProject/Maps/UEDPIE_0_Arena
+[2016.03.26-20.04.55:371][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022417s)
+[2016.03.26-20.04.55:373][525]LogAIModule: Creating AISystem for world Arena
+[2016.03.26-20.04.55:373][525]LogPlayLevel: PIE: World Init took: (0.002586s)
+[2016.03.26-20.04.55:373][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GameProject/Maps/Arena.Arena to /Game/GameProject/Maps/UEDPIE_0_Arena.Arena (0.025368s)
+[2016.03.26-20.04.55:405][525]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.26-20.04.55:412][525]LogInit: FAudioDevice initialized.
+[2016.03.26-20.04.55:444][525]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.26-20.04.55:447][525]LogWorld: Bringing World /Game/GameProject/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 0) at 2016.03.26-20.04.55
+[2016.03.26-20.04.55:447][525]LogActor:Warning: GameSession /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.04.55:447][525]LogActor:Warning: GameNetworkManager /Game/GameProject/Maps/UEDPIE_0_Arena.Arena:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.26-20.04.55:447][525]LogWorld: Bringing up level for play took: 0.002066
+[2016.03.26-20.04.55:450][525]PIE: Info Play in editor start time for /Game/GameProject/Maps/UEDPIE_0_Arena -0.732
+[2016.03.26-20.04.55:450][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.05.00:883][900]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.05.00:930][900]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GameProject/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/GameProject/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/GameProject/Maps/Arena.Arena:PersistentLevel.Arena'
+[2016.03.26-20.05.00:953][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001630DD6F420
+[2016.03.26-20.05.13:977][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.05.13:977][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.05.43:828][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.03.26-20.05.43:828][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.26-20.06.17:225][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2016.03.26-20.06.17:225][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.26-20.06.17:268][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001630DF437E0
+[2016.03.26-20.06.17:268][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001630D9A20C0
+[2016.03.26-20.06.29:662][204]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.06.29:662][204]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.06.39:535][454]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.06.39:535][454]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.06.44:663][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.06.44:663][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.06.44:690][604]LogMetaData: Removing '/Game/GameProject/Blueprints/old.old_C' ref from Metadata '/Game/GameProject/Blueprints/LeftArm.PackageMetaData'
+[2016.03.26-20.06.44:690][604]LogMetaData: Removing '/Game/GameProject/Blueprints/old.SKEL_old_C' ref from Metadata '/Game/GameProject/Blueprints/LeftArm.PackageMetaData'
+[2016.03.26-20.06.44:690][604]LogMetaData: Removing '/Game/GameProject/Blueprints/old.old:UserConstructionScript.K2Node_FunctionEntry_77' ref from Metadata '/Game/GameProject/Blueprints/LeftArm.PackageMetaData'
+[2016.03.26-20.06.44:740][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/old" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/old.uasset" SILENT=true
+[2016.03.26-20.06.44:764][604]LogSavePackage: Save=23.899900ms
+[2016.03.26-20.06.44:764][604]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/old053FD41549D3D9F63F64DDA36152428D.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/old.uasset'
+[2016.03.26-20.06.44:766][604]LogSavePackage: Total save time: 25.371470ms
+[2016.03.26-20.06.44:766][604]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/old.uasset
+[2016.03.26-20.06.44:773][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/LeftArm" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset" SILENT=true
+[2016.03.26-20.06.44:782][604]LogSavePackage: Save=1.399529ms
+[2016.03.26-20.06.44:782][604]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/LeftArm15603BFC40230462DEAD2DA1DCC3FB78.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset'
+[2016.03.26-20.06.44:784][604]LogSavePackage: Total save time: 10.755979ms
+[2016.03.26-20.06.44:784][604]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/LeftArm.uasset
+[2016.03.26-20.06.46:065][636]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.06.46:065][636]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.07.00:363][ 49]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.26-20.07.09:398][368]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.07.09:399][368]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.07.09:423][368]LogMetaData: Removing '/Game/GameProject/Blueprints/Leftrm.Leftrm:UserConstructionScript.K2Node_FunctionEntry_143' ref from Metadata '/Game/GameProject/Blueprints/NewBlueprint.PackageMetaData'
+[2016.03.26-20.07.09:423][368]LogMetaData: Removing '/Game/GameProject/Blueprints/Leftrm.SKEL_Leftrm_C' ref from Metadata '/Game/GameProject/Blueprints/NewBlueprint.PackageMetaData'
+[2016.03.26-20.07.09:423][368]LogMetaData: Removing '/Game/GameProject/Blueprints/Leftrm.Leftrm_C' ref from Metadata '/Game/GameProject/Blueprints/NewBlueprint.PackageMetaData'
+[2016.03.26-20.07.09:423][368]LogMetaData: Removing '/Game/GameProject/Blueprints/Leftrm.Leftrm:EventGraph.K2Node_Event_192' ref from Metadata '/Game/GameProject/Blueprints/NewBlueprint.PackageMetaData'
+[2016.03.26-20.07.09:423][368]LogMetaData: Removing '/Game/GameProject/Blueprints/Leftrm.Leftrm:EventGraph.K2Node_Event_193' ref from Metadata '/Game/GameProject/Blueprints/NewBlueprint.PackageMetaData'
+[2016.03.26-20.07.09:423][368]LogMetaData: Removing '/Game/GameProject/Blueprints/Leftrm.Leftrm:EventGraph.K2Node_Event_194' ref from Metadata '/Game/GameProject/Blueprints/NewBlueprint.PackageMetaData'
+[2016.03.26-20.07.09:455][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/Leftrm" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Leftrm.uasset" SILENT=true
+[2016.03.26-20.07.09:463][368]LogSavePackage: Save=6.753985ms
+[2016.03.26-20.07.09:463][368]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Leftrm8C2825C242DC4706230445B43CB1769B.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Leftrm.uasset'
+[2016.03.26-20.07.09:464][368]LogSavePackage: Total save time: 8.027360ms
+[2016.03.26-20.07.09:464][368]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/Leftrm.uasset
+[2016.03.26-20.07.18:103][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.26-20.07.18:103][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.26-20.07.21:976][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Blueprints/NewBlueprint" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/NewBlueprint.uasset" SILENT=true
+[2016.03.26-20.07.21:985][679]LogSavePackage: Save=0.840806ms
+[2016.03.26-20.07.21:985][679]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/NewBlueprint452EEE1D4C6D90F8B38E659587B4F0A3.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/NewBlueprint.uasset'
+[2016.03.26-20.07.21:986][679]LogSavePackage: Total save time: 2.247378ms
+[2016.03.26-20.07.21:986][679]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Blueprints/NewBlueprint.uasset
+[2016.03.26-20.07.22:076][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameProject/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.26-20.07.22:397][679]LogSavePackage: Save=268.413452ms
+[2016.03.26-20.07.22:397][679]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Arena9CEAE141457BB170675721ABDDD936A9.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap'
+[2016.03.26-20.07.22:399][679]LogSavePackage: Total save time: 301.213533ms
+[2016.03.26-20.07.22:399][679]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/GameProject/Maps/Arena.umap
+[2016.03.26-20.07.22:420][679]LogFileHelpers: Saving map 'Arena' took 0.432
+[2016.03.26-20.07.22:487][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.26-20.07.22:532][679]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.26-20.07.22:722][680]Cmd: QUIT_EDITOR
+[2016.03.26-20.07.23:105][680]LogExit: Preparing to exit.
+[2016.03.26-20.07.23:738][680]LogActorComponent: UnregisterComponent: (None.SceneComponent_9) Not registered. Aborting.
+[2016.03.26-20.07.23:782][680]LogExit: Editor shut down
+[2016.03.26-20.07.23:782][680]LogExit: Transaction tracking system shut down
+[2016.03.26-20.07.23:785][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000016349A023E0
+[2016.03.26-20.07.23:785][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000163612BB880
+[2016.03.26-20.07.23:785][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000163610972E0
+[2016.03.26-20.07.23:785][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000016368D45E40
+[2016.03.26-20.07.23:786][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000016324DC1440
+[2016.03.26-20.07.23:789][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000016319BB0CC0
+[2016.03.26-20.07.23:790][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000016368720400
+[2016.03.26-20.07.23:972][680]LogExit: Object subsystem successfully closed.
+[2016.03.26-20.07.23:991][680]LogD3D11RHI: Shutdown
+[2016.03.26-20.07.23:991][680]LogD3D11RHI: CleanupD3DDevice
+[2016.03.26-20.07.24:094][680]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.26-20.07.24:118][680]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.03.26-20.07.24:118][680]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.03.26-20.07.24:118][680]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.03.26-20.07.24:118][680]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.03.26-20.07.24:118][680]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.03.26-20.07.24:118][680]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.03.26-20.07.24:118][680]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.03.26-20.07.24:120][680]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.03.26-20.07.24:120][680]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.03.26-20.07.24:120][680]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.03.26-20.07.24:120][680]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.03.26-20.07.24:120][680]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.03.26-20.07.24:120][680]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.03.26-20.07.24:120][680]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.03.26-20.07.24:120][680]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.03.26-20.07.24:120][680]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.03.26-20.07.24:120][680]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.03.26-20.07.24:121][680]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.03.26-20.07.24:121][680]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.03.26-20.07.24:121][680]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.03.26-20.07.24:121][680]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.03.26-20.07.24:121][680]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.03.26-20.07.24:121][680]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.03.26-20.07.24:121][680]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.03.26-20.07.24:121][680]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.03.26-20.07.24:121][680]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.03.26-20.07.24:121][680]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.03.26-20.07.24:121][680]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.03.26-20.07.24:661][680]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.03.26-20.07.24:662][680]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.03.26-20.07.24:664][680]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.03.26-20.07.24:886][680]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.03.26-20.07.24:886][680]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.03.26-20.07.24:886][680]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.03.26-20.07.24:886][680]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.03.26-20.07.24:886][680]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.03.26-20.07.24:886][680]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.03.26-20.07.24:886][680]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.03.26-20.07.24:886][680]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.03.26-20.07.24:894][680]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.03.26-20.07.24:895][680]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.03.26-20.07.24:895][680]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.03.26-20.07.24:897][680]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.03.26-20.07.24:974][680]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.03.26-20.07.24:975][680]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.03.26-20.07.24:975][680]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.26-20.07.25:075][680]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.26-20.07.25:075][680]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.26-20.07.25:075][680]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.26-20.07.25:078][680]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.26-20.07.25:080][680]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.26-20.07.25:080][680]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.26-20.07.25:080][680]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.26-20.07.25:080][680]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.26-20.07.25:080][680]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.26-20.07.25:080][680]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.26-20.07.25:080][680]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.26-20.07.25:080][680]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.26-20.07.25:080][680]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.26-20.07.25:080][680]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.26-20.07.25:158][680]LogDerivedDataCache: Shutdown
+[2016.03.26-20.07.25:158][680]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.26-20.07.25:158][680]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.26-20.07.25:158][680]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.26-20.07.25:158][680]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.26-20.07.25:158][680]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.26-20.07.25:158][680]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.26-20.07.25:158][680]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.26-20.07.25:158][680]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.26-20.07.25:158][680]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.26-20.07.25:159][680]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.26-20.07.26:160][680]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.26-20.07.26:160][680]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.26-20.07.26:160][680]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.26-20.07.26:160][680]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.26-20.07.26:160][680]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.26-20.07.26:160][680]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.26-20.07.26:160][680]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.26-20.07.26:164][680]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.26-20.07.26:164][680]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.26-20.07.26:164][680]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.26-20.07.26:164][680]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.26-20.07.26:164][680]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.26-20.07.26:164][680]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.26-20.07.26:164][680]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.26-20.07.26:164][680]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.26-20.07.26:164][680]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.26-20.07.26:164][680]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.26-20.07.26:166][680]LogExit: Exiting.
+[2016.03.26-20.07.26:167][680]Log file closed, 03/26/16 20:07:26
