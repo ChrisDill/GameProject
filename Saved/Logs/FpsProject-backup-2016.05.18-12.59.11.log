@@ -1,0 +1,1455 @@
+﻿[2016.05.18-09.45.31:444][  0]Log file open, 05/18/16 10:45:31
+[2016.05.18-09.45.31:444][  0]LogInit:Display: Running engine without a game
+[2016.05.18-09.45.31:444][  0]LogPlatformFile: Not using cached read wrapper
+[2016.05.18-09.45.31:444][  0]LogInit:Display: Loading recent project file: E:/Computing/Unreal/Unreal Projects/GameProject/FpsProject.uproject
+[2016.05.18-09.45.31:444][  0]LogInit:Display: RandInit(-269401173) SRandInit(-269401172).
+[2016.05.18-09.45.31:444][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.05.18-09.45.31:444][  0]LogStats: Stats thread started at 0.124548
+[2016.05.18-09.45.31:444][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.05.18-09.45.31:444][  0]LogInit: API Version: 2758231
+[2016.05.18-09.45.31:444][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.05.18-09.45.31:444][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.05.18-09.45.31:444][  0]LogInit: Build Configuration: Development
+[2016.05.18-09.45.31:444][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.05.18-09.45.31:444][  0]LogInit: Command line: -EpicPortal 
+[2016.05.18-09.45.31:444][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.05.18-09.45.31:444][  0]LogInit: Rocket: 1
+[2016.05.18-09.45.31:543][  0]LogInit: Using libcurl 7.41.0
+[2016.05.18-09.45.31:543][  0]LogInit:  - built for x86_64-pc-win32
+[2016.05.18-09.45.31:543][  0]LogInit:  - supports SSL with WinSSL
+[2016.05.18-09.45.31:543][  0]LogInit:  - other features:
+[2016.05.18-09.45.31:543][  0]LogInit:      CURL_VERSION_SSL
+[2016.05.18-09.45.31:543][  0]LogInit:      CURL_VERSION_IPV6
+[2016.05.18-09.45.31:543][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.05.18-09.45.31:543][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.05.18-09.45.31:543][  0]LogInit:      CURL_VERSION_IDN
+[2016.05.18-09.45.31:543][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.05.18-09.45.31:543][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.05.18-09.45.31:543][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.05.18-09.45.31:543][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.05.18-09.45.31:543][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.05.18-09.45.31:595][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.05.18-09.45.31:600][  0]LogInit: Object subsystem initialized
+[2016.05.18-09.45.31:601][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.18-09.45.31:601][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.18-09.45.31:607][  0]LogInit: Computer: CHRIS-PC
+[2016.05.18-09.45.31:607][  0]LogInit: User: Chris
+[2016.05.18-09.45.31:607][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.05.18-09.45.31:607][  0]LogInit: High frequency timer resolution =3.123194 MHz
+[2016.05.18-09.45.31:607][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.05.18-09.45.31:607][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-09.45.31:607][  0]LogMemory: Process Physical Memory: 56.11 MB used, 56.11 MB peak
+[2016.05.18-09.45.31:607][  0]LogMemory: Process Virtual Memory: 56.70 MB used, 56.70 MB peak
+[2016.05.18-09.45.31:607][  0]LogMemory: Physical Memory: 3031.07 MB used, 8130.79 MB total
+[2016.05.18-09.45.31:607][  0]LogMemory: Virtual Memory: 368.06 MB used, 134217728.00 MB total
+[2016.05.18-09.45.31:788][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.05.18-09.45.32:181][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7700 Series (Feature Level 11_0)
+[2016.05.18-09.45.32:181][  0]LogD3D11RHI: Adapter has 1006MB of dedicated video memory, 0MB of dedicated system memory, and 4065MB of shared system memory, 2 output[s]
+[2016.05.18-09.45.32:183][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.05.18-09.45.32:183][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4065MB of shared system memory, 0 output[s]
+[2016.05.18-09.45.32:183][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.05.18-09.45.32:186][  0]LogD3D11RHI: !Direct3DDevice
+[2016.05.18-09.45.32:186][  0]LogRHI: Texture pool is 704 MB (70% of 1006 MB)
+[2016.05.18-09.45.32:192][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.05.18-09.45.32:202][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (E:/Computing/Unreal/Unreal Projects/GameProject/Intermediate/Shaders/WorkingDirectory/4076/).
+[2016.05.18-09.45.32:202][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/A16C97AF4BE4574293093C9EF4F6B297/'.
+[2016.05.18-09.45.32:202][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.18-09.45.33:538][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.18-09.45.33:548][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.18-09.45.33:558][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.18-09.45.33:568][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.18-09.45.33:579][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.18-09.45.33:589][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.18-09.45.33:598][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.18-09.45.33:607][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.18-09.45.33:617][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.18-09.45.33:626][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.18-09.45.33:635][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.18-09.45.33:654][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.18-09.45.33:654][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.18-09.45.33:662][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.18-09.45.33:700][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.18-09.45.33:709][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.18-09.45.33:718][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.18-09.45.33:728][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.18-09.45.33:728][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.18-09.45.34:000][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.18-09.45.34:169][  0]LogDerivedDataCache: Loaded boot cache 0.17s 41MB C:/Users/Chris/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.18-09.45.34:169][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.05.18-09.45.34:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Computing/Unreal/Unreal Projects/GameProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.18-09.45.34:169][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.18-09.45.34:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Computing/Unreal/Unreal Projects/GameProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.18-09.45.34:169][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.18-09.45.34:228][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.18-09.45.34:240][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.18-09.45.34:689][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.18-09.45.34:692][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.05.18-09.45.34:825][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.18-09.45.34:825][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.18-09.45.35:185][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.18-09.45.37:250][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.18-09.45.37:483][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.05.18-09.45.37:917][  0]SourceControl: Info Source control is disabled
+[2016.05.18-09.45.37:918][  0]SourceControl: Info Source control is disabled
+[2016.05.18-09.45.37:952][  0]SourceControl: Info Source control is disabled
+[2016.05.18-09.45.37:980][  0]SourceControl: Info Source control is disabled
+[2016.05.18-09.45.38:429][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.05.18-09.45.38:429][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.05.18-09.45.38:513][  0]LogEngine: Initializing Engine...
+[2016.05.18-09.45.38:517][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.18-09.45.38:526][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.05.18-09.45.38:666][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.18-09.45.38:677][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.18-09.45.38:690][  0]LogInit: FAudioDevice initialized.
+[2016.05.18-09.45.38:720][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Chris/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.18-09.45.38:725][  0]LogInit: Texture streaming: Enabled
+[2016.05.18-09.45.38:743][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.05.18-09.45.38:743][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.05.18-09.45.38:743][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId dda77f1544752f940c33e380f02beeee|581a2f5c95e34dd8b3eca337ee713eb1|baa8d59f-5337-46fd-ab7b-5719df139748
+[2016.05.18-09.45.38:744][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.05.18-09.45.38:765][  0]LogInit: Transaction tracking system initialized
+[2016.05.18-09.45.38:851][  0]BlueprintLog: New page: Editor Load
+[2016.05.18-09.45.39:252][  0]LocalizationService: Info Localization service is disabled
+[2016.05.18-09.45.39:479][  0]LogConsoleResponse:Display: 
+[2016.05.18-09.45.39:636][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.18-09.45.39:805][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/' took 0.02s
+[2016.05.18-09.45.39:805][  0]SourceControl: Info Source control is disabled
+[2016.05.18-09.45.39:806][  0]Cmd: MAP LOAD FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.18-09.45.39:851][  0]LightingResults: New page: Lighting Build
+[2016.05.18-09.45.39:854][  0]MapCheck: New page: Map Check
+[2016.05.18-09.45.39:854][  0]LightingResults: New page: Lighting Build
+[2016.05.18-09.45.39:865][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A815E0FB00
+[2016.05.18-09.45.40:568][  0]LogBlueprint:Warning: [FirstPersonGameMode] CreatePinForVariable: 'Character' variable not found. Base class was probably changed.
+[2016.05.18-09.45.40:569][  0]LogBlueprint:Warning: [FirstPersonGameMode] CreatePinForVariable: 'Character' variable not found. Base class was probably changed.
+[2016.05.18-09.45.40:571][  0]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning Could not find a variable named "Character" in 'UI_C'.
+Make sure 'UI_C' has been compiled for  Set Character 
+[2016.05.18-09.45.40:576][  0]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning [0009.75] Compile of FirstPersonGameMode successful, but with 1 Warning(s) [in 5 ms]
+[2016.05.18-09.45.40:576][  0]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning [0009.76] Compile of FirstPersonGameMode successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.18-09.45.40:576][  0]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning [0009.76] Compile of FirstPersonGameMode successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.18-09.45.40:862][  0]LogBlueprint:Warning: [FirstPersonGameMode] CreatePinForVariable: 'Character' variable not found. Base class was probably changed.
+[2016.05.18-09.45.40:862][  0]LogBlueprint:Warning: [FirstPersonGameMode] CreatePinForVariable: 'Character' variable not found. Base class was probably changed.
+[2016.05.18-09.45.40:863][  0]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning Could not find a variable named "Character" in 'UI_C'.
+Make sure 'UI_C' has been compiled for  Set Character 
+[2016.05.18-09.45.40:867][  0]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning [0010.05] Compile of FirstPersonGameMode successful, but with 1 Warning(s) [in 4 ms]
+[2016.05.18-09.45.40:867][  0]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning [0010.05] Compile of FirstPersonGameMode successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.18-09.45.40:867][  0]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning [0010.05] Compile of FirstPersonGameMode successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.18-09.45.41:187][  0]LogAIModule: Creating AISystem for world arena
+[2016.05.18-09.45.41:194][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.18-09.45.41:194][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.18-09.45.41:273][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.99ms to complete.
+[2016.05.18-09.45.41:273][  0]LogFileHelpers: Loading map 'Arena' took 1.468
+[2016.05.18-09.45.41:415][  0]LogCollectionManager: Loaded 0 collections in 0.001576 seconds
+[2016.05.18-09.45.41:477][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Collections/' took 0.01s
+[2016.05.18-09.45.41:477][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Developers/Chris/Collections/' took 0.01s
+[2016.05.18-09.45.41:477][  0]LogFileCache: Scanning file cache for directory 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Collections/' took 0.01s
+[2016.05.18-09.45.41:477][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.05.18-09.45.41:492][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 1893 classes and 338 folders.
+[2016.05.18-09.45.41:501][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.18-09.45.41:658][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.18-09.45.41:685][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.18-09.45.41:782][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.18-09.45.41:787][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.18-09.45.41:810][  0]LogLoad: Full Startup: 10.99 seconds (BP compile: 0.15 seconds)
+[2016.05.18-09.45.42:160][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.18-09.45.42:247][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.18-09.45.42:377][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.05.18-09.45.43:913][  5]LogAssetRegistry: Asset discovery search completed in 6.4401 seconds
+[2016.05.18-09.45.43:913][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.18-09.45.43:913][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000134 seconds (updated 0 objects)
+[2016.05.18-09.45.57:441][531]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.18-09.45.57:780][531]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.05.18-09.46.20:859][697]LogBlueprint:Warning: [FirstPersonGameMode] CreatePinForVariable: 'Character' variable not found. Base class was probably changed.
+[2016.05.18-09.46.20:859][697]LogBlueprint:Warning: [FirstPersonGameMode] CreatePinForVariable: 'Character' variable not found. Base class was probably changed.
+[2016.05.18-09.46.21:098][697]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning Could not find a variable named "Character" in 'HUD_C'.
+Make sure 'HUD_C' has been compiled for  Set Character 
+[2016.05.18-09.46.21:144][697]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.18-09.46.21:144][697]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.18-09.46.21:185][697]LogMetaData: Removing '/Game/Blueprints/HUD.HUD_C' ref from Metadata '/Game/Blueprints/UI.PackageMetaData'
+[2016.05.18-09.46.21:185][697]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:GetFillColorAndOpacity_0.K2Node_FunctionEntry_764' ref from Metadata '/Game/Blueprints/UI.PackageMetaData'
+[2016.05.18-09.46.21:185][697]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:GetFillColorAndOpacity_0.K2Node_FunctionResult_2' ref from Metadata '/Game/Blueprints/UI.PackageMetaData'
+[2016.05.18-09.46.21:185][697]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:GetPercent_0.K2Node_FunctionEntry_567' ref from Metadata '/Game/Blueprints/UI.PackageMetaData'
+[2016.05.18-09.46.21:185][697]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:GetPercent_0.K2Node_FunctionResult_1' ref from Metadata '/Game/Blueprints/UI.PackageMetaData'
+[2016.05.18-09.46.21:185][697]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:GetPercent_1.K2Node_FunctionResult_1' ref from Metadata '/Game/Blueprints/UI.PackageMetaData'
+[2016.05.18-09.46.21:185][697]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:GetPercent_1.K2Node_FunctionEntry_229' ref from Metadata '/Game/Blueprints/UI.PackageMetaData'
+[2016.05.18-09.46.21:185][697]LogMetaData: Removing '/Game/Blueprints/HUD.HUD:GetCharacter.K2Node_FunctionEntry_103' ref from Metadata '/Game/Blueprints/UI.PackageMetaData'
+[2016.05.18-09.46.21:185][697]LogMetaData: Removing '/Game/Blueprints/HUD.SKEL_HUD_C' ref from Metadata '/Game/Blueprints/UI.PackageMetaData'
+[2016.05.18-09.46.21:222][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/HUD.uasset" SILENT=true
+[2016.05.18-09.46.21:260][697]LogSavePackage: Save=28.245764ms
+[2016.05.18-09.46.21:260][697]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/HUDFE3DB15F494AA00E9E352B937D23A3AB.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/HUD.uasset'
+[2016.05.18-09.46.21:261][697]LogSavePackage: Total save time: 38.203839ms
+[2016.05.18-09.46.21:261][697]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/HUD.uasset
+[2016.05.18-09.46.21:270][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/UI.uasset" SILENT=true
+[2016.05.18-09.46.21:748][697]LogSavePackage: Save=3.808601ms
+[2016.05.18-09.46.21:748][697]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/UI97F419454AFCF485E58647AB21A3D576.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/UI.uasset'
+[2016.05.18-09.46.21:778][697]LogSavePackage: Total save time: 507.718060ms
+[2016.05.18-09.46.21:778][697]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/UI.uasset
+[2016.05.18-09.50.24:017][695]LogEditorTransaction: Undo Move Widget
+[2016.05.18-09.54.25:984][910]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.18-09.54.25:984][910]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.18-09.54.26:010][910]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A828524400
+[2016.05.18-09.54.26:010][910]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A807BE3E20
+[2016.05.18-09.54.26:012][910]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A807BE3420
+[2016.05.18-09.54.26:043][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PauseMenu" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset" SILENT=true
+[2016.05.18-09.54.26:053][910]LogSavePackage: Save=8.793562ms
+[2016.05.18-09.54.26:053][910]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/PauseMenu110A5ACD4C0A5E663FD1A193E8C04D8A.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset'
+[2016.05.18-09.54.26:054][910]LogSavePackage: Total save time: 9.990092ms
+[2016.05.18-09.54.26:054][910]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset
+[2016.05.18-09.54.27:196][ 47]BlueprintLog: New page: Compile PauseMenu
+[2016.05.18-09.54.27:268][ 47]BlueprintEditorCompileResults: Info [0536.45] Compile of PauseMenu successful! [in 71 ms]
+[2016.05.18-09.55.34:128][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PauseMenu" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset" SILENT=true
+[2016.05.18-09.55.34:160][673]LogSavePackage: Save=20.900719ms
+[2016.05.18-09.55.34:160][673]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/PauseMenu43B66A1D4550DA27F80B0E8F73EE88BD.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset'
+[2016.05.18-09.55.34:161][673]LogSavePackage: Total save time: 32.866035ms
+[2016.05.18-09.55.34:161][673]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset
+[2016.05.18-09.55.48:061][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PauseMenu" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset" SILENT=true
+[2016.05.18-09.55.48:085][299]LogSavePackage: Save=12.509950ms
+[2016.05.18-09.55.48:085][299]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/PauseMenu0E43624B46D65F34BA850BAE40B609F5.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset'
+[2016.05.18-09.55.48:086][299]LogSavePackage: Total save time: 24.172369ms
+[2016.05.18-09.55.48:086][299]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset
+[2016.05.18-09.56.13:043][291]BlueprintLog: New page: Compile PauseMenu
+[2016.05.18-09.56.13:106][291]BlueprintEditorCompileResults: Info [0642.28] Compile of PauseMenu successful! [in 62 ms]
+[2016.05.18-09.57.45:344][242]BlueprintLog: New page: Compile PauseMenu
+[2016.05.18-09.57.45:404][242]BlueprintEditorCompileResults: Info [0734.58] Compile of PauseMenu successful! [in 59 ms]
+[2016.05.18-09.57.50:580][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PauseMenu" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset" SILENT=true
+[2016.05.18-09.57.50:604][844]LogSavePackage: Save=12.929712ms
+[2016.05.18-09.57.50:604][844]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/PauseMenu5B418D9B403AED42307341855C8B4352.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset'
+[2016.05.18-09.57.50:604][844]LogSavePackage: Total save time: 24.224561ms
+[2016.05.18-09.57.50:604][844]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset
+[2016.05.18-09.57.52:054][ 18]BlueprintLog: New page: Compile PauseMenu
+[2016.05.18-09.57.52:113][ 18]BlueprintEditorCompileResults: Info [0741.29] Compile of PauseMenu successful! [in 59 ms]
+[2016.05.18-09.58.48:501][ 25]BlueprintLog: New page: Compile PauseMenu
+[2016.05.18-09.58.48:536][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.18-09.58.48:536][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.18-09.58.48:557][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A85F128400
+[2016.05.18-09.58.48:557][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A829284360
+[2016.05.18-09.58.48:563][ 25]BlueprintEditorCompileResults: Info [0797.74] Compile of PauseMenu successful! [in 62 ms]
+[2016.05.18-09.58.54:629][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.18-09.58.54:629][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.18-09.58.54:681][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PauseMenu" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset" SILENT=true
+[2016.05.18-09.58.54:705][585]LogSavePackage: Save=12.988947ms
+[2016.05.18-09.58.54:705][585]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/PauseMenuAEB9E160415C84F87F67DA9D6DF1B28A.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset'
+[2016.05.18-09.58.54:706][585]LogSavePackage: Total save time: 24.394579ms
+[2016.05.18-09.58.54:706][585]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/PauseMenu.uasset
+[2016.05.18-09.59.44:797][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.18-09.59.44:797][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.18-09.59.44:833][ 86]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A863571260
+[2016.05.18-09.59.44:833][ 86]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A8527E9E40
+[2016.05.18-09.59.47:741][ 86]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FirstPersonController_C_0' or package '/Engine/Transient'.
+[2016.05.18-09.59.47:741][ 86]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FirstPersonController_C_1' or package '/Engine/Transient'.
+[2016.05.18-09.59.47:742][ 86]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_FirstPersonController_C_113' or package '/Engine/Transient'.
+[2016.05.18-09.59.47:742][ 86]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_FirstPersonController_C_112' or package '/Engine/Transient'.
+[2016.05.18-09.59.47:849][ 86]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A808EB42C0
+[2016.05.18-09.59.52:295][375]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.18-09.59.54:625][520]LogActor:Warning: GameNetworkManager /Engine/Transient.World_12:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-09.59.58:429][914]BlueprintLog: New page: Compile FirstPersonGameMode
+[2016.05.18-09.59.58:435][914]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning Could not find a variable named "Character" in 'HUD_C'.
+Make sure 'HUD_C' has been compiled for  Set Character 
+[2016.05.18-09.59.58:473][914]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.18-09.59.58:473][914]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.18-09.59.58:499][914]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning [0867.68] Compile of FirstPersonGameMode successful, but with 1 Warning(s) [in 69 ms]
+[2016.05.18-09.59.58:499][914]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Character" in 'HUD_C'.
+Make sure 'HUD_C' has been compiled for  Set Character 
+[2016.05.18-09.59.58:499][914]BlueprintEditorCompileResults:Warning: Warning [0867.68] Compile of FirstPersonGameMode successful, but with 1 Warning(s) [in 69 ms]
+[2016.05.18-10.00.17:350][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonGameMode" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/FirstPersonGameMode.uasset" SILENT=true
+[2016.05.18-10.00.17:384][144]LogSavePackage: Save=22.635801ms
+[2016.05.18-10.00.17:384][144]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/FirstPersonGameMode3132522E4087E0C2C8CBEBA57C193DF9.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/FirstPersonGameMode.uasset'
+[2016.05.18-10.00.17:400][144]LogSavePackage: Total save time: 50.306834ms
+[2016.05.18-10.00.17:400][144]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/FirstPersonGameMode.uasset
+[2016.05.18-10.00.19:938][448]BlueprintLog: New page: Compile FirstPersonGameMode
+[2016.05.18-10.00.19:944][448]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning Could not find a variable named "Character" in 'HUD_C'.
+Make sure 'HUD_C' has been compiled for  Set Character 
+[2016.05.18-10.00.20:005][448]LogBlueprint:Warning: [compiler FirstPersonGameMode] Warning [0889.18] Compile of FirstPersonGameMode successful, but with 1 Warning(s) [in 67 ms]
+[2016.05.18-10.00.20:005][448]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Character" in 'HUD_C'.
+Make sure 'HUD_C' has been compiled for  Set Character 
+[2016.05.18-10.00.20:005][448]BlueprintEditorCompileResults:Warning: Warning [0889.18] Compile of FirstPersonGameMode successful, but with 1 Warning(s) [in 67 ms]
+[2016.05.18-10.00.35:105][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.18-10.00.35:105][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.18-10.00.35:150][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonGameMode" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/FirstPersonGameMode.uasset" SILENT=true
+[2016.05.18-10.00.35:181][120]LogSavePackage: Save=20.849169ms
+[2016.05.18-10.00.35:181][120]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/FirstPersonGameMode6D0A8C66447A25EB011DB79DF019FB88.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/FirstPersonGameMode.uasset'
+[2016.05.18-10.00.35:182][120]LogSavePackage: Total save time: 32.253839ms
+[2016.05.18-10.00.35:183][120]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Blueprints/FirstPersonGameMode.uasset
+[2016.05.18-10.00.37:411][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.00.37:411][352]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.18-10.00.37:412][352]LogPlayLevel: [PlayLevel] Compiling FirstPersonGameMode before play...
+[2016.05.18-10.00.37:453][352]LogPlayLevel: PlayLevel: Blueprint regeneration took 41 ms (2 blueprints)
+[2016.05.18-10.00.37:454][352]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.05.18-10.00.37:550][352]LogPlayLevel: PlayLevel: Blueprint regeneration took 139 ms (4 blueprints)
+[2016.05.18-10.00.37:550][352]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
+[2016.05.18-10.00.37:589][352]LogPlayLevel: PlayLevel: Blueprint regeneration took 177 ms (5 blueprints)
+[2016.05.18-10.00.37:591][352]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2016.05.18-10.00.37:636][352]LogPlayLevel: PlayLevel: Blueprint regeneration took 224 ms (6 blueprints)
+[2016.05.18-10.00.37:636][352]LogPlayLevel: [PlayLevel] Compiling Arm before play...
+[2016.05.18-10.00.37:680][352]LogPlayLevel: PlayLevel: Blueprint regeneration took 269 ms (6 blueprints)
+[2016.05.18-10.00.37:681][352]LogPlayLevel: [PlayLevel] Compiling arena before play...
+[2016.05.18-10.00.37:719][352]LogPlayLevel: PlayLevel: Blueprint regeneration took 308 ms (6 blueprints)
+[2016.05.18-10.00.37:747][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A8291E2D40
+[2016.05.18-10.00.37:763][352]PIE: New page: PIE session: Arena (18 May 2016 12:00:37)
+[2016.05.18-10.00.37:763][352]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Arena
+[2016.05.18-10.00.37:766][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003031s)
+[2016.05.18-10.00.37:767][352]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.00.37:767][352]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2016.05.18-10.00.37:767][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_1_Arena.arena (0.003711s)
+[2016.05.18-10.00.37:795][352]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.18-10.00.37:802][352]LogInit: FAudioDevice initialized.
+[2016.05.18-10.00.37:920][352]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.05.18-10.00.37:926][352]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.00.37
+[2016.05.18-10.00.37:926][352]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.00.37:926][352]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.00.37:926][352]LogWorld: Bringing up level for play took: 0.004084
+[2016.05.18-10.00.37:929][352]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.05.18-10.00.37:932][352]LogInit: WinSock: I am Chris-PC (192.168.0.2:0)
+[2016.05.18-10.00.37:932][352]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.05.18-10.00.37:968][352]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Arena 0.498
+[2016.05.18-10.00.37:976][352]PIE: New page: PIE session: Arena (18 May 2016 12:00:37)
+[2016.05.18-10.00.38:067][352]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.00.38:067][352]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.00.38:068][352]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.00.38:068][352]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.00.38:082][352]PIE: Info Play in editor start time for /Game/Maps/menu 0.612
+[2016.05.18-10.00.38:088][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.00.38:089][352]LogNet: NotifyAcceptingConnection: Server arena accept
+[2016.05.18-10.00.38:089][352]LogNet: Open arena 05/18/16 11:00:38 127.0.0.1
+[2016.05.18-10.00.38:089][352]LogNet: Added client connection.  Remote address = 127.0.0.1:61336
+[2016.05.18-10.00.38:089][352]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Arena.arena: Accepted
+[2016.05.18-10.00.38:089][352]LogNet: Remote platform little endian=1
+[2016.05.18-10.00.38:089][352]LogNet: This platform little endian=1
+[2016.05.18-10.00.38:089][352]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.00.38:107][353]LogNet: Login request: /Game/Maps/menu userId: Invalid
+[2016.05.18-10.00.38:107][353]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Arena, Game: /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2016.05.18-10.00.38:141][353]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Arena?game=/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2016.05.18-10.00.38:164][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A808EB5EE0
+[2016.05.18-10.00.38:164][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A820BC20C0
+[2016.05.18-10.00.38:168][353]Cmd: MEM
+[2016.05.18-10.00.38:189][353]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.00.38:189][353]LogMemory: Process Physical Memory: 1121.23 MB used, 1121.34 MB peak
+[2016.05.18-10.00.38:190][353]LogMemory: Process Virtual Memory: 1880.59 MB used, 1880.70 MB peak
+[2016.05.18-10.00.38:190][353]LogMemory: Physical Memory: 3868.07 MB used, 8130.79 MB total
+[2016.05.18-10.00.38:190][353]LogMemory: Virtual Memory: 2569.17 MB used, 134217728.00 MB total
+[2016.05.18-10.00.38:190][353]LogMemory: 
+[2016.05.18-10.00.38:190][353]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.00.38:192][353]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_2_Arena.arena. OwningWorld: None
+[2016.05.18-10.00.38:193][353]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.00.38:196][353]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.00.38
+[2016.05.18-10.00.38:196][353]LogWorld: Bringing up level for play took: 0.001824
+[2016.05.18-10.00.38:230][354]LogNet: Client netspeed is 10000
+[2016.05.18-10.00.38:230][354]LogNet: Join request: /Game/Maps/menu?SplitscreenCount=1
+[2016.05.18-10.00.38:233][354]LogNet: Join succeeded: 257
+[2016.05.18-10.00.40:374][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.00.40:430][523]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.05.18-10.00.40:467][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.00.40:485][523]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.05.18-10.00.40:485][523]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:61336, Time: 2016.05.18-10.00.40
+[2016.05.18-10.00.40:485][523]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2016.05.18-10.00.40:485][523]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.05.18-10.00.40:485][523]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.00.40
+[2016.05.18-10.00.40:485][523]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2016.05.18-10.00.40:489][523]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A808EB6160
+[2016.05.18-10.00.40:490][523]LogExit: GameNetDriver None shut down
+[2016.05.18-10.00.40:490][523]LogExit: GameNetDriver None shut down
+[2016.05.18-10.00.40:506][524]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A863619B20
+[2016.05.18-10.03.42:101][544]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.18-10.03.42:101][544]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.18-10.03.42:121][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A8083545E0
+[2016.05.18-10.03.42:122][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A808354EA0
+[2016.05.18-10.03.42:123][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A81557F060
+[2016.05.18-10.03.42:124][544]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A81557D260
+[2016.05.18-10.03.42:237][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.18-10.03.42:533][544]LogSavePackage: Save=260.569458ms
+[2016.05.18-10.03.42:533][544]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Arena9A9058C74C281B11B7C3E9BD9718E2F7.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap'
+[2016.05.18-10.03.42:553][544]LogSavePackage: Total save time: 294.249095ms
+[2016.05.18-10.03.42:553][544]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap
+[2016.05.18-10.03.42:574][544]LogFileHelpers: Saving map 'Arena' took 0.424
+[2016.05.18-10.03.51:046][545]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.18-10.04.10:549][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.18-10.04.10:841][830]LogSavePackage: Save=260.180450ms
+[2016.05.18-10.04.10:841][830]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/ArenaBD62961E41C20523D9A961BA914F0537.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap'
+[2016.05.18-10.04.10:843][830]LogSavePackage: Total save time: 272.328585ms
+[2016.05.18-10.04.10:843][830]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap
+[2016.05.18-10.04.10:863][830]LogFileHelpers: Saving map 'Arena' took 0.396
+[2016.05.18-10.04.58:366][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.18-10.04.58:661][455]LogSavePackage: Save=261.446442ms
+[2016.05.18-10.04.58:661][455]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Arena8D20515C44AD4FEF353B91A46467AB41.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap'
+[2016.05.18-10.04.58:662][455]LogSavePackage: Total save time: 273.722026ms
+[2016.05.18-10.04.58:662][455]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap
+[2016.05.18-10.04.58:683][455]LogFileHelpers: Saving map 'Arena' took 0.398
+[2016.05.18-10.05.42:990][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.18-10.05.43:302][697]LogSavePackage: Save=278.603241ms
+[2016.05.18-10.05.43:302][697]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/Arena71EA99244846B620E76CE4A2999DF39B.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap'
+[2016.05.18-10.05.43:304][697]LogSavePackage: Total save time: 290.882345ms
+[2016.05.18-10.05.43:304][697]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap
+[2016.05.18-10.05.43:324][697]LogFileHelpers: Saving map 'Arena' took 0.422
+[2016.05.18-10.06.00:379][622]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.00:379][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.18-10.06.00:385][622]PIE: New page: PIE session: Arena (18 May 2016 12:06:00)
+[2016.05.18-10.06.00:385][622]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Arena
+[2016.05.18-10.06.00:389][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004551s)
+[2016.05.18-10.06.00:390][622]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.06.00:390][622]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2016.05.18-10.06.00:390][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_1_Arena.arena (0.005409s)
+[2016.05.18-10.06.00:390][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.18-10.06.00:390][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.18-10.06.00:421][622]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.18-10.06.00:428][622]LogInit: FAudioDevice initialized.
+[2016.05.18-10.06.00:524][622]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.05.18-10.06.00:527][622]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.06.00
+[2016.05.18-10.06.00:527][622]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.06.00:527][622]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.06.00:527][622]LogWorld: Bringing up level for play took: 0.001814
+[2016.05.18-10.06.00:528][622]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.05.18-10.06.00:528][622]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2016.05.18-10.06.00:544][622]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Arena 1.073
+[2016.05.18-10.06.00:550][622]PIE: New page: PIE session: Arena (18 May 2016 12:06:00)
+[2016.05.18-10.06.00:639][622]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.06.00:639][622]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.06.00:640][622]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.06.00:640][622]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.06.00:655][622]PIE: Info Play in editor start time for /Game/Maps/menu 1.185
+[2016.05.18-10.06.00:661][622]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.00:661][622]LogNet: NotifyAcceptingConnection: Server arena accept
+[2016.05.18-10.06.00:662][622]LogNet: Open arena 05/18/16 11:06:00 127.0.0.1
+[2016.05.18-10.06.00:662][622]LogNet: Added client connection.  Remote address = 127.0.0.1:61441
+[2016.05.18-10.06.00:662][622]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Arena.arena: Accepted
+[2016.05.18-10.06.00:662][622]LogNet: Remote platform little endian=1
+[2016.05.18-10.06.00:662][622]LogNet: This platform little endian=1
+[2016.05.18-10.06.00:662][622]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.06.00:676][623]LogNet: Login request: /Game/Maps/menu userId: Invalid
+[2016.05.18-10.06.00:676][623]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Arena, Game: /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2016.05.18-10.06.00:683][623]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Arena?game=/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2016.05.18-10.06.00:705][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A883914C20
+[2016.05.18-10.06.00:707][623]Cmd: MEM
+[2016.05.18-10.06.00:730][623]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.06.00:730][623]LogMemory: Process Physical Memory: 1303.51 MB used, 1303.51 MB peak
+[2016.05.18-10.06.00:730][623]LogMemory: Process Virtual Memory: 2104.54 MB used, 2104.55 MB peak
+[2016.05.18-10.06.00:730][623]LogMemory: Physical Memory: 4065.91 MB used, 8130.79 MB total
+[2016.05.18-10.06.00:730][623]LogMemory: Virtual Memory: 2795.64 MB used, 134217728.00 MB total
+[2016.05.18-10.06.00:730][623]LogMemory: 
+[2016.05.18-10.06.00:730][623]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.06.00:735][623]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_2_Arena.arena. OwningWorld: None
+[2016.05.18-10.06.00:736][623]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.06.00:738][623]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.06.00
+[2016.05.18-10.06.00:738][623]LogWorld: Bringing up level for play took: 0.001572
+[2016.05.18-10.06.00:770][624]LogNet: Client netspeed is 10000
+[2016.05.18-10.06.00:770][624]LogNet: Join request: /Game/Maps/menu?SplitscreenCount=1
+[2016.05.18-10.06.00:772][624]LogNet: Join succeeded: 259
+[2016.05.18-10.06.01:677][695]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.01:737][695]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.05.18-10.06.01:774][695]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.01:793][695]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.05.18-10.06.01:793][695]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:61441, Time: 2016.05.18-10.06.01
+[2016.05.18-10.06.01:793][695]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2016.05.18-10.06.01:794][695]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.05.18-10.06.01:794][695]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.06.01
+[2016.05.18-10.06.01:794][695]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2016.05.18-10.06.01:797][695]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A883AE5940
+[2016.05.18-10.06.01:798][695]LogExit: GameNetDriver None shut down
+[2016.05.18-10.06.01:798][695]LogExit: GameNetDriver None shut down
+[2016.05.18-10.06.01:798][695]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A807BE3A60
+[2016.05.18-10.06.05:372][ 57]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.05:372][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.18-10.06.05:378][ 57]PIE: New page: PIE session: Arena (18 May 2016 12:06:05)
+[2016.05.18-10.06.05:378][ 57]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Arena
+[2016.05.18-10.06.05:383][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004402s)
+[2016.05.18-10.06.05:383][ 57]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.06.05:383][ 57]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2016.05.18-10.06.05:383][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_1_Arena.arena (0.005163s)
+[2016.05.18-10.06.05:413][ 57]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.18-10.06.05:419][ 57]LogInit: FAudioDevice initialized.
+[2016.05.18-10.06.05:506][ 57]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.05.18-10.06.05:509][ 57]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.06.05
+[2016.05.18-10.06.05:509][ 57]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.06.05:509][ 57]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.06.05:509][ 57]LogWorld: Bringing up level for play took: 0.001883
+[2016.05.18-10.06.05:510][ 57]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.05.18-10.06.05:510][ 57]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2016.05.18-10.06.05:526][ 57]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Arena 0.056
+[2016.05.18-10.06.05:532][ 57]PIE: New page: PIE session: Arena (18 May 2016 12:06:05)
+[2016.05.18-10.06.05:637][ 57]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.06.05:637][ 57]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.06.05:638][ 57]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.06.05:638][ 57]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.06.05:669][ 57]PIE: Info Play in editor start time for /Game/Maps/menu 0.199
+[2016.05.18-10.06.05:679][ 57]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.05:679][ 57]LogNet: NotifyAcceptingConnection: Server arena accept
+[2016.05.18-10.06.05:679][ 57]LogNet: Open arena 05/18/16 11:06:05 127.0.0.1
+[2016.05.18-10.06.05:679][ 57]LogNet: Added client connection.  Remote address = 127.0.0.1:61442
+[2016.05.18-10.06.05:679][ 57]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Arena.arena: Accepted
+[2016.05.18-10.06.05:679][ 57]LogNet: Remote platform little endian=1
+[2016.05.18-10.06.05:679][ 57]LogNet: This platform little endian=1
+[2016.05.18-10.06.05:679][ 57]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.06.05:693][ 58]LogNet: Login request: /Game/Maps/menu userId: Invalid
+[2016.05.18-10.06.05:694][ 58]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Arena, Game: /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2016.05.18-10.06.05:700][ 58]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Arena?game=/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2016.05.18-10.06.05:722][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A87C94BB00
+[2016.05.18-10.06.05:724][ 58]Cmd: MEM
+[2016.05.18-10.06.05:747][ 58]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.06.05:748][ 58]LogMemory: Process Physical Memory: 1308.64 MB used, 1309.43 MB peak
+[2016.05.18-10.06.05:748][ 58]LogMemory: Process Virtual Memory: 2108.15 MB used, 2166.06 MB peak
+[2016.05.18-10.06.05:748][ 58]LogMemory: Physical Memory: 4070.90 MB used, 8130.79 MB total
+[2016.05.18-10.06.05:748][ 58]LogMemory: Virtual Memory: 2803.64 MB used, 134217728.00 MB total
+[2016.05.18-10.06.05:748][ 58]LogMemory: 
+[2016.05.18-10.06.05:748][ 58]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.06.05:753][ 58]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_2_Arena.arena. OwningWorld: None
+[2016.05.18-10.06.05:753][ 58]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.06.05:756][ 58]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.06.05
+[2016.05.18-10.06.05:756][ 58]LogWorld: Bringing up level for play took: 0.001562
+[2016.05.18-10.06.05:786][ 59]LogNet: Client netspeed is 10000
+[2016.05.18-10.06.05:786][ 59]LogNet: Join request: /Game/Maps/menu?SplitscreenCount=1
+[2016.05.18-10.06.05:788][ 59]LogNet: Join succeeded: 261
+[2016.05.18-10.06.06:085][ 82]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.06:141][ 82]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.05.18-10.06.06:183][ 82]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.06:203][ 82]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.05.18-10.06.06:203][ 82]LogNet: UNetConnection::Close: Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:61442, Time: 2016.05.18-10.06.06
+[2016.05.18-10.06.06:203][ 82]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2016.05.18-10.06.06:203][ 82]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.05.18-10.06.06:203][ 82]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.06.06
+[2016.05.18-10.06.06:203][ 82]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2016.05.18-10.06.06:207][ 82]LogExit: GameNetDriver None shut down
+[2016.05.18-10.06.06:207][ 82]LogExit: GameNetDriver None shut down
+[2016.05.18-10.06.06:208][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A887AE6FC0
+[2016.05.18-10.06.06:225][ 83]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A807C6CE00
+[2016.05.18-10.06.15:037][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.18-10.06.15:336][ 91]LogSavePackage: Save=264.791443ms
+[2016.05.18-10.06.15:336][ 91]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/ArenaF86F692944182D5AE7E038A4ADA7B468.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap'
+[2016.05.18-10.06.15:338][ 91]LogSavePackage: Total save time: 277.124636ms
+[2016.05.18-10.06.15:338][ 91]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap
+[2016.05.18-10.06.15:358][ 91]LogFileHelpers: Saving map 'Arena' took 0.405
+[2016.05.18-10.06.16:849][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.16:849][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.18-10.06.16:854][247]PIE: New page: PIE session: Arena (18 May 2016 12:06:16)
+[2016.05.18-10.06.16:855][247]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Arena
+[2016.05.18-10.06.16:859][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004424s)
+[2016.05.18-10.06.16:860][247]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.06.16:860][247]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2016.05.18-10.06.16:860][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_1_Arena.arena (0.005207s)
+[2016.05.18-10.06.16:890][247]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.18-10.06.16:896][247]LogInit: FAudioDevice initialized.
+[2016.05.18-10.06.16:989][247]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.05.18-10.06.16:992][247]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.06.16
+[2016.05.18-10.06.16:992][247]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.06.16:992][247]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.06.16:992][247]LogWorld: Bringing up level for play took: 0.001791
+[2016.05.18-10.06.16:993][247]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.05.18-10.06.16:994][247]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2016.05.18-10.06.17:009][247]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Arena -0.461
+[2016.05.18-10.06.17:015][247]PIE: New page: PIE session: Arena (18 May 2016 12:06:17)
+[2016.05.18-10.06.17:133][247]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.06.17:133][247]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.06.17:134][247]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.06.17:134][247]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.06.17:156][247]PIE: Info Play in editor start time for /Game/Maps/menu -0.314
+[2016.05.18-10.06.17:164][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.17:164][247]LogNet: NotifyAcceptingConnection: Server arena accept
+[2016.05.18-10.06.17:164][247]LogNet: Open arena 05/18/16 11:06:17 127.0.0.1
+[2016.05.18-10.06.17:164][247]LogNet: Added client connection.  Remote address = 127.0.0.1:65222
+[2016.05.18-10.06.17:164][247]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Arena.arena: Accepted
+[2016.05.18-10.06.17:164][247]LogNet: Remote platform little endian=1
+[2016.05.18-10.06.17:164][247]LogNet: This platform little endian=1
+[2016.05.18-10.06.17:164][247]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.06.17:178][248]LogNet: Login request: /Game/Maps/menu userId: Invalid
+[2016.05.18-10.06.17:179][248]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Arena, Game: /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2016.05.18-10.06.17:185][248]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Arena?game=/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2016.05.18-10.06.17:207][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A807C6CE00
+[2016.05.18-10.06.17:209][248]Cmd: MEM
+[2016.05.18-10.06.17:232][248]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.06.17:232][248]LogMemory: Process Physical Memory: 1315.81 MB used, 1315.87 MB peak
+[2016.05.18-10.06.17:232][248]LogMemory: Process Virtual Memory: 2118.19 MB used, 2173.46 MB peak
+[2016.05.18-10.06.17:232][248]LogMemory: Physical Memory: 4097.02 MB used, 8130.79 MB total
+[2016.05.18-10.06.17:232][248]LogMemory: Virtual Memory: 2809.14 MB used, 134217728.00 MB total
+[2016.05.18-10.06.17:232][248]LogMemory: 
+[2016.05.18-10.06.17:232][248]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.06.17:237][248]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_2_Arena.arena. OwningWorld: None
+[2016.05.18-10.06.17:237][248]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.06.17:240][248]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.06.17
+[2016.05.18-10.06.17:240][248]LogWorld: Bringing up level for play took: 0.001799
+[2016.05.18-10.06.17:269][249]LogNet: Client netspeed is 10000
+[2016.05.18-10.06.17:270][249]LogNet: Join request: /Game/Maps/menu?SplitscreenCount=1
+[2016.05.18-10.06.17:271][249]LogNet: Join succeeded: 263
+[2016.05.18-10.06.17:507][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.17:571][267]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.05.18-10.06.17:614][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.17:634][267]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.05.18-10.06.17:634][267]LogNet: UNetConnection::Close: Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:65222, Time: 2016.05.18-10.06.17
+[2016.05.18-10.06.17:634][267]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_7
+[2016.05.18-10.06.17:634][267]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.05.18-10.06.17:634][267]LogNet: UNetConnection::Close: Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.06.17
+[2016.05.18-10.06.17:634][267]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_6
+[2016.05.18-10.06.17:639][267]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A85825C0E0
+[2016.05.18-10.06.17:639][267]LogExit: GameNetDriver None shut down
+[2016.05.18-10.06.17:639][267]LogExit: GameNetDriver None shut down
+[2016.05.18-10.06.17:639][267]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88BD24EA0
+[2016.05.18-10.06.29:170][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.18-10.06.29:170][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.18-10.06.29:306][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Arena" FILE="E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.18-10.06.29:608][518]LogSavePackage: Save=267.274139ms
+[2016.05.18-10.06.29:608][518]LogSavePackage: Moving 'E:/Computing/Unreal/Unreal Projects/GameProject/Saved/ArenaA0005E0E47885B712471218C8BA76EA3.tmp' to 'E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap'
+[2016.05.18-10.06.29:609][518]LogSavePackage: Total save time: 279.802345ms
+[2016.05.18-10.06.29:609][518]LogSavePackage:Display: Finished SavePackage E:/Computing/Unreal/Unreal Projects/GameProject/Content/Maps/Arena.umap
+[2016.05.18-10.06.29:629][518]LogFileHelpers: Saving map 'Arena' took 0.410
+[2016.05.18-10.06.30:832][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.30:832][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.18-10.06.30:838][636]PIE: New page: PIE session: Arena (18 May 2016 12:06:30)
+[2016.05.18-10.06.30:838][636]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Arena
+[2016.05.18-10.06.30:843][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004549s)
+[2016.05.18-10.06.30:843][636]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.06.30:843][636]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2016.05.18-10.06.30:843][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_1_Arena.arena (0.005329s)
+[2016.05.18-10.06.30:873][636]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.18-10.06.30:880][636]LogInit: FAudioDevice initialized.
+[2016.05.18-10.06.30:997][636]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.05.18-10.06.31:002][636]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.06.31
+[2016.05.18-10.06.31:002][636]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.06.31:002][636]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.06.31:002][636]LogWorld: Bringing up level for play took: 0.003257
+[2016.05.18-10.06.31:004][636]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.05.18-10.06.31:004][636]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2016.05.18-10.06.31:030][636]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Arena -0.44
+[2016.05.18-10.06.31:037][636]PIE: New page: PIE session: Arena (18 May 2016 12:06:31)
+[2016.05.18-10.06.31:160][636]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.06.31:160][636]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.06.31:160][636]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.06.31:160][636]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.06.31:194][636]PIE: Info Play in editor start time for /Game/Maps/menu -0.277
+[2016.05.18-10.06.31:208][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.06.31:208][636]LogNet: NotifyAcceptingConnection: Server arena accept
+[2016.05.18-10.06.31:209][636]LogNet: Open arena 05/18/16 11:06:31 127.0.0.1
+[2016.05.18-10.06.31:209][636]LogNet: Added client connection.  Remote address = 127.0.0.1:65223
+[2016.05.18-10.06.31:209][636]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Arena.arena: Accepted
+[2016.05.18-10.06.31:209][636]LogNet: Remote platform little endian=1
+[2016.05.18-10.06.31:209][636]LogNet: This platform little endian=1
+[2016.05.18-10.06.31:209][636]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.06.31:226][637]LogNet: Login request: /Game/Maps/menu userId: Invalid
+[2016.05.18-10.06.31:227][637]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Arena, Game: /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2016.05.18-10.06.31:230][637]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Arena?game=/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2016.05.18-10.06.31:253][637]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88BD24CC0
+[2016.05.18-10.06.31:256][637]Cmd: MEM
+[2016.05.18-10.06.31:279][637]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.06.31:279][637]LogMemory: Process Physical Memory: 1331.53 MB used, 1335.04 MB peak
+[2016.05.18-10.06.31:279][637]LogMemory: Process Virtual Memory: 2134.09 MB used, 2179.52 MB peak
+[2016.05.18-10.06.31:279][637]LogMemory: Physical Memory: 4098.24 MB used, 8130.79 MB total
+[2016.05.18-10.06.31:279][637]LogMemory: Virtual Memory: 2829.16 MB used, 134217728.00 MB total
+[2016.05.18-10.06.31:279][637]LogMemory: 
+[2016.05.18-10.06.31:279][637]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.06.31:284][637]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_2_Arena.arena. OwningWorld: None
+[2016.05.18-10.06.31:284][637]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.06.31:286][637]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.06.31
+[2016.05.18-10.06.31:286][637]LogWorld: Bringing up level for play took: 0.001674
+[2016.05.18-10.06.31:316][638]LogNet: Client netspeed is 10000
+[2016.05.18-10.06.31:316][638]LogNet: Join request: /Game/Maps/menu?SplitscreenCount=1
+[2016.05.18-10.06.31:319][638]LogNet: Join succeeded: 265
+[2016.05.18-10.06.41:181][380]LogPackageName: SearchForPackageOnDisk took   0.076s to resolve Menu.umap.
+[2016.05.18-10.06.41:252][380]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve Menu.umap.
+[2016.05.18-10.06.41:252][380]LogNet: Browse: /Game/Maps/menu
+[2016.05.18-10.06.41:252][380]LogLoad: LoadMap: /Game/Maps/menu
+[2016.05.18-10.06.41:252][380]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2016.05.18-10.06.41:252][380]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2016.05.18-10.06.41:252][380]LogNet: UNetConnection::Close: Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, PC: PlayerController_19, Owner: PlayerController_19, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.06.41
+[2016.05.18-10.06.41:252][380]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_8
+[2016.05.18-10.06.41:252][380]LogExit: GameNetDriver IpNetDriver_9 shut down
+[2016.05.18-10.06.41:278][380]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88BD24CC0
+[2016.05.18-10.06.41:278][380]Cmd: MEM
+[2016.05.18-10.06.41:300][380]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.06.41:300][380]LogMemory: Process Physical Memory: 1333.88 MB used, 1335.04 MB peak
+[2016.05.18-10.06.41:300][380]LogMemory: Process Virtual Memory: 2140.18 MB used, 2192.99 MB peak
+[2016.05.18-10.06.41:300][380]LogMemory: Physical Memory: 4095.50 MB used, 8130.79 MB total
+[2016.05.18-10.06.41:300][380]LogMemory: Virtual Memory: 2841.16 MB used, 134217728.00 MB total
+[2016.05.18-10.06.41:300][380]LogMemory: 
+[2016.05.18-10.06.41:300][380]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.06.41:317][380]LogAIModule: Creating AISystem for world menu
+[2016.05.18-10.06.41:317][380]LogWorld: Game class is 'GameMode'
+[2016.05.18-10.06.41:319][380]LogWorld: Bringing World /Game/Maps/UEDPIE_2_menu.menu up for play (max tick rate 0) at 2016.05.18-11.06.41
+[2016.05.18-10.06.41:319][380]LogActor:Warning: GameSession /Game/Maps/UEDPIE_2_menu.menu:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.06.41:319][380]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_2_menu.menu:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.06.41:319][380]LogWorld: Bringing up level for play took: 0.000952
+[2016.05.18-10.06.41:320][380]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.18-10.06.41:337][381]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2016.05.18-10.06.41:337][381]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_18] [PlayerController_18]. ChIndex == 0. Closing connection.
+[2016.05.18-10.06.41:337][381]LogNet: UNetConnection::Close: Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, PC: PlayerController_18, Owner: PlayerController_18, Channels: 11, RemoteAddr: 127.0.0.1:65223, Time: 2016.05.18-10.06.41
+[2016.05.18-10.06.41:337][381]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_9
+[2016.05.18-10.06.47:183][807]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.06.47:183][807]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.06.47:183][807]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.06.47:183][807]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.06.47:194][808]LogNet: NotifyAcceptingConnection: Server arena accept
+[2016.05.18-10.06.47:194][808]LogNet: Open arena 05/18/16 11:06:47 127.0.0.1
+[2016.05.18-10.06.47:194][808]LogNet: Added client connection.  Remote address = 127.0.0.1:65224
+[2016.05.18-10.06.47:194][808]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Arena.arena: Accepted
+[2016.05.18-10.06.47:194][808]LogNet: Remote platform little endian=1
+[2016.05.18-10.06.47:194][808]LogNet: This platform little endian=1
+[2016.05.18-10.06.47:194][808]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.06.47:205][809]LogNet: Login request: /Game/Maps/menu userId: Invalid
+[2016.05.18-10.06.47:206][809]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Arena, Game: /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2016.05.18-10.06.47:215][809]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Arena?game=/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2016.05.18-10.06.47:241][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A884707740
+[2016.05.18-10.06.47:241][809]Cmd: MEM
+[2016.05.18-10.06.47:265][809]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.06.47:265][809]LogMemory: Process Physical Memory: 1335.33 MB used, 1342.95 MB peak
+[2016.05.18-10.06.47:265][809]LogMemory: Process Virtual Memory: 2137.30 MB used, 2192.99 MB peak
+[2016.05.18-10.06.47:265][809]LogMemory: Physical Memory: 4099.03 MB used, 8130.79 MB total
+[2016.05.18-10.06.47:265][809]LogMemory: Virtual Memory: 2837.16 MB used, 134217728.00 MB total
+[2016.05.18-10.06.47:265][809]LogMemory: 
+[2016.05.18-10.06.47:265][809]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.06.47:269][809]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_2_Arena.arena. OwningWorld: None
+[2016.05.18-10.06.47:270][809]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.06.47:272][809]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.06.47
+[2016.05.18-10.06.47:272][809]LogWorld: Bringing up level for play took: 0.001631
+[2016.05.18-10.06.47:283][810]LogNet: Client netspeed is 10000
+[2016.05.18-10.06.47:283][810]LogNet: Join request: /Game/Maps/menu?SplitscreenCount=1
+[2016.05.18-10.06.47:285][810]LogNet: Join succeeded: 267
+[2016.05.18-10.07.03:934][955]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve Menu.umap.
+[2016.05.18-10.07.04:014][955]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve Menu.umap.
+[2016.05.18-10.07.04:014][955]LogNet: Browse: /Game/Maps/menu
+[2016.05.18-10.07.04:014][955]LogLoad: LoadMap: /Game/Maps/menu
+[2016.05.18-10.07.04:014][955]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2016.05.18-10.07.04:014][955]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2016.05.18-10.07.04:015][955]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_11, RemoteAddr: 127.0.0.1:65224 Driver: GameNetDriver, PC: PlayerController_22, Owner: PlayerController_22
+[2016.05.18-10.07.04:015][955]LogNet: UNetConnection::Close: Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_8, PC: PlayerController_22, Owner: PlayerController_22, Channels: 11, RemoteAddr: 127.0.0.1:65224, Time: 2016.05.18-10.07.04
+[2016.05.18-10.07.04:015][955]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_11
+[2016.05.18-10.07.04:015][955]LogExit: GameNetDriver IpNetDriver_8 shut down
+[2016.05.18-10.07.04:039][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88465C900
+[2016.05.18-10.07.04:043][955]Cmd: MEM
+[2016.05.18-10.07.04:065][955]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.07.04:065][955]LogMemory: Process Physical Memory: 1338.82 MB used, 1342.95 MB peak
+[2016.05.18-10.07.04:065][955]LogMemory: Process Virtual Memory: 2148.78 MB used, 2198.51 MB peak
+[2016.05.18-10.07.04:065][955]LogMemory: Physical Memory: 4100.57 MB used, 8130.79 MB total
+[2016.05.18-10.07.04:065][955]LogMemory: Virtual Memory: 2849.16 MB used, 134217728.00 MB total
+[2016.05.18-10.07.04:065][955]LogMemory: 
+[2016.05.18-10.07.04:065][955]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.07.04:081][955]LogAIModule: Creating AISystem for world menu
+[2016.05.18-10.07.04:082][955]LogWorld: Game class is 'GameMode'
+[2016.05.18-10.07.04:082][955]LogWorld: Bringing World /Game/Maps/UEDPIE_1_menu.menu up for play (max tick rate 0) at 2016.05.18-11.07.04
+[2016.05.18-10.07.04:082][955]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_menu.menu:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.07.04:082][955]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_menu.menu:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.07.04:084][955]LogWorld: Bringing up level for play took: 0.000754
+[2016.05.18-10.07.04:084][955]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.18-10.07.04:086][955]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.05.18-10.07.04:086][955]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.05.18-10.07.04:086][955]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.05.18-10.07.04:086][955]LogNet: UNetConnection::Close: Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_10, PC: PlayerController_23, Owner: PlayerController_23, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.07.04
+[2016.05.18-10.07.04:086][955]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_10
+[2016.05.18-10.07.04:086][955]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.05.18-10.07.04:086][955]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.05.18-10.07.04:086][955]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.05.18-10.07.04:086][955]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.05.18-10.07.04:086][955]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.05.18-10.07.04:097][956]LogNet: Browse: /Game/Maps/menu?closed
+[2016.05.18-10.07.04:097][956]LogNet: Failed; returning to Entry
+[2016.05.18-10.07.04:097][956]LogLoad: LoadMap: /Game/Maps/menu?closed
+[2016.05.18-10.07.04:097][956]LogNet: World NetDriver shutdown IpNetDriver_10 [GameNetDriver]
+[2016.05.18-10.07.04:097][956]LogNet: DestroyNamedNetDriver IpNetDriver_10 [GameNetDriver]
+[2016.05.18-10.07.04:097][956]LogExit: GameNetDriver IpNetDriver_10 shut down
+[2016.05.18-10.07.04:121][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88465F600
+[2016.05.18-10.07.04:124][956]Cmd: MEM
+[2016.05.18-10.07.04:147][956]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.07.04:147][956]LogMemory: Process Physical Memory: 1338.97 MB used, 1342.95 MB peak
+[2016.05.18-10.07.04:147][956]LogMemory: Process Virtual Memory: 2181.03 MB used, 2198.51 MB peak
+[2016.05.18-10.07.04:147][956]LogMemory: Physical Memory: 4101.00 MB used, 8130.79 MB total
+[2016.05.18-10.07.04:147][956]LogMemory: Virtual Memory: 2881.16 MB used, 134217728.00 MB total
+[2016.05.18-10.07.04:147][956]LogMemory: 
+[2016.05.18-10.07.04:147][956]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.07.04:163][956]LogAIModule: Creating AISystem for world menu
+[2016.05.18-10.07.04:163][956]LogWorld: Game class is 'GameMode'
+[2016.05.18-10.07.04:165][956]LogWorld: Bringing World /Game/Maps/UEDPIE_2_menu.menu up for play (max tick rate 0) at 2016.05.18-11.07.04
+[2016.05.18-10.07.04:165][956]LogActor:Warning: GameSession /Game/Maps/UEDPIE_2_menu.menu:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.07.04:165][956]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_2_menu.menu:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.07.04:165][956]LogWorld: Bringing up level for play took: 0.000872
+[2016.05.18-10.07.04:166][956]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.18-10.07.04:838][ 21]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.07.04:838][ 21]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.07.04:838][ 21]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.07.04:838][ 21]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.07.06:147][153]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.07.06:147][153]LogNet: UNetConnection::Close: Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_11, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.07.06
+[2016.05.18-10.07.06:147][153]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_12
+[2016.05.18-10.07.06:147][153]LogNet: DestroyNamedNetDriver IpNetDriver_11 [PendingNetDriver]
+[2016.05.18-10.07.06:148][153]LogExit: PendingNetDriver IpNetDriver_11 shut down
+[2016.05.18-10.07.06:148][153]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.07.06:148][153]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.07.06:148][153]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.07.06:326][171]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.07.06:326][171]LogNet: UNetConnection::Close: Name: IpConnection_13, Driver: PendingNetDriver IpNetDriver_12, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.07.06
+[2016.05.18-10.07.06:326][171]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_13
+[2016.05.18-10.07.06:326][171]LogNet: DestroyNamedNetDriver IpNetDriver_12 [PendingNetDriver]
+[2016.05.18-10.07.06:326][171]LogExit: PendingNetDriver IpNetDriver_12 shut down
+[2016.05.18-10.07.06:326][171]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.07.06:327][171]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.07.06:327][171]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.07.06:918][224]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve Arena.umap.
+[2016.05.18-10.07.06:987][224]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve Arena.umap.
+[2016.05.18-10.07.06:987][224]LogNet: Browse: /Game/Maps/Arena?listen
+[2016.05.18-10.07.06:988][224]LogLoad: LoadMap: /Game/Maps/Arena?listen
+[2016.05.18-10.07.07:012][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88F6BB7E0
+[2016.05.18-10.07.07:013][224]Cmd: MEM
+[2016.05.18-10.07.07:035][224]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.07.07:035][224]LogMemory: Process Physical Memory: 1341.07 MB used, 1342.95 MB peak
+[2016.05.18-10.07.07:035][224]LogMemory: Process Virtual Memory: 2181.03 MB used, 2198.51 MB peak
+[2016.05.18-10.07.07:035][224]LogMemory: Physical Memory: 4102.95 MB used, 8130.79 MB total
+[2016.05.18-10.07.07:035][224]LogMemory: Virtual Memory: 2881.16 MB used, 134217728.00 MB total
+[2016.05.18-10.07.07:035][224]LogMemory: 
+[2016.05.18-10.07.07:035][224]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.07.07:035][224]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Arena
+[2016.05.18-10.07.07:040][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004539s)
+[2016.05.18-10.07.07:040][224]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.07.07:040][224]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2016.05.18-10.07.07:040][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_1_Arena.arena (0.005284s)
+[2016.05.18-10.07.07:040][224]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.05.18-10.07.07:041][224]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.05.18-10.07.07:041][224]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 7777
+[2016.05.18-10.07.07:043][224]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.07.07
+[2016.05.18-10.07.07:043][224]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.07.07:043][224]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.07.07:043][224]LogWorld: Bringing up level for play took: 0.001594
+[2016.05.18-10.07.07:058][225]LogNet: NotifyAcceptingConnection: Server arena accept
+[2016.05.18-10.07.07:058][225]LogNet: Open arena 05/18/16 11:07:07 127.0.0.1
+[2016.05.18-10.07.07:058][225]LogNet: Added client connection.  Remote address = 127.0.0.1:65084
+[2016.05.18-10.07.07:273][242]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Arena.arena: Accepted
+[2016.05.18-10.07.07:273][242]LogNet: Remote platform little endian=1
+[2016.05.18-10.07.07:273][242]LogNet: This platform little endian=1
+[2016.05.18-10.07.07:273][242]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.07.07:284][243]LogNet: Login request: /Game/Maps/menu userId: Invalid
+[2016.05.18-10.07.07:295][244]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Arena, Game: /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2016.05.18-10.07.07:306][244]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Arena?game=/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2016.05.18-10.07.07:306][244]LogNet: World NetDriver shutdown IpNetDriver_14 [GameNetDriver]
+[2016.05.18-10.07.07:306][244]LogNet: DestroyNamedNetDriver IpNetDriver_14 [GameNetDriver]
+[2016.05.18-10.07.07:306][244]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_15, RemoteAddr: 127.0.0.1:65084 Driver: GameNetDriver, PC: NoPC, Owner: No Owner
+[2016.05.18-10.07.07:306][244]LogNet: UNetConnection::Close: Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 127.0.0.1:65084, Time: 2016.05.18-10.07.07
+[2016.05.18-10.07.07:306][244]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_15
+[2016.05.18-10.07.07:306][244]LogExit: GameNetDriver IpNetDriver_14 shut down
+[2016.05.18-10.07.07:331][244]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A884703880
+[2016.05.18-10.07.07:331][244]Cmd: MEM
+[2016.05.18-10.07.07:354][244]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.07.07:354][244]LogMemory: Process Physical Memory: 1341.13 MB used, 1342.95 MB peak
+[2016.05.18-10.07.07:354][244]LogMemory: Process Virtual Memory: 2198.55 MB used, 2201.07 MB peak
+[2016.05.18-10.07.07:354][244]LogMemory: Physical Memory: 4104.86 MB used, 8130.79 MB total
+[2016.05.18-10.07.07:354][244]LogMemory: Virtual Memory: 2901.16 MB used, 134217728.00 MB total
+[2016.05.18-10.07.07:354][244]LogMemory: 
+[2016.05.18-10.07.07:354][244]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.07.07:355][244]LogLinker:Warning: Can't find file '/Game/Maps/UEDPIE_1_Arena'
+[2016.05.18-10.07.07:355][244]LogNet: Browse: /Game/Maps/menu?Name=Player
+[2016.05.18-10.07.07:355][244]LogLoad: LoadMap: /Game/Maps/menu?Name=Player
+[2016.05.18-10.07.07:377][244]Cmd: MEM
+[2016.05.18-10.07.07:400][244]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.07.07:400][244]LogMemory: Process Physical Memory: 1341.14 MB used, 1342.95 MB peak
+[2016.05.18-10.07.07:400][244]LogMemory: Process Virtual Memory: 2198.55 MB used, 2201.07 MB peak
+[2016.05.18-10.07.07:400][244]LogMemory: Physical Memory: 4104.86 MB used, 8130.79 MB total
+[2016.05.18-10.07.07:400][244]LogMemory: Virtual Memory: 2901.16 MB used, 134217728.00 MB total
+[2016.05.18-10.07.07:400][244]LogMemory: 
+[2016.05.18-10.07.07:400][244]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.07.07:415][244]LogAIModule: Creating AISystem for world menu
+[2016.05.18-10.07.07:416][244]LogWorld: Game class is 'GameMode'
+[2016.05.18-10.07.07:417][244]LogWorld: Bringing World /Game/Maps/UEDPIE_1_menu.menu up for play (max tick rate 0) at 2016.05.18-11.07.07
+[2016.05.18-10.07.07:417][244]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_menu.menu:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.07.07:417][244]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_menu.menu:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.07.07:417][244]LogWorld: Bringing up level for play took: 0.000851
+[2016.05.18-10.07.07:418][244]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.18-10.07.07:419][244]LogNet:Warning: Travel Failure: [LoadMapFailure]: Failed to load package '/Game/Maps/UEDPIE_1_Arena'
+[2016.05.18-10.07.07:419][244]LogNet:Warning: Travel Failure: [LoadMapFailure]: Failed to load package '/Game/Maps/UEDPIE_1_Arena'
+[2016.05.18-10.07.07:419][244]LogNet:Warning: TravelFailure: LoadMapFailure, Reason for Failure: 'Failed to load package '/Game/Maps/UEDPIE_1_Arena''. Shutting down PIE.
+[2016.05.18-10.07.07:419][244]PIE:Warning: Warning TravelFailure: LoadMapFailure, Reason for Failure: 'Failed to load package '/Game/Maps/UEDPIE_1_Arena''. Shutting down PIE.
+[2016.05.18-10.07.07:420][244]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.07.07:462][244]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.05.18-10.07.07:499][244]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.07.07:518][244]LogNet: UChannel::CleanUp: [PendingNetDriver] [NoPC] [No Owner]. ChIndex == 0. Closing connection.
+[2016.05.18-10.07.07:518][244]LogNet: UNetConnection::Close: Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_13, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.07.07
+[2016.05.18-10.07.07:518][244]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_14
+[2016.05.18-10.07.07:522][244]LogExit: PendingNetDriver None shut down
+[2016.05.18-10.07.07:523][244]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A884707EC0
+[2016.05.18-10.07.07:537][244]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A8874DB600
+[2016.05.18-10.10.25:586][743]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.10.25:586][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.18-10.10.25:600][743]PIE: New page: PIE session: Arena (18 May 2016 12:10:25)
+[2016.05.18-10.10.25:600][743]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Arena
+[2016.05.18-10.10.25:608][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007178s)
+[2016.05.18-10.10.25:608][743]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.10.25:608][743]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2016.05.18-10.10.25:609][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_1_Arena.arena (0.008142s)
+[2016.05.18-10.10.25:609][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.18-10.10.25:609][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.18-10.10.25:651][743]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.18-10.10.25:659][743]LogInit: FAudioDevice initialized.
+[2016.05.18-10.10.25:756][743]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.05.18-10.10.25:759][743]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.10.25
+[2016.05.18-10.10.25:759][743]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.10.25:759][743]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.10.25:759][743]LogWorld: Bringing up level for play took: 0.002542
+[2016.05.18-10.10.25:761][743]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.05.18-10.10.25:761][743]LogNet: GameNetDriver IpNetDriver_15 IpNetDriver listening on port 7777
+[2016.05.18-10.10.25:782][743]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Arena 0.312
+[2016.05.18-10.10.25:789][743]PIE: New page: PIE session: Arena (18 May 2016 12:10:25)
+[2016.05.18-10.10.25:883][743]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.10.25:884][743]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.10.25:884][743]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.10.25:884][743]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.10.25:900][743]PIE: Info Play in editor start time for /Game/Maps/menu 0.43
+[2016.05.18-10.10.25:907][743]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.10.25:908][743]LogNet: NotifyAcceptingConnection: Server arena accept
+[2016.05.18-10.10.25:908][743]LogNet: Open arena 05/18/16 11:10:25 127.0.0.1
+[2016.05.18-10.10.25:908][743]LogNet: Added client connection.  Remote address = 127.0.0.1:59652
+[2016.05.18-10.10.25:908][743]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Arena.arena: Accepted
+[2016.05.18-10.10.25:908][743]LogNet: Remote platform little endian=1
+[2016.05.18-10.10.25:908][743]LogNet: This platform little endian=1
+[2016.05.18-10.10.25:908][743]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.10.25:922][744]LogNet: Login request: /Game/Maps/menu userId: Invalid
+[2016.05.18-10.10.25:922][744]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Arena, Game: /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2016.05.18-10.10.25:962][744]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Arena?game=/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2016.05.18-10.10.25:984][744]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A889B39C60
+[2016.05.18-10.10.25:987][744]Cmd: MEM
+[2016.05.18-10.10.26:011][744]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.10.26:011][744]LogMemory: Process Physical Memory: 1348.00 MB used, 1348.93 MB peak
+[2016.05.18-10.10.26:011][744]LogMemory: Process Virtual Memory: 2152.32 MB used, 2202.21 MB peak
+[2016.05.18-10.10.26:011][744]LogMemory: Physical Memory: 3889.48 MB used, 8130.79 MB total
+[2016.05.18-10.10.26:011][744]LogMemory: Virtual Memory: 2854.66 MB used, 134217728.00 MB total
+[2016.05.18-10.10.26:011][744]LogMemory: 
+[2016.05.18-10.10.26:011][744]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.10.26:016][744]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_2_Arena.arena. OwningWorld: None
+[2016.05.18-10.10.26:016][744]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.10.26:019][744]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.10.26
+[2016.05.18-10.10.26:019][744]LogWorld: Bringing up level for play took: 0.001595
+[2016.05.18-10.10.26:049][745]LogNet: Client netspeed is 10000
+[2016.05.18-10.10.26:049][745]LogNet: Join request: /Game/Maps/menu?SplitscreenCount=1
+[2016.05.18-10.10.26:052][745]LogNet: Join succeeded: 273
+[2016.05.18-10.10.47:006][294]LogPackageName: SearchForPackageOnDisk took   0.075s to resolve Menu.umap.
+[2016.05.18-10.10.47:079][294]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve Menu.umap.
+[2016.05.18-10.10.47:079][294]LogNet: Browse: /Game/Maps/menu
+[2016.05.18-10.10.47:079][294]LogLoad: LoadMap: /Game/Maps/menu
+[2016.05.18-10.10.47:079][294]LogNet: World NetDriver shutdown IpNetDriver_15 [GameNetDriver]
+[2016.05.18-10.10.47:079][294]LogNet: DestroyNamedNetDriver IpNetDriver_15 [GameNetDriver]
+[2016.05.18-10.10.47:079][294]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_17, RemoteAddr: 127.0.0.1:59652 Driver: GameNetDriver, PC: PlayerController_30, Owner: PlayerController_30
+[2016.05.18-10.10.47:079][294]LogNet: UNetConnection::Close: Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_15, PC: PlayerController_30, Owner: PlayerController_30, Channels: 13, RemoteAddr: 127.0.0.1:59652, Time: 2016.05.18-10.10.47
+[2016.05.18-10.10.47:079][294]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_17
+[2016.05.18-10.10.47:080][294]LogExit: GameNetDriver IpNetDriver_15 shut down
+[2016.05.18-10.10.47:103][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88465E700
+[2016.05.18-10.10.47:106][294]Cmd: MEM
+[2016.05.18-10.10.47:130][294]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.10.47:130][294]LogMemory: Process Physical Memory: 1352.35 MB used, 1353.67 MB peak
+[2016.05.18-10.10.47:130][294]LogMemory: Process Virtual Memory: 2160.37 MB used, 2211.21 MB peak
+[2016.05.18-10.10.47:130][294]LogMemory: Physical Memory: 3888.78 MB used, 8130.79 MB total
+[2016.05.18-10.10.47:130][294]LogMemory: Virtual Memory: 2872.66 MB used, 134217728.00 MB total
+[2016.05.18-10.10.47:130][294]LogMemory: 
+[2016.05.18-10.10.47:130][294]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.10.47:146][294]LogAIModule: Creating AISystem for world menu
+[2016.05.18-10.10.47:147][294]LogWorld: Game class is 'GameMode'
+[2016.05.18-10.10.47:148][294]LogWorld: Bringing World /Game/Maps/UEDPIE_1_menu.menu up for play (max tick rate 0) at 2016.05.18-11.10.47
+[2016.05.18-10.10.47:148][294]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_menu.menu:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.10.47:149][294]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_menu.menu:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.10.47:149][294]LogWorld: Bringing up level for play took: 0.001020
+[2016.05.18-10.10.47:149][294]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.18-10.10.47:151][294]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.05.18-10.10.47:151][294]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.05.18-10.10.47:151][294]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.05.18-10.10.47:151][294]LogNet: UNetConnection::Close: Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_16, PC: PlayerController_31, Owner: PlayerController_31, Channels: 13, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.10.47
+[2016.05.18-10.10.47:151][294]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_16
+[2016.05.18-10.10.47:151][294]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.05.18-10.10.47:151][294]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.05.18-10.10.47:151][294]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.05.18-10.10.47:151][294]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.05.18-10.10.47:151][294]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.05.18-10.10.47:164][295]LogNet: Browse: /Game/Maps/menu?closed
+[2016.05.18-10.10.47:164][295]LogNet: Failed; returning to Entry
+[2016.05.18-10.10.47:165][295]LogLoad: LoadMap: /Game/Maps/menu?closed
+[2016.05.18-10.10.47:165][295]LogNet: World NetDriver shutdown IpNetDriver_16 [GameNetDriver]
+[2016.05.18-10.10.47:165][295]LogNet: DestroyNamedNetDriver IpNetDriver_16 [GameNetDriver]
+[2016.05.18-10.10.47:165][295]LogExit: GameNetDriver IpNetDriver_16 shut down
+[2016.05.18-10.10.47:192][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A889969C60
+[2016.05.18-10.10.47:192][295]Cmd: MEM
+[2016.05.18-10.10.47:216][295]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.10.47:216][295]LogMemory: Process Physical Memory: 1352.72 MB used, 1353.67 MB peak
+[2016.05.18-10.10.47:216][295]LogMemory: Process Virtual Memory: 2192.42 MB used, 2211.21 MB peak
+[2016.05.18-10.10.47:216][295]LogMemory: Physical Memory: 3889.21 MB used, 8130.79 MB total
+[2016.05.18-10.10.47:216][295]LogMemory: Virtual Memory: 2896.66 MB used, 134217728.00 MB total
+[2016.05.18-10.10.47:216][295]LogMemory: 
+[2016.05.18-10.10.47:216][295]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.10.47:232][295]LogAIModule: Creating AISystem for world menu
+[2016.05.18-10.10.47:232][295]LogWorld: Game class is 'GameMode'
+[2016.05.18-10.10.47:234][295]LogWorld: Bringing World /Game/Maps/UEDPIE_2_menu.menu up for play (max tick rate 0) at 2016.05.18-11.10.47
+[2016.05.18-10.10.47:234][295]LogActor:Warning: GameSession /Game/Maps/UEDPIE_2_menu.menu:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.10.47:234][295]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_2_menu.menu:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.10.47:234][295]LogWorld: Bringing up level for play took: 0.000949
+[2016.05.18-10.10.47:234][295]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.18-10.10.49:109][472]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve Arena.umap.
+[2016.05.18-10.10.49:181][472]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve Arena.umap.
+[2016.05.18-10.10.49:181][472]LogNet: Browse: /Game/Maps/Arena?listen
+[2016.05.18-10.10.49:181][472]LogLoad: LoadMap: /Game/Maps/Arena?listen
+[2016.05.18-10.10.49:207][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88DF277E0
+[2016.05.18-10.10.49:207][472]Cmd: MEM
+[2016.05.18-10.10.49:230][472]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.10.49:230][472]LogMemory: Process Physical Memory: 1353.28 MB used, 1354.55 MB peak
+[2016.05.18-10.10.49:230][472]LogMemory: Process Virtual Memory: 2192.42 MB used, 2211.21 MB peak
+[2016.05.18-10.10.49:230][472]LogMemory: Physical Memory: 3889.39 MB used, 8130.79 MB total
+[2016.05.18-10.10.49:230][472]LogMemory: Virtual Memory: 2896.66 MB used, 134217728.00 MB total
+[2016.05.18-10.10.49:230][472]LogMemory: 
+[2016.05.18-10.10.49:230][472]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.10.49:230][472]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Arena
+[2016.05.18-10.10.49:235][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004693s)
+[2016.05.18-10.10.49:236][472]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.10.49:236][472]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2016.05.18-10.10.49:236][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_1_Arena.arena (0.005663s)
+[2016.05.18-10.10.49:236][472]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.05.18-10.10.49:236][472]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.05.18-10.10.49:237][472]LogNet: GameNetDriver IpNetDriver_17 IpNetDriver listening on port 7777
+[2016.05.18-10.10.49:239][472]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.10.49
+[2016.05.18-10.10.49:239][472]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.10.49:239][472]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.10.49:239][472]LogWorld: Bringing up level for play took: 0.001808
+[2016.05.18-10.10.49:880][526]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.10.49:880][526]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.10.49:880][526]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.10.49:880][526]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.10.49:890][527]LogNet: NotifyAcceptingConnection: Server arena accept
+[2016.05.18-10.10.49:890][527]LogNet: Open arena 05/18/16 11:10:49 127.0.0.1
+[2016.05.18-10.10.49:890][527]LogNet: Added client connection.  Remote address = 127.0.0.1:59653
+[2016.05.18-10.10.49:890][527]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Arena.arena: Accepted
+[2016.05.18-10.10.49:890][527]LogNet: Remote platform little endian=1
+[2016.05.18-10.10.49:890][527]LogNet: This platform little endian=1
+[2016.05.18-10.10.49:890][527]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.10.49:901][528]LogNet: Login request: /Game/Maps/menu userId: Invalid
+[2016.05.18-10.10.49:902][528]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Arena, Game: /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2016.05.18-10.10.49:913][528]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Arena?game=/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2016.05.18-10.10.49:938][528]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A8874D8720
+[2016.05.18-10.10.49:938][528]Cmd: MEM
+[2016.05.18-10.10.49:961][528]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.10.49:961][528]LogMemory: Process Physical Memory: 1353.41 MB used, 1354.74 MB peak
+[2016.05.18-10.10.49:961][528]LogMemory: Process Virtual Memory: 2212.11 MB used, 2213.54 MB peak
+[2016.05.18-10.10.49:961][528]LogMemory: Physical Memory: 3889.47 MB used, 8130.79 MB total
+[2016.05.18-10.10.49:961][528]LogMemory: Virtual Memory: 2912.66 MB used, 134217728.00 MB total
+[2016.05.18-10.10.49:961][528]LogMemory: 
+[2016.05.18-10.10.49:961][528]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.10.49:967][528]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_2_Arena.arena. OwningWorld: None
+[2016.05.18-10.10.49:968][528]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.10.49:970][528]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.10.49
+[2016.05.18-10.10.49:970][528]LogWorld: Bringing up level for play took: 0.001601
+[2016.05.18-10.10.49:982][529]LogNet: Client netspeed is 10000
+[2016.05.18-10.10.49:982][529]LogNet: Join request: /Game/Maps/menu?SplitscreenCount=1
+[2016.05.18-10.10.49:984][529]LogNet: Join succeeded: 277
+[2016.05.18-10.10.58:291][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.10.58:340][ 49]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.05.18-10.10.58:378][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.10.58:398][ 49]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.05.18-10.10.58:398][ 49]LogNet: UNetConnection::Close: Name: IpConnection_19, Driver: GameNetDriver None, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:59653, Time: 2016.05.18-10.10.58
+[2016.05.18-10.10.58:398][ 49]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_19
+[2016.05.18-10.10.58:399][ 49]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.05.18-10.10.58:399][ 49]LogNet: UNetConnection::Close: Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_18, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.10.58
+[2016.05.18-10.10.58:399][ 49]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_18
+[2016.05.18-10.10.58:402][ 49]LogExit: GameNetDriver None shut down
+[2016.05.18-10.10.58:403][ 49]LogExit: GameNetDriver None shut down
+[2016.05.18-10.10.58:419][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88DF254E0
+[2016.05.18-10.10.58:419][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88B444F40
+[2016.05.18-10.10.59:060][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.10.59:060][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.18-10.10.59:067][107]PIE: New page: PIE session: Arena (18 May 2016 12:10:59)
+[2016.05.18-10.10.59:067][107]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Arena
+[2016.05.18-10.10.59:072][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004610s)
+[2016.05.18-10.10.59:072][107]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.10.59:072][107]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2016.05.18-10.10.59:072][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_1_Arena.arena (0.005552s)
+[2016.05.18-10.10.59:103][107]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.18-10.10.59:110][107]LogInit: FAudioDevice initialized.
+[2016.05.18-10.10.59:197][107]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.05.18-10.10.59:200][107]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.10.59
+[2016.05.18-10.10.59:200][107]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.10.59:200][107]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.10.59:200][107]LogWorld: Bringing up level for play took: 0.001867
+[2016.05.18-10.10.59:201][107]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.05.18-10.10.59:201][107]LogNet: GameNetDriver IpNetDriver_19 IpNetDriver listening on port 7777
+[2016.05.18-10.10.59:218][107]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Arena -0.252
+[2016.05.18-10.10.59:226][107]PIE: New page: PIE session: Arena (18 May 2016 12:10:59)
+[2016.05.18-10.10.59:313][107]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.10.59:313][107]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.10.59:313][107]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.10.59:313][107]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.10.59:329][107]PIE: Info Play in editor start time for /Game/Maps/menu -0.141
+[2016.05.18-10.10.59:336][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.10.59:336][107]LogNet: NotifyAcceptingConnection: Server arena accept
+[2016.05.18-10.10.59:337][107]LogNet: Open arena 05/18/16 11:10:59 127.0.0.1
+[2016.05.18-10.10.59:337][107]LogNet: Added client connection.  Remote address = 127.0.0.1:59654
+[2016.05.18-10.10.59:337][107]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Arena.arena: Accepted
+[2016.05.18-10.10.59:337][107]LogNet: Remote platform little endian=1
+[2016.05.18-10.10.59:337][107]LogNet: This platform little endian=1
+[2016.05.18-10.10.59:337][107]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.10.59:351][108]LogNet: Login request: /Game/Maps/menu userId: Invalid
+[2016.05.18-10.10.59:352][108]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Arena, Game: /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2016.05.18-10.10.59:357][108]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Arena?game=/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2016.05.18-10.10.59:378][108]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A849CE4860
+[2016.05.18-10.10.59:382][108]Cmd: MEM
+[2016.05.18-10.10.59:405][108]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.10.59:405][108]LogMemory: Process Physical Memory: 1356.19 MB used, 1358.80 MB peak
+[2016.05.18-10.10.59:405][108]LogMemory: Process Virtual Memory: 2170.46 MB used, 2221.55 MB peak
+[2016.05.18-10.10.59:405][108]LogMemory: Physical Memory: 3892.57 MB used, 8130.79 MB total
+[2016.05.18-10.10.59:405][108]LogMemory: Virtual Memory: 2876.66 MB used, 134217728.00 MB total
+[2016.05.18-10.10.59:405][108]LogMemory: 
+[2016.05.18-10.10.59:405][108]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.10.59:410][108]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_2_Arena.arena. OwningWorld: None
+[2016.05.18-10.10.59:411][108]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.10.59:413][108]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.10.59
+[2016.05.18-10.10.59:413][108]LogWorld: Bringing up level for play took: 0.001636
+[2016.05.18-10.10.59:443][109]LogNet: Client netspeed is 10000
+[2016.05.18-10.10.59:443][109]LogNet: Join request: /Game/Maps/menu?SplitscreenCount=1
+[2016.05.18-10.10.59:445][109]LogNet: Join succeeded: 279
+[2016.05.18-10.11.03:659][437]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve Menu.umap.
+[2016.05.18-10.11.03:731][437]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve Menu.umap.
+[2016.05.18-10.11.03:731][437]LogNet: Browse: /Game/Maps/menu
+[2016.05.18-10.11.03:731][437]LogLoad: LoadMap: /Game/Maps/menu
+[2016.05.18-10.11.03:731][437]LogNet: World NetDriver shutdown IpNetDriver_20 [GameNetDriver]
+[2016.05.18-10.11.03:731][437]LogNet: DestroyNamedNetDriver IpNetDriver_20 [GameNetDriver]
+[2016.05.18-10.11.03:731][437]LogNet: UNetConnection::Close: Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_20, PC: PlayerController_41, Owner: PlayerController_41, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.11.03
+[2016.05.18-10.11.03:731][437]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_20
+[2016.05.18-10.11.03:732][437]LogExit: GameNetDriver IpNetDriver_20 shut down
+[2016.05.18-10.11.03:758][437]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88B444C20
+[2016.05.18-10.11.03:758][437]Cmd: MEM
+[2016.05.18-10.11.03:782][437]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.11.03:782][437]LogMemory: Process Physical Memory: 1357.73 MB used, 1358.80 MB peak
+[2016.05.18-10.11.03:782][437]LogMemory: Process Virtual Memory: 2166.80 MB used, 2232.00 MB peak
+[2016.05.18-10.11.03:782][437]LogMemory: Physical Memory: 3894.54 MB used, 8130.79 MB total
+[2016.05.18-10.11.03:782][437]LogMemory: Virtual Memory: 2898.66 MB used, 134217728.00 MB total
+[2016.05.18-10.11.03:782][437]LogMemory: 
+[2016.05.18-10.11.03:782][437]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.11.03:799][437]LogAIModule: Creating AISystem for world menu
+[2016.05.18-10.11.03:800][437]LogWorld: Game class is 'GameMode'
+[2016.05.18-10.11.03:801][437]LogWorld: Bringing World /Game/Maps/UEDPIE_2_menu.menu up for play (max tick rate 0) at 2016.05.18-11.11.03
+[2016.05.18-10.11.03:801][437]LogActor:Warning: GameSession /Game/Maps/UEDPIE_2_menu.menu:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.11.03:801][437]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_2_menu.menu:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.11.03:801][437]LogWorld: Bringing up level for play took: 0.000843
+[2016.05.18-10.11.03:801][437]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.18-10.11.03:815][438]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2016.05.18-10.11.03:815][438]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_40] [PlayerController_40]. ChIndex == 0. Closing connection.
+[2016.05.18-10.11.03:815][438]LogNet: UNetConnection::Close: Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_19, PC: PlayerController_40, Owner: PlayerController_40, Channels: 11, RemoteAddr: 127.0.0.1:59654, Time: 2016.05.18-10.11.03
+[2016.05.18-10.11.03:815][438]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_21
+[2016.05.18-10.11.05:523][589]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.11.05:566][589]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.05.18-10.11.05:602][589]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.11.05:627][589]LogExit: GameNetDriver None shut down
+[2016.05.18-10.11.05:627][589]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A8879EBC40
+[2016.05.18-10.11.05:642][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88B4940E0
+[2016.05.18-10.11.06:273][647]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.11.06:273][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.18-10.11.06:279][647]PIE: New page: PIE session: Arena (18 May 2016 12:11:06)
+[2016.05.18-10.11.06:279][647]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Arena
+[2016.05.18-10.11.06:284][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004594s)
+[2016.05.18-10.11.06:284][647]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.11.06:285][647]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2016.05.18-10.11.06:285][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_1_Arena.arena (0.005274s)
+[2016.05.18-10.11.06:315][647]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.05.18-10.11.06:322][647]LogInit: FAudioDevice initialized.
+[2016.05.18-10.11.06:414][647]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.05.18-10.11.06:417][647]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.11.06
+[2016.05.18-10.11.06:417][647]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.11.06:417][647]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_Arena.arena:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.11.06:417][647]LogWorld: Bringing up level for play took: 0.001776
+[2016.05.18-10.11.06:418][647]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.05.18-10.11.06:418][647]LogNet: GameNetDriver IpNetDriver_21 IpNetDriver listening on port 7777
+[2016.05.18-10.11.06:436][647]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_Arena 0.966
+[2016.05.18-10.11.06:443][647]PIE: New page: PIE session: Arena (18 May 2016 12:11:06)
+[2016.05.18-10.11.06:548][647]LogNet: Browse: 127.0.0.1//Game/Maps/menu
+[2016.05.18-10.11.06:548][647]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.05.18-10.11.06:549][647]LogNet: Game client on port 7777, rate 10000
+[2016.05.18-10.11.06:549][647]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.11.06:570][647]PIE: Info Play in editor start time for /Game/Maps/menu 1.1
+[2016.05.18-10.11.06:579][647]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.11.06:579][647]LogNet: NotifyAcceptingConnection: Server arena accept
+[2016.05.18-10.11.06:579][647]LogNet: Open arena 05/18/16 11:11:06 127.0.0.1
+[2016.05.18-10.11.06:579][647]LogNet: Added client connection.  Remote address = 127.0.0.1:59655
+[2016.05.18-10.11.06:579][647]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Arena.arena: Accepted
+[2016.05.18-10.11.06:579][647]LogNet: Remote platform little endian=1
+[2016.05.18-10.11.06:579][647]LogNet: This platform little endian=1
+[2016.05.18-10.11.06:579][647]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: fpsproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1808045840
+[2016.05.18-10.11.06:593][648]LogNet: Login request: /Game/Maps/menu userId: Invalid
+[2016.05.18-10.11.06:594][648]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Arena, Game: /Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2016.05.18-10.11.06:600][648]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_Arena?game=/Game/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2016.05.18-10.11.06:622][648]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A85A88A7A0
+[2016.05.18-10.11.06:625][648]Cmd: MEM
+[2016.05.18-10.11.06:649][648]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.11.06:649][648]LogMemory: Process Physical Memory: 1359.92 MB used, 1361.69 MB peak
+[2016.05.18-10.11.06:649][648]LogMemory: Process Virtual Memory: 2188.76 MB used, 2232.00 MB peak
+[2016.05.18-10.11.06:649][648]LogMemory: Physical Memory: 3897.89 MB used, 8130.79 MB total
+[2016.05.18-10.11.06:649][648]LogMemory: Virtual Memory: 2916.66 MB used, 134217728.00 MB total
+[2016.05.18-10.11.06:649][648]LogMemory: 
+[2016.05.18-10.11.06:649][648]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.11.06:654][648]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Arena.arena to /Game/Maps/UEDPIE_2_Arena.arena. OwningWorld: None
+[2016.05.18-10.11.06:655][648]LogAIModule: Creating AISystem for world arena
+[2016.05.18-10.11.06:657][648]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Arena.arena up for play (max tick rate 0) at 2016.05.18-11.11.06
+[2016.05.18-10.11.06:657][648]LogWorld: Bringing up level for play took: 0.001845
+[2016.05.18-10.11.06:688][649]LogNet: Client netspeed is 10000
+[2016.05.18-10.11.06:688][649]LogNet: Join request: /Game/Maps/menu?SplitscreenCount=1
+[2016.05.18-10.11.06:690][649]LogNet: Join succeeded: 282
+[2016.05.18-10.11.24:631][831]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve Menu.umap.
+[2016.05.18-10.11.24:703][831]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve Menu.umap.
+[2016.05.18-10.11.24:703][831]LogNet: Browse: /Game/Maps/menu
+[2016.05.18-10.11.24:703][831]LogLoad: LoadMap: /Game/Maps/menu
+[2016.05.18-10.11.24:703][831]LogNet: World NetDriver shutdown IpNetDriver_21 [GameNetDriver]
+[2016.05.18-10.11.24:703][831]LogNet: DestroyNamedNetDriver IpNetDriver_21 [GameNetDriver]
+[2016.05.18-10.11.24:704][831]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_23, RemoteAddr: 127.0.0.1:59655 Driver: GameNetDriver, PC: PlayerController_45, Owner: PlayerController_45
+[2016.05.18-10.11.24:704][831]LogNet: UNetConnection::Close: Name: IpConnection_23, Driver: GameNetDriver IpNetDriver_21, PC: PlayerController_45, Owner: PlayerController_45, Channels: 14, RemoteAddr: 127.0.0.1:59655, Time: 2016.05.18-10.11.24
+[2016.05.18-10.11.24:704][831]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_23
+[2016.05.18-10.11.24:704][831]LogExit: GameNetDriver IpNetDriver_21 shut down
+[2016.05.18-10.11.24:728][831]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A884704220
+[2016.05.18-10.11.24:731][831]Cmd: MEM
+[2016.05.18-10.11.24:755][831]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.11.24:755][831]LogMemory: Process Physical Memory: 1363.59 MB used, 1367.10 MB peak
+[2016.05.18-10.11.24:755][831]LogMemory: Process Virtual Memory: 2172.80 MB used, 2232.00 MB peak
+[2016.05.18-10.11.24:755][831]LogMemory: Physical Memory: 3901.81 MB used, 8130.79 MB total
+[2016.05.18-10.11.24:755][831]LogMemory: Virtual Memory: 2920.74 MB used, 134217728.00 MB total
+[2016.05.18-10.11.24:755][831]LogMemory: 
+[2016.05.18-10.11.24:755][831]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.11.24:772][831]LogAIModule: Creating AISystem for world menu
+[2016.05.18-10.11.24:772][831]LogWorld: Game class is 'GameMode'
+[2016.05.18-10.11.24:773][831]LogWorld: Bringing World /Game/Maps/UEDPIE_1_menu.menu up for play (max tick rate 0) at 2016.05.18-11.11.24
+[2016.05.18-10.11.24:774][831]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_menu.menu:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.11.24:774][831]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_menu.menu:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.11.24:774][831]LogWorld: Bringing up level for play took: 0.001029
+[2016.05.18-10.11.24:774][831]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.18-10.11.24:776][831]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.05.18-10.11.24:776][831]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2016.05.18-10.11.24:776][831]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2016.05.18-10.11.24:776][831]LogNet: UNetConnection::Close: Name: IpConnection_22, Driver: GameNetDriver IpNetDriver_22, PC: PlayerController_46, Owner: PlayerController_46, Channels: 14, RemoteAddr: 127.0.0.1:7777, Time: 2016.05.18-10.11.24
+[2016.05.18-10.11.24:776][831]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_22
+[2016.05.18-10.11.24:776][831]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.05.18-10.11.24:776][831]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2016.05.18-10.11.24:776][831]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2016.05.18-10.11.24:776][831]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.05.18-10.11.24:776][831]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2016.05.18-10.11.24:789][832]LogNet: Browse: /Game/Maps/menu?closed
+[2016.05.18-10.11.24:789][832]LogNet: Failed; returning to Entry
+[2016.05.18-10.11.24:789][832]LogLoad: LoadMap: /Game/Maps/menu?closed
+[2016.05.18-10.11.24:789][832]LogNet: World NetDriver shutdown IpNetDriver_22 [GameNetDriver]
+[2016.05.18-10.11.24:789][832]LogNet: DestroyNamedNetDriver IpNetDriver_22 [GameNetDriver]
+[2016.05.18-10.11.24:789][832]LogExit: GameNetDriver IpNetDriver_22 shut down
+[2016.05.18-10.11.24:816][832]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A88E0E8900
+[2016.05.18-10.11.24:816][832]Cmd: MEM
+[2016.05.18-10.11.24:840][832]LogMemory: Platform Memory Stats for Windows
+[2016.05.18-10.11.24:840][832]LogMemory: Process Physical Memory: 1363.59 MB used, 1367.10 MB peak
+[2016.05.18-10.11.24:840][832]LogMemory: Process Virtual Memory: 2204.86 MB used, 2232.00 MB peak
+[2016.05.18-10.11.24:840][832]LogMemory: Physical Memory: 3902.25 MB used, 8130.79 MB total
+[2016.05.18-10.11.24:840][832]LogMemory: Virtual Memory: 2936.74 MB used, 134217728.00 MB total
+[2016.05.18-10.11.24:840][832]LogMemory: 
+[2016.05.18-10.11.24:840][832]Allocator Stats for TBB: (not implemented)
+[2016.05.18-10.11.24:856][832]LogAIModule: Creating AISystem for world menu
+[2016.05.18-10.11.24:857][832]LogWorld: Game class is 'GameMode'
+[2016.05.18-10.11.24:859][832]LogWorld: Bringing World /Game/Maps/UEDPIE_2_menu.menu up for play (max tick rate 0) at 2016.05.18-11.11.24
+[2016.05.18-10.11.24:859][832]LogActor:Warning: GameSession /Game/Maps/UEDPIE_2_menu.menu:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.11.24:859][832]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_2_menu.menu:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.18-10.11.24:859][832]LogWorld: Bringing up level for play took: 0.000859
+[2016.05.18-10.11.24:860][832]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.18-10.11.26:321][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.11.26:363][971]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.05.18-10.11.26:400][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/Maps/Arena.arena_C' with ClassGeneratedBy '/Game/Maps/Arena.arena:PersistentLevel.arena'
+[2016.05.18-10.11.26:425][971]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A8870E2E80
+[2016.05.18-10.11.26:441][972]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A85A6B1300
+[2016.05.18-10.11.28:309][110]Cmd: QUIT_EDITOR
+[2016.05.18-10.11.29:093][110]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.18-10.11.29:203][110]LogExit: Preparing to exit.
+[2016.05.18-10.11.29:807][110]LogExit: Editor shut down
+[2016.05.18-10.11.29:808][110]LogExit: Transaction tracking system shut down
+[2016.05.18-10.11.29:809][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A809C8E660
+[2016.05.18-10.11.29:810][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A820B07880
+[2016.05.18-10.11.29:810][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A820BC1DA0
+[2016.05.18-10.11.29:810][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A82847B100
+[2016.05.18-10.11.29:810][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A815901DA0
+[2016.05.18-10.11.29:811][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A815903560
+[2016.05.18-10.11.29:814][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A82097D580
+[2016.05.18-10.11.29:981][110]LogExit: Object subsystem successfully closed.
+[2016.05.18-10.11.29:997][110]LogD3D11RHI: Shutdown
+[2016.05.18-10.11.29:997][110]LogD3D11RHI: CleanupD3DDevice
+[2016.05.18-10.11.30:082][110]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.18-10.11.30:106][110]LogModuleManager: Shutting down and abandoning module SequencerWidgets (201)
+[2016.05.18-10.11.30:107][110]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.05.18-10.11.30:107][110]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.05.18-10.11.30:107][110]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.05.18-10.11.30:107][110]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.05.18-10.11.30:107][110]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.05.18-10.11.30:107][110]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.05.18-10.11.30:107][110]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.05.18-10.11.30:108][110]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.05.18-10.11.30:108][110]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.05.18-10.11.30:108][110]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.05.18-10.11.30:108][110]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.05.18-10.11.30:108][110]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.05.18-10.11.30:110][110]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.05.18-10.11.30:822][110]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.05.18-10.11.30:823][110]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.05.18-10.11.30:823][110]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.05.18-10.11.30:823][110]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.05.18-10.11.30:824][110]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.05.18-10.11.30:825][110]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.05.18-10.11.30:826][110]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.05.18-10.11.30:947][110]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.05.18-10.11.30:947][110]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.05.18-10.11.30:947][110]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.05.18-10.11.30:947][110]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.05.18-10.11.30:947][110]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.05.18-10.11.30:947][110]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.05.18-10.11.30:947][110]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.05.18-10.11.30:947][110]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.05.18-10.11.30:957][110]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.05.18-10.11.30:957][110]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.05.18-10.11.30:957][110]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.05.18-10.11.30:957][110]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.05.18-10.11.30:957][110]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.05.18-10.11.30:957][110]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.05.18-10.11.30:957][110]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.05.18-10.11.30:957][110]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.05.18-10.11.30:957][110]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.05.18-10.11.30:958][110]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.05.18-10.11.30:959][110]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.05.18-10.11.30:959][110]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.05.18-10.11.31:047][110]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.05.18-10.11.31:048][110]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.05.18-10.11.31:049][110]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.05.18-10.11.31:149][110]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.05.18-10.11.31:149][110]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.05.18-10.11.31:149][110]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.05.18-10.11.31:152][110]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.05.18-10.11.31:153][110]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.05.18-10.11.31:153][110]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.05.18-10.11.31:153][110]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.05.18-10.11.31:153][110]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.05.18-10.11.31:155][110]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.05.18-10.11.31:155][110]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.05.18-10.11.31:155][110]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.05.18-10.11.31:155][110]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.05.18-10.11.31:155][110]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.05.18-10.11.31:155][110]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.05.18-10.11.31:155][110]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.05.18-10.11.31:155][110]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.05.18-10.11.31:155][110]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.05.18-10.11.31:155][110]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.05.18-10.11.31:208][110]LogDerivedDataCache: Shutdown
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.18-10.11.31:208][110]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.18-10.11.32:210][110]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.18-10.11.32:210][110]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.18-10.11.32:210][110]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.18-10.11.32:210][110]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.18-10.11.32:210][110]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.18-10.11.32:210][110]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.18-10.11.32:210][110]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.18-10.11.32:214][110]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.18-10.11.32:214][110]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.18-10.11.32:214][110]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.18-10.11.32:214][110]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.18-10.11.32:214][110]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.18-10.11.32:214][110]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.18-10.11.32:214][110]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.18-10.11.32:214][110]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.18-10.11.32:214][110]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.18-10.11.32:214][110]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.18-10.11.32:216][110]LogExit: Exiting.
+[2016.05.18-10.11.32:221][110]Log file closed, 05/18/16 11:11:32
