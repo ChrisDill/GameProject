@@ -1,2 +1,3 @@
-# GameProject
-First person shooter project made in the Unreal engine.
+# MechShooter
+First person shooter prototype made in the Unreal Engine as part of a group project.
+
