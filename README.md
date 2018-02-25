@@ -1,3 +1,3 @@
 # MechShooter
-First person shooter project made in the Unreal engine.
+First person shooter prototype made using Unreal Engine as part of a group project.
 
